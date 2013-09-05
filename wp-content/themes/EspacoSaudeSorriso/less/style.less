@@ -206,6 +206,7 @@ ol {
 }
 .tel-email {
 	background-color: #8cc7ae;
+	float: right !important;
 	height: 45px;
 	margin-top: 16px;
 	position: relative;
@@ -221,10 +222,10 @@ ol {
 
 }
 .tel-email ul li {
-	float: left;
+	display: block;
+	line-height: 20px;
 	font-size: 12px;
 	list-style: none;
-	line-height: 45px;
 	margin-left: 20px;
 	color: #fff;
 }
@@ -261,7 +262,7 @@ ol {
 }
 .sf-menu li {
 	position: relative;
-	float: left;
+	display: inline-block;
 }
 .sf-menu a {
 	display: block;
@@ -294,9 +295,9 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	padding: 0 12px;
 	position: relative;
 	
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 	
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
@@ -305,7 +306,12 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	transition: all .3s ease-in-out;
 }
 .sf-menu a {
-	color: #494848;
+	color: #b9b5b6;
+	font-family: 'Marvel', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
 }
 .sf-menu li {
 	margin-right: 5px;
@@ -435,10 +441,10 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 /* ------------------------------------------------------------------------ */
 
 .site-title {
-	margin-top: 19px;
+	margin-top: 0;
 	padding-bottom: 0;
 	position: relative;
-	z-index: 3;
+	z-index: 99999;
 }
 .site-title img {
 	max-width: 100%;
@@ -461,14 +467,17 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	text-align: center;
 	border-bottom: 1px solid #eeeef0;
 	padding: 35px 0;
-	color: #3e3e3e;
+	color: #a188bc;
+	font-size: 45px;
+	font-family: 'Marvel', sans-serif;
 }
-.intro-text h2 {
-	color: #3e3e3e;
-	font-weight: 300;
-	font-size: 30px;
+.intro-text strong {
+	color: #a188bc;
+	font-weight: black;
+	font-size: 45px;
 	line-height: 30px;
 	padding: 0;
+	font-family: 'Marvel', sans-serif;
 }
 /* home banner */
 .home-banner {

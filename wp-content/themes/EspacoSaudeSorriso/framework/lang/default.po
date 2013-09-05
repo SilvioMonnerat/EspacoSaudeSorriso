@@ -1,0 +1,3629 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-15 14:43+0200\n"
+"PO-Revision-Date: 2013-07-15 14:46+0200\n"
+"Last-Translator: Skat Design <royal.flush@rocketmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: E:\\my wp templates\\GetFit\\Upload\\getfit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: 404.php:13 404.php:14 ../getfit/404.php:13 ../getfit/404.php:14
+msgid "Back to Homepage"
+msgstr "Back to Homepage"
+
+#: 404.php:15 ../getfit/404.php:15
+msgid "We are really sorry, but the page you requested was not found."
+msgstr "We are really sorry, but the page you requested was not found."
+
+#: 404.php:19 ../getfit/404.php:19
+msgid ""
+"It seems that the page you were trying to reach does not exist anymore or "
+"maybe it has just been moved."
+msgstr ""
+"It seems that the page you were trying to reach does not exist anymore or "
+"maybe it has just been moved."
+
+#: 404.php:20 ../getfit/404.php:20
+msgid ""
+"If you're looking for something try using the search form the top or just "
+"click on the image to go to the homepage."
+msgstr ""
+"If you're looking for something try using the search form the top or just "
+"click on the image to go to the homepage."
+
+#: 404.php:23 ../getfit/404.php:23
+msgid "Sorry for the inconvenience."
+msgstr "Sorry for the inconvenience."
+
+#: archive.php:16 blog.php:27 full-width-page.php:22 index.php:27 page.php:30
+#: search.php:16 single-portfolio.php:21 single.php:16
+#: ../getfit/archive.php:16 ../getfit/blog.php:27
+#: ../getfit/full-width-page.php:22 ../getfit/index.php:27
+#: ../getfit/page.php:30 ../getfit/search.php:16
+#: ../getfit/single-portfolio.php:21 ../getfit/single.php:16
+msgid "Sorry, no posts matched your criteria"
+msgstr "Sorry, no posts matched your criteria"
+
+#: comments.php:18 ../getfit/comments.php:18
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "This post is password protected. Enter the password to view comments."
+
+#: comments.php:29 ../getfit/comments.php:29
+msgid "1 <span class=\"custom-word\">Comment</span>"
+msgstr "1 <span class=\"custom-word\">Comment</span>"
+
+#: comments.php:29 ../getfit/comments.php:29
+msgid "% <span class=\"custom-word\">Comments</span>"
+msgstr "% <span class=\"custom-word\">Comments</span>"
+
+#: comments.php:41 ../getfit/comments.php:41
+msgid "Trackbacks/Pings"
+msgstr "Trackbacks/Pings"
+
+#: comments.php:64 ../getfit/comments.php:64
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: comments.php:72 ../getfit/comments.php:72
+msgid "Name (required)"
+msgstr "Name (required)"
+
+#: comments.php:74 ../getfit/comments.php:74
+msgid "E-Mail (required)"
+msgstr "E-Mail (required)"
+
+#: comments.php:76 ../getfit/comments.php:76
+msgid "Website"
+msgstr "Website"
+
+#: comments.php:80 functions.php:516 ../getfit/comments.php:80
+#: ../getfit/functions.php:516
+msgid "Reply"
+msgstr "Reply"
+
+#: comments.php:81 ../getfit/comments.php:81
+msgid "Cancel reply"
+msgstr "Cancel reply"
+
+#: comments.php:83 ../getfit/comments.php:83
+msgid "Leave a <span class=\"custom-word\">reply</span>"
+msgstr "Leave a <span class=\"custom-word\">reply</span>"
+
+#: comments.php:85 ../getfit/comments.php:85
+msgid "Submit Comment!"
+msgstr "Submit Comment!"
+
+#: functions.php:80 framework/inc/plugin-activation.php:164
+#: ../getfit/functions.php:80
+#: ../getfit/framework/inc/plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr "Install Required Plugins"
+
+#: functions.php:81 framework/inc/plugin-activation.php:165
+#: ../getfit/functions.php:81
+#: ../getfit/framework/inc/plugin-activation.php:165
+msgid "Install Plugins"
+msgstr "Install Plugins"
+
+#: functions.php:82 framework/inc/plugin-activation.php:166
+#: ../getfit/functions.php:82
+#: ../getfit/framework/inc/plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installing Plugin: %s"
+
+#: functions.php:83 ../getfit/functions.php:83
+msgid "Something went wrong with the plugin API."
+msgstr "Something went wrong with the plugin API."
+
+#: functions.php:94 framework/inc/plugin-activation.php:487
+#: framework/inc/plugin-activation.php:499
+#: framework/inc/plugin-activation.php:536
+#: framework/inc/plugin-activation.php:2040 ../getfit/functions.php:94
+#: ../getfit/framework/inc/plugin-activation.php:487
+#: ../getfit/framework/inc/plugin-activation.php:499
+#: ../getfit/framework/inc/plugin-activation.php:536
+#: ../getfit/framework/inc/plugin-activation.php:2040
+msgid "Return to Required Plugins Installer"
+msgstr "Return to Required Plugins Installer"
+
+#: functions.php:95 framework/inc/plugin-activation.php:178
+#: framework/inc/plugin-activation.php:1843 ../getfit/functions.php:95
+#: ../getfit/framework/inc/plugin-activation.php:178
+#: ../getfit/framework/inc/plugin-activation.php:1843
+msgid "Plugin activated successfully."
+msgstr "Plugin activated successfully."
+
+#: functions.php:96 ../getfit/functions.php:96
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "All plugins installed and activated successfully. %s"
+
+#: functions.php:176 ../getfit/functions.php:176
+msgid "Header Navigation"
+msgstr "Header Navigation"
+
+#: functions.php:181 ../getfit/functions.php:181
+msgid "Footer Navigation"
+msgstr "Footer Navigation"
+
+#: functions.php:199 ../getfit/functions.php:199
+msgid "Main Sidebar"
+msgstr "Main Sidebar"
+
+#: functions.php:210 ../getfit/functions.php:210
+msgid "Homepage Sidebar"
+msgstr "Homepage Sidebar"
+
+#: functions.php:221 ../getfit/functions.php:221
+msgid "Footer Left Sidebar"
+msgstr "Footer Left Sidebar"
+
+#: functions.php:232 ../getfit/functions.php:232
+msgid "Footer Middle Sidebar"
+msgstr "Footer Middle Sidebar"
+
+#: functions.php:243 ../getfit/functions.php:243
+msgid "Footer Right Sidebar"
+msgstr "Footer Right Sidebar"
+
+#: functions.php:297 ../getfit/functions.php:297
+msgid "First"
+msgstr "First"
+
+#: functions.php:307 ../getfit/functions.php:307
+msgid "Last"
+msgstr "Last"
+
+#: functions.php:501 ../getfit/functions.php:501
+msgid "at"
+msgstr "at"
+
+#: functions.php:506 ../getfit/functions.php:506
+msgid "You comment awaits moderation."
+msgstr "You comment awaits moderation."
+
+#: functions.php:510 ../getfit/functions.php:510
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: gallery-page.php:16 ../getfit/gallery-page.php:16
+msgid "All"
+msgstr "All"
+
+#: gallery-page.php:70 taxonomy-portfolio_filter.php:20
+#: framework/inc/gallery/related-gallery.php:42 ../getfit/gallery-page.php:70
+#: ../getfit/taxonomy-portfolio_filter.php:20
+#: ../getfit/framework/inc/gallery/related-gallery.php:42
+msgid "view"
+msgstr "view"
+
+#: gallery-page.php:78 taxonomy-portfolio_filter.php:28
+#: framework/inc/gallery/related-gallery.php:50 ../getfit/gallery-page.php:78
+#: ../getfit/taxonomy-portfolio_filter.php:28
+#: ../getfit/framework/inc/gallery/related-gallery.php:50
+msgid "view photo"
+msgstr "view photo"
+
+#: header.php:92 ../getfit/header.php:92
+msgid "Tel:"
+msgstr "Tel:"
+
+#: header.php:95 ../getfit/header.php:95
+msgid "Email:"
+msgstr "Email:"
+
+#: searchform.php:9 ../getfit/searchform.php:9
+msgid "looking for something?"
+msgstr "looking for something?"
+
+#: searchform.php:10 ../getfit/searchform.php:10
+msgid "Search"
+msgstr "Search"
+
+#: admin/classes/class.options_machine.php:563
+#: ../getfit/admin/classes/class.options_machine.php:563
+msgid "Last Backup : "
+msgstr "Last Backup : "
+
+#: admin/front-end/options.php:43 admin/front-end/options.php:67
+#: ../getfit/admin/front-end/options.php:43
+#: ../getfit/admin/front-end/options.php:67
+msgid "Save All Changes"
+msgstr "Save All Changes"
+
+#: admin/front-end/options.php:68 ../getfit/admin/front-end/options.php:68
+msgid "Options Reset"
+msgstr "Options Reset"
+
+#: admin/functions/functions.options.php:127
+#: ../getfit/admin/functions/functions.options.php:127
+msgid "Homepage Slider"
+msgstr "Homepage Slider"
+
+#: admin/functions/functions.options.php:131
+#: ../getfit/admin/functions/functions.options.php:131
+msgid "Enable Home Slider"
+msgstr "Enable Home Slider"
+
+#: admin/functions/functions.options.php:132
+#: ../getfit/admin/functions/functions.options.php:132
+msgid "Check to enable the Home Slider."
+msgstr "Check to enable the Home Slider."
+
+#: admin/functions/functions.options.php:135
+#: admin/functions/functions.options.php:151
+#: admin/functions/functions.options.php:174
+#: admin/functions/functions.options.php:232
+#: admin/functions/functions.options.php:401
+#: admin/functions/functions.options.php:493
+#: ../getfit/admin/functions/functions.options.php:135
+#: ../getfit/admin/functions/functions.options.php:151
+#: ../getfit/admin/functions/functions.options.php:174
+#: ../getfit/admin/functions/functions.options.php:232
+#: ../getfit/admin/functions/functions.options.php:401
+#: ../getfit/admin/functions/functions.options.php:493
+msgid "Enable"
+msgstr "Enable"
+
+#: admin/functions/functions.options.php:136
+#: admin/functions/functions.options.php:152
+#: admin/functions/functions.options.php:175
+#: admin/functions/functions.options.php:233
+#: admin/functions/functions.options.php:402
+#: admin/functions/functions.options.php:494
+#: ../getfit/admin/functions/functions.options.php:136
+#: ../getfit/admin/functions/functions.options.php:152
+#: ../getfit/admin/functions/functions.options.php:175
+#: ../getfit/admin/functions/functions.options.php:233
+#: ../getfit/admin/functions/functions.options.php:402
+#: ../getfit/admin/functions/functions.options.php:494
+msgid "Disable"
+msgstr "Disable"
+
+#: admin/functions/functions.options.php:142
+#: ../getfit/admin/functions/functions.options.php:142
+msgid "Homepage Intro"
+msgstr "Homepage Intro"
+
+#: admin/functions/functions.options.php:146
+#: ../getfit/admin/functions/functions.options.php:146
+msgid "Enable Home Intro"
+msgstr "Enable Home Intro"
+
+#: admin/functions/functions.options.php:147
+#: ../getfit/admin/functions/functions.options.php:147
+msgid "Check to enable the home intro."
+msgstr "Check to enable the home intro."
+
+#: admin/functions/functions.options.php:155
+#: ../getfit/admin/functions/functions.options.php:155
+msgid "Intro Content"
+msgstr "Intro Content"
+
+#: admin/functions/functions.options.php:156
+#: ../getfit/admin/functions/functions.options.php:156
+msgid "Insert the intro content."
+msgstr "Insert the intro content."
+
+#: admin/functions/functions.options.php:165
+#: ../getfit/admin/functions/functions.options.php:165
+msgid "Homepage Banner"
+msgstr "Homepage Banner"
+
+#: admin/functions/functions.options.php:169
+#: ../getfit/admin/functions/functions.options.php:169
+msgid "Enable Home Banner"
+msgstr "Enable Home Banner"
+
+#: admin/functions/functions.options.php:170
+#: ../getfit/admin/functions/functions.options.php:170
+msgid "Check to enable the home banner."
+msgstr "Check to enable the home banner."
+
+#: admin/functions/functions.options.php:178
+#: ../getfit/admin/functions/functions.options.php:178
+msgid "Display the banner sitewide?"
+msgstr "Display the banner sitewide?"
+
+#: admin/functions/functions.options.php:179
+#: ../getfit/admin/functions/functions.options.php:179
+msgid "Check to display the banner sitewide intstead of just on the homepage."
+msgstr "Check to display the banner sitewide intstead of just on the homepage."
+
+#: admin/functions/functions.options.php:185
+#: ../getfit/admin/functions/functions.options.php:185
+msgid "Image Banner"
+msgstr "Image Banner"
+
+#: admin/functions/functions.options.php:186
+#: ../getfit/admin/functions/functions.options.php:186
+msgid "Upload an image for the banner (220x220 px)."
+msgstr "Upload an image for the banner (220x220 px)."
+
+#: admin/functions/functions.options.php:192
+#: ../getfit/admin/functions/functions.options.php:192
+msgid "Banner Title"
+msgstr "Banner Title"
+
+#: admin/functions/functions.options.php:193
+#: ../getfit/admin/functions/functions.options.php:193
+msgid "Type your banner's title."
+msgstr "Type your banner's title."
+
+#: admin/functions/functions.options.php:199
+#: ../getfit/admin/functions/functions.options.php:199
+msgid "Banner Text"
+msgstr "Banner Text"
+
+#: admin/functions/functions.options.php:200
+#: ../getfit/admin/functions/functions.options.php:200
+msgid "Type your banner's text."
+msgstr "Type your banner's text."
+
+#: admin/functions/functions.options.php:206
+#: ../getfit/admin/functions/functions.options.php:206
+msgid "Button Text"
+msgstr "Button Text"
+
+#: admin/functions/functions.options.php:207
+#: ../getfit/admin/functions/functions.options.php:207
+msgid "Type the button's text."
+msgstr "Type the button's text."
+
+#: admin/functions/functions.options.php:209
+#: ../getfit/admin/functions/functions.options.php:209
+msgid "Click Here to Explore"
+msgstr "Click Here to Explore"
+
+#: admin/functions/functions.options.php:213
+#: ../getfit/admin/functions/functions.options.php:213
+msgid "Button Url"
+msgstr "Button Url"
+
+#: admin/functions/functions.options.php:214
+#: ../getfit/admin/functions/functions.options.php:214
+msgid "Type the button's url."
+msgstr "Type the button's url."
+
+#: admin/functions/functions.options.php:223
+#: ../getfit/admin/functions/functions.options.php:223
+msgid "Homepage News &amp; Widgets"
+msgstr "Homepage News &amp; Widgets"
+
+#: admin/functions/functions.options.php:227
+#: ../getfit/admin/functions/functions.options.php:227
+msgid "Enable News &amp; Widgets Section"
+msgstr "Enable News &amp; Widgets Section"
+
+#: admin/functions/functions.options.php:228
+#: ../getfit/admin/functions/functions.options.php:228
+msgid "Check to enable the homepage news &amp; widgets section."
+msgstr "Check to enable the homepage news &amp; widgets section."
+
+#: admin/functions/functions.options.php:236
+#: ../getfit/admin/functions/functions.options.php:236
+msgid "News Section Title"
+msgstr "News Section Title"
+
+#: admin/functions/functions.options.php:237
+#: ../getfit/admin/functions/functions.options.php:237
+msgid "Type the news's section title."
+msgstr "Type the news's section title."
+
+#: admin/functions/functions.options.php:243
+#: ../getfit/admin/functions/functions.options.php:243
+msgid "Number of posts to display."
+msgstr "Number of posts to display."
+
+#: admin/functions/functions.options.php:244
+#: ../getfit/admin/functions/functions.options.php:244
+msgid "Select the number of posts to be displayed."
+msgstr "Select the number of posts to be displayed."
+
+#: admin/functions/functions.options.php:253
+#: ../getfit/admin/functions/functions.options.php:253
+msgid "Hide Sidebar?"
+msgstr "Hide Sidebar?"
+
+#: admin/functions/functions.options.php:254
+#: ../getfit/admin/functions/functions.options.php:254
+msgid "Check to hide the sidebar."
+msgstr "Check to hide the sidebar."
+
+#: admin/functions/functions.options.php:260
+#: ../getfit/admin/functions/functions.options.php:260
+msgid "Number of posts to display if sidebar is disabled."
+msgstr "Number of posts to display if sidebar is disabled."
+
+#: admin/functions/functions.options.php:261
+#: ../getfit/admin/functions/functions.options.php:261
+msgid "Select the number of posts to be displayed if sidebar is disabled."
+msgstr "Select the number of posts to be displayed if sidebar is disabled."
+
+#: admin/functions/functions.options.php:272
+#: ../getfit/admin/functions/functions.options.php:272
+msgid "Homepage Bottom Custom Content"
+msgstr "Homepage Bottom Custom Content"
+
+#: admin/functions/functions.options.php:276
+#: ../getfit/admin/functions/functions.options.php:276
+msgid "Enable Bottom Custom Section"
+msgstr "Enable Bottom Custom Section"
+
+#: admin/functions/functions.options.php:277
+#: ../getfit/admin/functions/functions.options.php:277
+msgid "Check to enable the bottom custom section."
+msgstr "Check to enable the bottom custom section."
+
+#: admin/functions/functions.options.php:285
+#: ../getfit/admin/functions/functions.options.php:285
+msgid "Bottom Custom Content"
+msgstr "Bottom Custom Content"
+
+#: admin/functions/functions.options.php:286
+#: ../getfit/admin/functions/functions.options.php:286
+msgid "Insert your bottom custom content."
+msgstr "Insert your bottom custom content."
+
+#: admin/functions/functions.options.php:292
+#: ../getfit/admin/functions/functions.options.php:292
+msgid "Display Sitewide?"
+msgstr "Display Sitewide?"
+
+#: admin/functions/functions.options.php:293
+#: ../getfit/admin/functions/functions.options.php:293
+msgid ""
+"Check to display the bottom custom section sitewide intstead of just on the "
+"homepage."
+msgstr ""
+"Check to display the bottom custom section sitewide intstead of just on the "
+"homepage."
+
+#: admin/functions/functions.options.php:309
+#: admin/functions/functions.options.php:313
+#: ../getfit/admin/functions/functions.options.php:309
+#: ../getfit/admin/functions/functions.options.php:313
+msgid "Header Height"
+msgstr "Header Height"
+
+#: admin/functions/functions.options.php:314
+#: ../getfit/admin/functions/functions.options.php:314
+msgid "Enter the header's height (Default: 77)."
+msgstr "Enter the header's height (Default: 77)."
+
+#: admin/functions/functions.options.php:325
+#: ../getfit/admin/functions/functions.options.php:325
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/functions/functions.options.php:329
+#: ../getfit/admin/functions/functions.options.php:329
+msgid "Custom Logo"
+msgstr "Custom Logo"
+
+#: admin/functions/functions.options.php:330
+#: ../getfit/admin/functions/functions.options.php:330
+msgid ""
+"Upload a logo for your theme, or specify the image address of your online "
+"logo. (http://yoursite.com/logo.png)."
+msgstr ""
+"Upload a logo for your theme, or specify the image address of your online "
+"logo. (http://yoursite.com/logo.png)."
+
+#: admin/functions/functions.options.php:335
+#: ../getfit/admin/functions/functions.options.php:335
+msgid "Logo Top Margin"
+msgstr "Logo Top Margin"
+
+#: admin/functions/functions.options.php:336
+#: ../getfit/admin/functions/functions.options.php:336
+msgid "Enter the logo's top margin (Default: 19)."
+msgstr "Enter the logo's top margin (Default: 19)."
+
+#: admin/functions/functions.options.php:344
+#: ../getfit/admin/functions/functions.options.php:344
+msgid "Logo Left Margin"
+msgstr "Logo Left Margin"
+
+#: admin/functions/functions.options.php:345
+#: ../getfit/admin/functions/functions.options.php:345
+msgid "Enter the logo's left margin (Default: 0)."
+msgstr "Enter the logo's left margin (Default: 0)."
+
+#: admin/functions/functions.options.php:356
+#: ../getfit/admin/functions/functions.options.php:356
+msgid "Right Top Phone &amp; Email"
+msgstr "Right Top Phone &amp; Email"
+
+#: admin/functions/functions.options.php:360
+#: ../getfit/admin/functions/functions.options.php:360
+msgid "Enable Right Top Phone &amp; Email"
+msgstr "Enable Right Top Phone &amp; Email"
+
+#: admin/functions/functions.options.php:361
+#: ../getfit/admin/functions/functions.options.php:361
+msgid "Check to display the top phone &amp; email bar."
+msgstr "Check to display the top phone &amp; email bar."
+
+#: admin/functions/functions.options.php:365
+#: ../getfit/admin/functions/functions.options.php:365
+msgid "Show"
+msgstr "Show"
+
+#: admin/functions/functions.options.php:366
+#: ../getfit/admin/functions/functions.options.php:366
+msgid "Hide"
+msgstr "Hide"
+
+#: admin/functions/functions.options.php:369
+#: ../getfit/admin/functions/functions.options.php:369
+msgid "Header Telephone Number"
+msgstr "Header Telephone Number"
+
+#: admin/functions/functions.options.php:370
+#: ../getfit/admin/functions/functions.options.php:370
+msgid "Enter the telephone number content (leave blank if disabled)."
+msgstr "Enter the telephone number content (leave blank if disabled)."
+
+#: admin/functions/functions.options.php:376
+#: ../getfit/admin/functions/functions.options.php:376
+msgid "Header Email Address"
+msgstr "Header Email Address"
+
+#: admin/functions/functions.options.php:377
+#: ../getfit/admin/functions/functions.options.php:377
+msgid "Enter the email address (leave blank if disabled)."
+msgstr "Enter the email address (leave blank if disabled)."
+
+#: admin/functions/functions.options.php:393
+#: ../getfit/admin/functions/functions.options.php:393
+msgid "Footer Settings"
+msgstr "Footer Settings"
+
+#: admin/functions/functions.options.php:397
+#: ../getfit/admin/functions/functions.options.php:397
+msgid "Enable Widgetized Footer"
+msgstr "Enable Widgetized Footer"
+
+#: admin/functions/functions.options.php:398
+#: ../getfit/admin/functions/functions.options.php:398
+msgid "Check to show the Widgetized Footer."
+msgstr "Check to show the Widgetized Footer."
+
+#: admin/functions/functions.options.php:406
+#: ../getfit/admin/functions/functions.options.php:406
+msgid "Custom Copyright Text"
+msgstr "Custom Copyright Text"
+
+#: admin/functions/functions.options.php:407
+#: ../getfit/admin/functions/functions.options.php:407
+msgid "Insert your custom copyright text."
+msgstr "Insert your custom copyright text."
+
+#: admin/functions/functions.options.php:415
+#: admin/functions/functions.options.php:419
+#: ../getfit/admin/functions/functions.options.php:415
+#: ../getfit/admin/functions/functions.options.php:419
+msgid "Tracking Code"
+msgstr "Tracking Code"
+
+#: admin/functions/functions.options.php:420
+#: ../getfit/admin/functions/functions.options.php:420
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the footer template of your theme."
+msgstr ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the footer template of your theme."
+
+#: admin/functions/functions.options.php:432
+#: ../getfit/admin/functions/functions.options.php:432
+msgid "Theme's Primary Color"
+msgstr "Theme's Primary Color"
+
+#: admin/functions/functions.options.php:433
+#: ../getfit/admin/functions/functions.options.php:433
+msgid "Pick the main color for the theme (default: #8cc7ae)."
+msgstr "Pick the main color for the theme (default: #8cc7ae)."
+
+#: admin/functions/functions.options.php:438
+#: ../getfit/admin/functions/functions.options.php:438
+msgid "Theme's Secondary Color"
+msgstr "Theme's Secondary Color"
+
+#: admin/functions/functions.options.php:439
+#: ../getfit/admin/functions/functions.options.php:439
+msgid "Pick the secondary color for the theme (default: #ff4301)."
+msgstr "Pick the secondary color for the theme (default: #ff4301)."
+
+#: admin/functions/functions.options.php:447
+#: ../getfit/admin/functions/functions.options.php:447
+msgid "Favicon"
+msgstr "Favicon"
+
+#: admin/functions/functions.options.php:451
+#: ../getfit/admin/functions/functions.options.php:451
+msgid "Custom Favicon"
+msgstr "Custom Favicon"
+
+#: admin/functions/functions.options.php:452
+#: ../getfit/admin/functions/functions.options.php:452
+msgid ""
+"Upload a 16px x 16px Png/Gif image that will represent your website's "
+"favicon."
+msgstr ""
+"Upload a 16px x 16px Png/Gif image that will represent your website's "
+"favicon."
+
+#: admin/functions/functions.options.php:460
+#: ../getfit/admin/functions/functions.options.php:460
+msgid "Custm CSS"
+msgstr "Custm CSS"
+
+#: admin/functions/functions.options.php:464
+#: ../getfit/admin/functions/functions.options.php:464
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: admin/functions/functions.options.php:465
+#: ../getfit/admin/functions/functions.options.php:465
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr "Quickly add some CSS to your theme by adding it to this block."
+
+#: admin/functions/functions.options.php:477
+#: ../getfit/admin/functions/functions.options.php:477
+msgid "Gallery Page Slug"
+msgstr "Gallery Page Slug"
+
+#: admin/functions/functions.options.php:478
+#: ../getfit/admin/functions/functions.options.php:478
+msgid "Enter your gallery page slug."
+msgstr "Enter your gallery page slug."
+
+#: admin/functions/functions.options.php:483
+#: ../getfit/admin/functions/functions.options.php:483
+msgid "Number of items on gallery page"
+msgstr "Number of items on gallery page"
+
+#: admin/functions/functions.options.php:484
+#: ../getfit/admin/functions/functions.options.php:484
+msgid "Enter the number of items on the gallery page."
+msgstr "Enter the number of items on the gallery page."
+
+#: admin/functions/functions.options.php:489
+#: ../getfit/admin/functions/functions.options.php:489
+msgid "Enable Related Gallery Items"
+msgstr "Enable Related Gallery Items"
+
+#: admin/functions/functions.options.php:490
+#: ../getfit/admin/functions/functions.options.php:490
+msgid "Enable the related gallery items."
+msgstr "Enable the related gallery items."
+
+#: admin/functions/functions.options.php:505
+#: ../getfit/admin/functions/functions.options.php:505
+msgid "Sidebar Position"
+msgstr "Sidebar Position"
+
+#: admin/functions/functions.options.php:506
+#: ../getfit/admin/functions/functions.options.php:506
+msgid "Select the position of the sidebar (right or left)."
+msgstr "Select the position of the sidebar (right or left)."
+
+#: admin/functions/functions.options.php:516
+#: ../getfit/admin/functions/functions.options.php:516
+msgid "Excerpt Length"
+msgstr "Excerpt Length"
+
+#: admin/functions/functions.options.php:517
+#: ../getfit/admin/functions/functions.options.php:517
+msgid ""
+"Enter the number of words you want to be displayed as excerpt. (Default: 30)."
+msgstr ""
+"Enter the number of words you want to be displayed as excerpt. (Default: 30)."
+
+#: admin/functions/functions.options.php:529
+#: ../getfit/admin/functions/functions.options.php:529
+msgid "Backup and Restore Options"
+msgstr "Backup and Restore Options"
+
+#: admin/functions/functions.options.php:533
+#: ../getfit/admin/functions/functions.options.php:533
+msgid ""
+"You can use the two buttons below to backup your current options, and then "
+"restore it back at a later time. This is useful if you want to experiment on "
+"the options but would like to keep the old settings in case you need it back."
+msgstr ""
+"You can use the two buttons below to backup your current options, and then "
+"restore it back at a later time. This is useful if you want to experiment on "
+"the options but would like to keep the old settings in case you need it back."
+
+#: admin/functions/functions.options.php:536
+#: ../getfit/admin/functions/functions.options.php:536
+msgid "Transfer Theme Options Data"
+msgstr "Transfer Theme Options Data"
+
+#: admin/functions/functions.options.php:540
+#: ../getfit/admin/functions/functions.options.php:540
+msgid ""
+"You can tranfer the saved options data between different installs by copying "
+"the text inside the text box. To import data from another install, replace "
+"the data in the text box with the one from another install and click "
+"\"Import Options"
+msgstr ""
+"You can tranfer the saved options data between different installs by copying "
+"the text inside the text box. To import data from another install, replace "
+"the data in the text box with the one from another install and click "
+"\"Import Options"
+
+#: framework/inc/page-top.php:16 framework/inc/page-top.php:49
+#: ../getfit/framework/inc/page-top.php:16
+#: ../getfit/framework/inc/page-top.php:49
+msgid "Categorized as:"
+msgstr "Categorized as:"
+
+#: framework/inc/page-top.php:23 ../getfit/framework/inc/page-top.php:23
+msgid "Tagged as:"
+msgstr "Tagged as:"
+
+#: framework/inc/page-top.php:30 framework/inc/page-top.php:35
+#: framework/inc/page-top.php:40 ../getfit/framework/inc/page-top.php:30
+#: ../getfit/framework/inc/page-top.php:35
+#: ../getfit/framework/inc/page-top.php:40
+msgid "Archive for"
+msgstr "Archive for"
+
+#: framework/inc/page-top.php:45 ../getfit/framework/inc/page-top.php:45
+msgid "Archive"
+msgstr "Archive"
+
+#: framework/inc/page-top.php:58 ../getfit/framework/inc/page-top.php:58
+msgid "Search Results for:"
+msgstr "Search Results for:"
+
+#: framework/inc/page-top.php:64 ../getfit/framework/inc/page-top.php:64
+msgid "Ooops, 404 Not Found!"
+msgstr "Ooops, 404 Not Found!"
+
+#: framework/inc/plugin-activation.php:167
+#: ../getfit/framework/inc/plugin-activation.php:167
+msgid "Something went wrong."
+msgstr "Something went wrong."
+
+#: framework/inc/plugin-activation.php:179
+#: ../getfit/framework/inc/plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "All plugins installed and activated successfully. %1$s"
+
+#: framework/inc/plugin-activation.php:514
+#: framework/inc/plugin-activation.php:2055
+#: ../getfit/framework/inc/plugin-activation.php:514
+#: ../getfit/framework/inc/plugin-activation.php:2055
+msgid "Return to the Dashboard"
+msgstr "Return to the Dashboard"
+
+#: framework/inc/plugin-activation.php:542
+#: ../getfit/framework/inc/plugin-activation.php:542
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr "The following plugin was activated successfully: %s."
+
+#: framework/inc/plugin-activation.php:701
+#: ../getfit/framework/inc/plugin-activation.php:701
+msgid "Dismiss this notice"
+msgstr "Dismiss this notice"
+
+#: framework/inc/plugin-activation.php:1088
+#: ../getfit/framework/inc/plugin-activation.php:1088
+msgid "External Link"
+msgstr "External Link"
+
+#: framework/inc/plugin-activation.php:1093
+#: ../getfit/framework/inc/plugin-activation.php:1093
+msgid "Private Repository"
+msgstr "Private Repository"
+
+#: framework/inc/plugin-activation.php:1096
+#: ../getfit/framework/inc/plugin-activation.php:1096
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: framework/inc/plugin-activation.php:1100
+#: ../getfit/framework/inc/plugin-activation.php:1100
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: framework/inc/plugin-activation.php:1103
+#: ../getfit/framework/inc/plugin-activation.php:1103
+msgid "Required"
+msgstr "Required"
+
+#: framework/inc/plugin-activation.php:1103
+#: ../getfit/framework/inc/plugin-activation.php:1103
+msgid "Recommended"
+msgstr "Recommended"
+
+#: framework/inc/plugin-activation.php:1106
+#: ../getfit/framework/inc/plugin-activation.php:1106
+msgid "Not Installed"
+msgstr "Not Installed"
+
+#: framework/inc/plugin-activation.php:1108
+#: ../getfit/framework/inc/plugin-activation.php:1108
+msgid "Installed But Not Activated"
+msgstr "Installed But Not Activated"
+
+#: framework/inc/plugin-activation.php:1278
+#: ../getfit/framework/inc/plugin-activation.php:1278
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+
+#: framework/inc/plugin-activation.php:1294
+#: ../getfit/framework/inc/plugin-activation.php:1294
+msgid "Plugin"
+msgstr "Plugin"
+
+#: framework/inc/plugin-activation.php:1295
+#: ../getfit/framework/inc/plugin-activation.php:1295
+msgid "Source"
+msgstr "Source"
+
+#: framework/inc/plugin-activation.php:1296
+#: ../getfit/framework/inc/plugin-activation.php:1296
+msgid "Type"
+msgstr "Type"
+
+#: framework/inc/plugin-activation.php:1297
+#: ../getfit/framework/inc/plugin-activation.php:1297
+msgid "Status"
+msgstr "Status"
+
+#: framework/inc/plugin-activation.php:1315
+#: ../getfit/framework/inc/plugin-activation.php:1315
+msgid "Install"
+msgstr "Install"
+
+#: framework/inc/plugin-activation.php:1316
+#: ../getfit/framework/inc/plugin-activation.php:1316
+msgid "Activate"
+msgstr "Activate"
+
+#: framework/inc/plugin-activation.php:1826
+#: ../getfit/framework/inc/plugin-activation.php:1826
+msgid "Install package not available."
+msgstr "Install package not available."
+
+#: framework/inc/plugin-activation.php:1827
+#: ../getfit/framework/inc/plugin-activation.php:1827
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+
+#: framework/inc/plugin-activation.php:1828
+#: ../getfit/framework/inc/plugin-activation.php:1828
+msgid "Unpacking the package&#8230;"
+msgstr "Unpacking the package&#8230;"
+
+#: framework/inc/plugin-activation.php:1829
+#: ../getfit/framework/inc/plugin-activation.php:1829
+msgid "Installing the plugin&#8230;"
+msgstr "Installing the plugin&#8230;"
+
+#: framework/inc/plugin-activation.php:1830
+#: ../getfit/framework/inc/plugin-activation.php:1830
+msgid "Plugin install failed."
+msgstr "Plugin install failed."
+
+#: framework/inc/plugin-activation.php:1831
+#: ../getfit/framework/inc/plugin-activation.php:1831
+msgid "Plugin installed successfully."
+msgstr "Plugin installed successfully."
+
+#: framework/inc/plugin-activation.php:1842
+#: ../getfit/framework/inc/plugin-activation.php:1842
+msgid "Plugin activation failed."
+msgstr "Plugin activation failed."
+
+#: framework/inc/plugin-activation.php:1952
+#: ../getfit/framework/inc/plugin-activation.php:1952
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+
+#: framework/inc/plugin-activation.php:1953
+#: ../getfit/framework/inc/plugin-activation.php:1953
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installed and activated successfully."
+
+#: framework/inc/plugin-activation.php:1953
+#: framework/inc/plugin-activation.php:1962
+#: ../getfit/framework/inc/plugin-activation.php:1953
+#: ../getfit/framework/inc/plugin-activation.php:1962
+msgid "Show Details"
+msgstr "Show Details"
+
+#: framework/inc/plugin-activation.php:1953
+#: framework/inc/plugin-activation.php:1962
+#: ../getfit/framework/inc/plugin-activation.php:1953
+#: ../getfit/framework/inc/plugin-activation.php:1962
+msgid "Hide Details"
+msgstr "Hide Details"
+
+#: framework/inc/plugin-activation.php:1954
+#: ../getfit/framework/inc/plugin-activation.php:1954
+msgid "All installations and activations have been completed."
+msgstr "All installations and activations have been completed."
+
+#: framework/inc/plugin-activation.php:1955
+#: ../getfit/framework/inc/plugin-activation.php:1955
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+
+#: framework/inc/plugin-activation.php:1959
+#: ../getfit/framework/inc/plugin-activation.php:1959
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+
+#: framework/inc/plugin-activation.php:1960
+#: ../getfit/framework/inc/plugin-activation.php:1960
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "An error occurred while installing %1$s: <strong>%2$s</strong>."
+
+#: framework/inc/plugin-activation.php:1961
+#: ../getfit/framework/inc/plugin-activation.php:1961
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "The installation of %1$s failed."
+
+#: framework/inc/plugin-activation.php:1962
+#: ../getfit/framework/inc/plugin-activation.php:1962
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s installed successfully."
+
+#: framework/inc/plugin-activation.php:1963
+#: ../getfit/framework/inc/plugin-activation.php:1963
+msgid "All installations have been completed."
+msgstr "All installations have been completed."
+
+#: framework/inc/plugin-activation.php:1964
+#: ../getfit/framework/inc/plugin-activation.php:1964
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing Plugin %1$s (%2$d/%3$d)"
+
+#: framework/inc/post-rating.php:73 ../getfit/framework/inc/post-rating.php:73
+msgid "Already Liked"
+msgstr "Already Liked"
+
+#: framework/inc/post-rating.php:76 ../getfit/framework/inc/post-rating.php:76
+msgid "I like this article"
+msgstr "I like this article"
+
+#: framework/inc/share-icons.php:10 ../getfit/framework/inc/share-icons.php:10
+msgid "Sharing is caring:"
+msgstr "Sharing is caring:"
+
+#: framework/inc/share-icons.php:14 framework/inc/share-icons.php:15
+#: ../getfit/framework/inc/share-icons.php:14
+#: ../getfit/framework/inc/share-icons.php:15
+msgid "Facebook"
+msgstr "Facebook"
+
+#: framework/inc/share-icons.php:19 framework/inc/share-icons.php:20
+#: ../getfit/framework/inc/share-icons.php:19
+#: ../getfit/framework/inc/share-icons.php:20
+msgid "Twitter"
+msgstr "Twitter"
+
+#: framework/inc/share-icons.php:24 framework/inc/share-icons.php:25
+#: ../getfit/framework/inc/share-icons.php:24
+#: ../getfit/framework/inc/share-icons.php:25
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: framework/inc/share-icons.php:30 ../getfit/framework/inc/share-icons.php:30
+msgid "Google+"
+msgstr "Google+"
+
+#: framework/inc/share-icons.php:34 framework/inc/share-icons.php:35
+#: ../getfit/framework/inc/share-icons.php:34
+#: ../getfit/framework/inc/share-icons.php:35
+msgid "Delicious"
+msgstr "Delicious"
+
+#: framework/inc/share-icons.php:40 ../getfit/framework/inc/share-icons.php:40
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+#: framework/inc/share-icons.php:44 framework/inc/share-icons.php:45
+#: ../getfit/framework/inc/share-icons.php:44
+#: ../getfit/framework/inc/share-icons.php:45
+msgid "Digg"
+msgstr "Digg"
+
+#: framework/inc/share-icons.php:49 framework/inc/share-icons.php:50
+#: ../getfit/framework/inc/share-icons.php:49
+#: ../getfit/framework/inc/share-icons.php:50
+msgid "Reddit"
+msgstr "Reddit"
+
+#: framework/inc/share-icons.php:54 framework/inc/share-icons.php:55
+#: ../getfit/framework/inc/share-icons.php:54
+#: ../getfit/framework/inc/share-icons.php:55
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: framework/inc/gallery/related-gallery.php:32
+#: ../getfit/framework/inc/gallery/related-gallery.php:32
+msgid "Related Images"
+msgstr "Related Images"
+
+#: framework/inc/metabox/inc/classes/meta-box.php:285
+#: ../getfit/framework/inc/metabox/inc/classes/meta-box.php:285
+msgid "Please correct the errors highlighted below and try again."
+msgstr "Please correct the errors highlighted below and try again."
+
+#: framework/inc/metabox/inc/classes/meta-box.php:343
+#: ../getfit/framework/inc/metabox/inc/classes/meta-box.php:343
+msgid "+"
+msgstr "+"
+
+#: framework/inc/metabox/inc/classes/meta-box.php:365
+#: ../getfit/framework/inc/metabox/inc/classes/meta-box.php:365
+msgid "&#8211;"
+msgstr "&#8211;"
+
+#: framework/inc/metabox/inc/fields/file.php:65
+#: ../getfit/framework/inc/metabox/inc/fields/file.php:65
+msgid "Error: Cannot delete file"
+msgstr "Error: Cannot delete file"
+
+#: framework/inc/metabox/inc/fields/image.php:64
+#: ../getfit/framework/inc/metabox/inc/fields/image.php:64
+msgid "Order saved"
+msgstr "Order saved"
+
+#: framework/inc/metabox/inc/fields/map.php:46
+#: ../getfit/framework/inc/metabox/inc/fields/map.php:46
+msgid "Find Address"
+msgstr "Find Address"
+
+#: framework/inc/metabox/inc/fields/select-advanced.php:82
+#: ../getfit/framework/inc/metabox/inc/fields/select-advanced.php:82
+msgid "Select a value"
+msgstr "Select a value"
+
+#: framework/inc/post-formats/content.php:11
+#: ../getfit/framework/inc/post-formats/content.php:11
+#, php-format
+msgid "Permalink la %s"
+msgstr "Permalink la %s"
+
+#: framework/inc/post-formats/content.php:29
+#: ../getfit/framework/inc/post-formats/content.php:29
+msgid "Read More"
+msgstr "Read More"
+
+#: framework/inc/post-types/portfolio.php:11
+#: ../getfit/framework/inc/post-types/portfolio.php:11
+msgid "Gallery"
+msgstr "Gallery"
+
+#: framework/inc/post-types/portfolio.php:12
+#: ../getfit/framework/inc/post-types/portfolio.php:12
+msgid "Gallery Item"
+msgstr "Gallery Item"
+
+#: framework/inc/post-types/portfolio.php:13
+#: ../getfit/framework/inc/post-types/portfolio.php:13
+msgid "Add New Item"
+msgstr "Add New Item"
+
+#: framework/inc/post-types/portfolio.php:14
+#: framework/inc/post-types/portfolio.php:16
+#: ../getfit/framework/inc/post-types/portfolio.php:14
+#: ../getfit/framework/inc/post-types/portfolio.php:16
+msgid "Add New Gallery Item"
+msgstr "Add New Gallery Item"
+
+#: framework/inc/post-types/portfolio.php:15
+#: ../getfit/framework/inc/post-types/portfolio.php:15
+msgid "Edit Gallery Item"
+msgstr "Edit Gallery Item"
+
+#: framework/inc/post-types/portfolio.php:17
+#: ../getfit/framework/inc/post-types/portfolio.php:17
+msgid "View Item"
+msgstr "View Item"
+
+#: framework/inc/post-types/portfolio.php:18
+#: ../getfit/framework/inc/post-types/portfolio.php:18
+msgid "Search Gallery"
+msgstr "Search Gallery"
+
+#: framework/inc/post-types/portfolio.php:19
+#: ../getfit/framework/inc/post-types/portfolio.php:19
+msgid "No gallery items found"
+msgstr "No gallery items found"
+
+#: framework/inc/post-types/portfolio.php:20
+#: ../getfit/framework/inc/post-types/portfolio.php:20
+msgid "No gallery items found in trash"
+msgstr "No gallery items found in trash"
+
+#: framework/inc/post-types/portfolio.php:57
+#: ../getfit/framework/inc/post-types/portfolio.php:57
+msgid "Title"
+msgstr "Title"
+
+#: framework/inc/post-types/portfolio.php:58
+#: ../getfit/framework/inc/post-types/portfolio.php:58
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: framework/inc/post-types/portfolio.php:59
+#: ../getfit/framework/inc/post-types/portfolio.php:59
+msgid "Filter"
+msgstr "Filter"
+
+#: framework/inc/post-types/portfolio.php:60
+#: ../getfit/framework/inc/post-types/portfolio.php:60
+msgid "Author"
+msgstr "Author"
+
+#: framework/inc/post-types/portfolio.php:61
+#: ../getfit/framework/inc/post-types/portfolio.php:61
+msgid "Comments"
+msgstr "Comments"
+
+#: framework/inc/post-types/portfolio.php:62
+#: ../getfit/framework/inc/post-types/portfolio.php:62
+msgid "Date"
+msgstr "Date"
+
+#: framework/inc/post-types/portfolio.php:89
+#: framework/inc/post-types/portfolio.php:99
+#: ../getfit/framework/inc/post-types/portfolio.php:89
+#: ../getfit/framework/inc/post-types/portfolio.php:99
+msgid "None"
+msgstr "None"
+
+#: framework/inc/widgets/110x110-ads.php:17
+#: ../getfit/framework/inc/widgets/110x110-ads.php:17
+msgid "A widget that displays 8 110x110 ad blocks."
+msgstr "A widget that displays 8 110x110 ad blocks."
+
+#: framework/inc/widgets/110x110-ads.php:19
+#: ../getfit/framework/inc/widgets/110x110-ads.php:19
+msgid "110x110 Ad Blocks"
+msgstr "110x110 Ad Blocks"
+
+#: framework/inc/widgets/110x110-ads.php:143
+#: framework/inc/widgets/latest-tweets.php:158
+#: framework/inc/widgets/opening-hours.php:96
+#: framework/inc/widgets/popular-posts.php:92
+#: framework/inc/widgets/social-icons.php:101
+#: ../getfit/framework/inc/widgets/110x110-ads.php:143
+#: ../getfit/framework/inc/widgets/latest-tweets.php:158
+#: ../getfit/framework/inc/widgets/opening-hours.php:96
+#: ../getfit/framework/inc/widgets/popular-posts.php:92
+#: ../getfit/framework/inc/widgets/social-icons.php:101
+msgid "Title:"
+msgstr "Title:"
+
+#: framework/inc/widgets/110x110-ads.php:149
+#: ../getfit/framework/inc/widgets/110x110-ads.php:149
+msgid "Ad 1 image url:"
+msgstr "Ad 1 image url:"
+
+#: framework/inc/widgets/110x110-ads.php:155
+#: ../getfit/framework/inc/widgets/110x110-ads.php:155
+msgid "Ad 1 link url:"
+msgstr "Ad 1 link url:"
+
+#: framework/inc/widgets/110x110-ads.php:161
+#: ../getfit/framework/inc/widgets/110x110-ads.php:161
+msgid "Ad 2 image url:"
+msgstr "Ad 2 image url:"
+
+#: framework/inc/widgets/110x110-ads.php:167
+#: ../getfit/framework/inc/widgets/110x110-ads.php:167
+msgid "Ad 2 link url:"
+msgstr "Ad 2 link url:"
+
+#: framework/inc/widgets/110x110-ads.php:173
+#: ../getfit/framework/inc/widgets/110x110-ads.php:173
+msgid "Ad 3 image url:"
+msgstr "Ad 3 image url:"
+
+#: framework/inc/widgets/110x110-ads.php:179
+#: ../getfit/framework/inc/widgets/110x110-ads.php:179
+msgid "Ad 3 link url:"
+msgstr "Ad 3 link url:"
+
+#: framework/inc/widgets/110x110-ads.php:185
+#: ../getfit/framework/inc/widgets/110x110-ads.php:185
+msgid "Ad 4 image url:"
+msgstr "Ad 4 image url:"
+
+#: framework/inc/widgets/110x110-ads.php:191
+#: ../getfit/framework/inc/widgets/110x110-ads.php:191
+msgid "Ad 4 link url:"
+msgstr "Ad 4 link url:"
+
+#: framework/inc/widgets/110x110-ads.php:197
+#: ../getfit/framework/inc/widgets/110x110-ads.php:197
+msgid "Ad 5 image url:"
+msgstr "Ad 5 image url:"
+
+#: framework/inc/widgets/110x110-ads.php:203
+#: ../getfit/framework/inc/widgets/110x110-ads.php:203
+msgid "Ad 5 link url:"
+msgstr "Ad 5 link url:"
+
+#: framework/inc/widgets/110x110-ads.php:209
+#: ../getfit/framework/inc/widgets/110x110-ads.php:209
+msgid "Ad 6 image url:"
+msgstr "Ad 6 image url:"
+
+#: framework/inc/widgets/110x110-ads.php:215
+#: ../getfit/framework/inc/widgets/110x110-ads.php:215
+msgid "Ad 6 link url:"
+msgstr "Ad 6 link url:"
+
+#: framework/inc/widgets/110x110-ads.php:221
+#: ../getfit/framework/inc/widgets/110x110-ads.php:221
+msgid "Ad 7 image url:"
+msgstr "Ad 7 image url:"
+
+#: framework/inc/widgets/110x110-ads.php:227
+#: ../getfit/framework/inc/widgets/110x110-ads.php:227
+msgid "Ad 7 link url:"
+msgstr "Ad 7 link url:"
+
+#: framework/inc/widgets/110x110-ads.php:233
+#: ../getfit/framework/inc/widgets/110x110-ads.php:233
+msgid "Ad 8 image url:"
+msgstr "Ad 8 image url:"
+
+#: framework/inc/widgets/110x110-ads.php:239
+#: ../getfit/framework/inc/widgets/110x110-ads.php:239
+msgid "Ad 8 link url:"
+msgstr "Ad 8 link url:"
+
+#: framework/inc/widgets/110x110-ads.php:245
+#: ../getfit/framework/inc/widgets/110x110-ads.php:245
+msgid "Randomize ads order?"
+msgstr "Randomize ads order?"
+
+#: framework/inc/widgets/latest-tweets.php:17
+#: ../getfit/framework/inc/widgets/latest-tweets.php:17
+msgid "A widget that displays your latest tweets."
+msgstr "A widget that displays your latest tweets."
+
+#: framework/inc/widgets/latest-tweets.php:19
+#: ../getfit/framework/inc/widgets/latest-tweets.php:19
+msgid "Latest Tweets"
+msgstr "Latest Tweets"
+
+#: framework/inc/widgets/latest-tweets.php:164
+#: ../getfit/framework/inc/widgets/latest-tweets.php:164
+msgid "Twitter Username e.g. skatdesign"
+msgstr "Twitter Username e.g. skatdesign"
+
+#: framework/inc/widgets/latest-tweets.php:170
+#: ../getfit/framework/inc/widgets/latest-tweets.php:170
+msgid "Consumer Key"
+msgstr "Consumer Key"
+
+#: framework/inc/widgets/latest-tweets.php:176
+#: ../getfit/framework/inc/widgets/latest-tweets.php:176
+msgid "Consumer Secret"
+msgstr "Consumer Secret"
+
+#: framework/inc/widgets/latest-tweets.php:182
+#: ../getfit/framework/inc/widgets/latest-tweets.php:182
+msgid "Access Token"
+msgstr "Access Token"
+
+#: framework/inc/widgets/latest-tweets.php:188
+#: ../getfit/framework/inc/widgets/latest-tweets.php:188
+msgid "Access Token Secret"
+msgstr "Access Token Secret"
+
+#: framework/inc/widgets/latest-tweets.php:194
+#: ../getfit/framework/inc/widgets/latest-tweets.php:194
+msgid "Number of tweets (max 20)"
+msgstr "Number of tweets (max 20)"
+
+#: framework/inc/widgets/opening-hours.php:17
+#: ../getfit/framework/inc/widgets/opening-hours.php:17
+msgid "A widget that displays your business's opening hours."
+msgstr "A widget that displays your business's opening hours."
+
+#: framework/inc/widgets/opening-hours.php:19
+#: ../getfit/framework/inc/widgets/opening-hours.php:19
+msgid "Opening Hours"
+msgstr "Opening Hours"
+
+#: framework/inc/widgets/opening-hours.php:37
+#: framework/inc/widgets/opening-hours.php:102
+#: ../getfit/framework/inc/widgets/opening-hours.php:37
+#: ../getfit/framework/inc/widgets/opening-hours.php:102
+msgid "Monday"
+msgstr "Monday"
+
+#: framework/inc/widgets/opening-hours.php:40
+#: framework/inc/widgets/opening-hours.php:107
+#: ../getfit/framework/inc/widgets/opening-hours.php:40
+#: ../getfit/framework/inc/widgets/opening-hours.php:107
+msgid "Tuesday"
+msgstr "Tuesday"
+
+#: framework/inc/widgets/opening-hours.php:43
+#: framework/inc/widgets/opening-hours.php:112
+#: ../getfit/framework/inc/widgets/opening-hours.php:43
+#: ../getfit/framework/inc/widgets/opening-hours.php:112
+msgid "Wednesday"
+msgstr "Wednesday"
+
+#: framework/inc/widgets/opening-hours.php:46
+#: framework/inc/widgets/opening-hours.php:117
+#: ../getfit/framework/inc/widgets/opening-hours.php:46
+#: ../getfit/framework/inc/widgets/opening-hours.php:117
+msgid "Thursday"
+msgstr "Thursday"
+
+#: framework/inc/widgets/opening-hours.php:49
+#: framework/inc/widgets/opening-hours.php:122
+#: ../getfit/framework/inc/widgets/opening-hours.php:49
+#: ../getfit/framework/inc/widgets/opening-hours.php:122
+msgid "Friday"
+msgstr "Friday"
+
+#: framework/inc/widgets/opening-hours.php:52
+#: framework/inc/widgets/opening-hours.php:127
+#: ../getfit/framework/inc/widgets/opening-hours.php:52
+#: ../getfit/framework/inc/widgets/opening-hours.php:127
+msgid "Saturday"
+msgstr "Saturday"
+
+#: framework/inc/widgets/opening-hours.php:55
+#: framework/inc/widgets/opening-hours.php:132
+#: ../getfit/framework/inc/widgets/opening-hours.php:55
+#: ../getfit/framework/inc/widgets/opening-hours.php:132
+msgid "Sunday"
+msgstr "Sunday"
+
+#: framework/inc/widgets/popular-posts.php:17
+#: ../getfit/framework/inc/widgets/popular-posts.php:17
+msgid "A widget to display the popular posts."
+msgstr "A widget to display the popular posts."
+
+#: framework/inc/widgets/popular-posts.php:19
+#: framework/inc/widgets/popular-posts.php:84
+#: ../getfit/framework/inc/widgets/popular-posts.php:19
+#: ../getfit/framework/inc/widgets/popular-posts.php:84
+msgid "Popular Posts"
+msgstr "Popular Posts"
+
+#: framework/inc/widgets/popular-posts.php:100
+#: ../getfit/framework/inc/widgets/popular-posts.php:100
+msgid "Post Count"
+msgstr "Post Count"
+
+#: framework/inc/widgets/social-icons.php:17
+#: ../getfit/framework/inc/widgets/social-icons.php:17
+msgid "A widget that displays icons from your social profiles."
+msgstr "A widget that displays icons from your social profiles."
+
+#: framework/inc/widgets/social-icons.php:19
+#: ../getfit/framework/inc/widgets/social-icons.php:19
+msgid "Social Icons"
+msgstr "Social Icons"
+
+#: framework/inc/widgets/social-icons.php:107
+#: ../getfit/framework/inc/widgets/social-icons.php:107
+msgid "Facebook Url:"
+msgstr "Facebook Url:"
+
+#: framework/inc/widgets/social-icons.php:112
+#: ../getfit/framework/inc/widgets/social-icons.php:112
+msgid "Twitter Url:"
+msgstr "Twitter Url:"
+
+#: framework/inc/widgets/social-icons.php:117
+#: ../getfit/framework/inc/widgets/social-icons.php:117
+msgid "LinkedIn Url:"
+msgstr "LinkedIn Url:"
+
+#: framework/inc/widgets/social-icons.php:122
+#: ../getfit/framework/inc/widgets/social-icons.php:122
+msgid "Google Plus Url:"
+msgstr "Google Plus Url:"
+
+#: framework/inc/widgets/social-icons.php:127
+#: ../getfit/framework/inc/widgets/social-icons.php:127
+msgid "Youtube Url:"
+msgstr "Youtube Url:"
+
+#: framework/inc/widgets/social-icons.php:132
+#: ../getfit/framework/inc/widgets/social-icons.php:132
+msgid "Vimeo Url:"
+msgstr "Vimeo Url:"
+
+#: framework/inc/widgets/social-icons.php:137
+#: ../getfit/framework/inc/widgets/social-icons.php:137
+msgid "Pinterest Url:"
+msgstr "Pinterest Url:"
+
+#: framework/inc/widgets/social-icons.php:142
+#: ../getfit/framework/inc/widgets/social-icons.php:142
+msgid "RSS Url:"
+msgstr "RSS Url:"
+
+#~ msgid "OOOPS! 404 PAGE NOT FOUND"
+#~ msgstr "OOOPS! 404 PAGE NOT FOUND"
+
+#~ msgid "Posted by: "
+#~ msgstr "Posted by: "
+
+#~ msgid "0 Comments"
+#~ msgstr "0 Comments"
+
+#~ msgid "% Comments"
+#~ msgstr "% Comments"
+
+#~ msgid "Leave a comment"
+#~ msgstr "Leave a comment"
+
+#~ msgid "Leave a Comment"
+#~ msgstr "Leave a Comment"
+
+#~ msgid "Leave a Reply to %s"
+#~ msgstr "Leave a Reply to %s"
+
+#~ msgid "You must be"
+#~ msgstr "You must be"
+
+#~ msgid "logged in"
+#~ msgstr "logged in"
+
+#~ msgid "to post a comment."
+#~ msgstr "to post a comment."
+
+#~ msgid "Logged in as"
+#~ msgstr "Logged in as"
+
+#~ msgid "Log out of this account"
+#~ msgstr "Log out of this account"
+
+#~ msgid "Log out &raquo;"
+#~ msgstr "Log out &raquo;"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Comment"
+#~ msgstr "Comment"
+
+#~ msgid "Yeah, I said it!"
+#~ msgstr "Yeah, I said it!"
+
+#~ msgid "^"
+#~ msgstr "^"
+
+#~ msgid "<br />Edit this entry."
+#~ msgstr "<br />Edit this entry."
+
+#~ msgid "Sorry, no posts matched your criteria."
+#~ msgstr "Sorry, no posts matched your criteria."
+
+#~ msgid "Large Slider Size"
+#~ msgstr "Large Slider Size"
+
+#~ msgid "&raquo;"
+#~ msgstr "&raquo;"
+
+#~ msgid "&laquo"
+#~ msgstr "&laquo"
+
+#~ msgid "play video"
+#~ msgstr "play video"
+
+#~ msgid "play audio"
+#~ msgstr "play audio"
+
+#~ msgid "view image"
+#~ msgstr "view image"
+
+#~ msgid "Responses are currently closed, but you can"
+#~ msgstr "Responses are currently closed, but you can"
+
+#~ msgid "trackback"
+#~ msgstr "trackback"
+
+#~ msgid "from your own site."
+#~ msgstr "from your own site."
+
+#~ msgid ""
+#~ "You can skip to the end and leave a response. Pinging is currently not "
+#~ "allowed."
+#~ msgstr ""
+#~ "You can skip to the end and leave a response. Pinging is currently not "
+#~ "allowed."
+
+#~ msgid "Both comments and pings are currently closed."
+#~ msgstr "Both comments and pings are currently closed."
+
+#~ msgid "You may also like"
+#~ msgstr "You may also like"
+
+#~ msgid "Pages"
+#~ msgstr "Pages"
+
+#~ msgid "Category Archives"
+#~ msgstr "Category Archives"
+
+#~ msgid "Blog Posts"
+#~ msgstr "Blog Posts"
+
+#~ msgid "Portfolios"
+#~ msgstr "Portfolios"
+
+#~ msgid "view case"
+#~ msgstr "view case"
+
+#~ msgid "Click OK to backup your current saved options."
+#~ msgstr "Click OK to backup your current saved options."
+
+#~ msgid ""
+#~ "Warning: All of your current options will be replaced with the data from "
+#~ "your last backup! Proceed?"
+#~ msgstr ""
+#~ "Warning: All of your current options will be replaced with the data from "
+#~ "your last backup! Proceed?"
+
+#~ msgid "Click OK to reset. All settings will be lost!"
+#~ msgstr "Click OK to reset. All settings will be lost!"
+
+#~ msgid "Upload"
+#~ msgstr "Upload"
+
+#~ msgid "Options"
+#~ msgstr "Options"
+
+#~ msgid "Previously Uploaded"
+#~ msgstr "Previously Uploaded"
+
+#~ msgid ""
+#~ "The audio player requires Flash Player to work. Please download Flash "
+#~ "Player from"
+#~ msgstr ""
+#~ "The audio player requires Flash Player to work. Please download Flash "
+#~ "Player from"
+
+#~ msgid "Join Now"
+#~ msgstr "Join Now"
+
+#~ msgid "*You forgot to enter your name."
+#~ msgstr "*You forgot to enter your name."
+
+#~ msgid "*You forgot to enter your email."
+#~ msgstr "*You forgot to enter your email."
+
+#~ msgid "*You entered an invalid email."
+#~ msgstr "*You entered an invalid email."
+
+#~ msgid "*You forgot to enter your comments."
+#~ msgstr "*You forgot to enter your comments."
+
+#~ msgid "Contact Form Submission from "
+#~ msgstr "Contact Form Submission from "
+
+#~ msgid "Company Name"
+#~ msgstr "Company Name"
+
+#~ msgid "Thank you!"
+#~ msgstr "Thank you!"
+
+#~ msgid "Your email was successfully sent. We should be in touch soon."
+#~ msgstr "Your email was successfully sent. We should be in touch soon."
+
+#~ msgid "Comments*"
+#~ msgstr "Comments*"
+
+#~ msgid "Email <span class=\"red_error\">*</span>"
+#~ msgstr "Email <span class=\"red_error\">*</span>"
+
+#~ msgid "SEND IT"
+#~ msgstr "SEND IT"
+
+#~ msgid "Homepage Content Section"
+#~ msgstr "Homepage Content Section"
+
+#~ msgid "Latest Work Section"
+#~ msgstr "Latest Work Section"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Hello There!"
+#~ msgstr "Hello There!"
+
+#~ msgid "Welcome to the Gotham Options Panel."
+#~ msgstr "Welcome to the Gotham Options Panel."
+
+#~ msgid ""
+#~ "Gotham has a simple to use administration panel. The theme options are "
+#~ "conveniently spread over a number of tabs. Each tab contains the options "
+#~ "that pertain to a particular area of the theme."
+#~ msgstr ""
+#~ "Gotham has a simple to use administration panel. The theme options are "
+#~ "conveniently spread over a number of tabs. Each tab contains the options "
+#~ "that pertain to a particular area of the theme."
+
+#~ msgid "Enable/Disable Top Page Search Icon"
+#~ msgstr "Enable/Disable Top Page Search Icon"
+
+#~ msgid "Enable or disable the top page search icon"
+#~ msgstr "Enable or disable the top page search icon"
+
+#~ msgid "Enable/Disable Top Page Social Icons"
+#~ msgstr "Enable/Disable Top Page Social Icons"
+
+#~ msgid "Enable or disable the top page social icons"
+#~ msgstr "Enable or disable the top page social icons"
+
+#~ msgid "Enable/Disable Facebook Icon"
+#~ msgstr "Enable/Disable Facebook Icon"
+
+#~ msgid "Enable or disable the top page facebook icon"
+#~ msgstr "Enable or disable the top page facebook icon"
+
+#~ msgid "Your Facebook Profile Url"
+#~ msgstr "Your Facebook Profile Url"
+
+#~ msgid "Enter your facebook profile url."
+#~ msgstr "Enter your facebook profile url."
+
+#~ msgid "Enable/Disable Twitter Icon"
+#~ msgstr "Enable/Disable Twitter Icon"
+
+#~ msgid "Enable or disable the top page twitter icon"
+#~ msgstr "Enable or disable the top page twitter icon"
+
+#~ msgid "Your Twitter Username"
+#~ msgstr "Your Twitter Username"
+
+#~ msgid "Enter your twitter username."
+#~ msgstr "Enter your twitter username."
+
+#~ msgid "Enable/Disable LinkedIn Icon"
+#~ msgstr "Enable/Disable LinkedIn Icon"
+
+#~ msgid "Enable or disable the top page LinkedIn icon"
+#~ msgstr "Enable or disable the top page LinkedIn icon"
+
+#~ msgid "Your LinkedIn Profile URL"
+#~ msgstr "Your LinkedIn Profile URL"
+
+#~ msgid "Enter your LinkedIn profile url."
+#~ msgstr "Enter your LinkedIn profile url."
+
+#~ msgid "Enable/Disable Google Plus Icon"
+#~ msgstr "Enable/Disable Google Plus Icon"
+
+#~ msgid "Enable or disable the top page Google Plus icon"
+#~ msgstr "Enable or disable the top page Google Plus icon"
+
+#~ msgid "Enter your Google Plus profile url."
+#~ msgstr "Enter your Google Plus profile url."
+
+#~ msgid "Enable/Disable Pinterest Icon"
+#~ msgstr "Enable/Disable Pinterest Icon"
+
+#~ msgid "Enable or disable the top page Pinterest icon"
+#~ msgstr "Enable or disable the top page Pinterest icon"
+
+#~ msgid "Enter your Pinterest profile url."
+#~ msgstr "Enter your Pinterest profile url."
+
+#~ msgid "Enable/Disable Rss Icon"
+#~ msgstr "Enable/Disable Rss Icon"
+
+#~ msgid "Enable or disable the top page Rss icon"
+#~ msgstr "Enable or disable the top page Rss icon"
+
+#~ msgid "Your Rss URL"
+#~ msgstr "Your Rss URL"
+
+#~ msgid "Enter your Rss url."
+#~ msgstr "Enter your Rss url."
+
+#~ msgid "Enable/Disable Add This Icon"
+#~ msgstr "Enable/Disable Add This Icon"
+
+#~ msgid "Enable or disable the top page Add This icon"
+#~ msgstr "Enable or disable the top page Add This icon"
+
+#~ msgid "Homepage Layout Manager"
+#~ msgstr "Homepage Layout Manager"
+
+#~ msgid "Organize how you want the layout to appear on the homepage"
+#~ msgstr "Organize how you want the layout to appear on the homepage"
+
+#~ msgid "Enter the title of the latest work section"
+#~ msgstr "Enter the title of the latest work section"
+
+#~ msgid "Custom Section Content"
+#~ msgstr "Custom Section Content"
+
+#~ msgid "Blog"
+#~ msgstr "Blog"
+
+#~ msgid "Main Layout"
+#~ msgstr "Main Layout"
+
+#~ msgid ""
+#~ "Select main content and sidebar alignment. Choose between left or right "
+#~ "side column layout."
+#~ msgstr ""
+#~ "Select main content and sidebar alignment. Choose between left or right "
+#~ "side column layout."
+
+#~ msgid "Blog Posts Number"
+#~ msgstr "Blog Posts Number"
+
+#~ msgid "Display Thumbnail on Blog Single Post"
+#~ msgstr "Display Thumbnail on Blog Single Post"
+
+#~ msgid "Enable or disable the thumbnail on blog single post"
+#~ msgstr "Enable or disable the thumbnail on blog single post"
+
+#~ msgid "Display Author Box"
+#~ msgstr "Display Author Box"
+
+#~ msgid "Enable or disable the post' author box"
+#~ msgstr "Enable or disable the post' author box"
+
+#~ msgid "Enable or disable the display of trackbacks and pings"
+#~ msgstr "Enable or disable the display of trackbacks and pings"
+
+#~ msgid "Display Related Posts"
+#~ msgstr "Display Related Posts"
+
+#~ msgid "Enable or disable the related posts section"
+#~ msgstr "Enable or disable the related posts section"
+
+#~ msgid "Display Social Share Buttons"
+#~ msgstr "Display Social Share Buttons"
+
+#~ msgid "Enable or disable the social share buttons"
+#~ msgstr "Enable or disable the social share buttons"
+
+#~ msgid "Enable/Disable Facebook Comments"
+#~ msgstr "Enable/Disable Facebook Comments"
+
+#~ msgid "Enable or disable the facebook blog comments"
+#~ msgstr "Enable or disable the facebook blog comments"
+
+#~ msgid "Facebook Comments App ID"
+#~ msgstr "Facebook Comments App ID"
+
+#~ msgid "If Facebook comments are enabled insert your Facebook App ID"
+#~ msgstr "If Facebook comments are enabled insert your Facebook App ID"
+
+#~ msgid "Portfolio"
+#~ msgstr "Portfolio"
+
+#~ msgid "Number of Portfolio Items to Display on Portfolio Page"
+#~ msgstr "Number of Portfolio Items to Display on Portfolio Page"
+
+#~ msgid "Number of portfolio items to show on the portfolio page."
+#~ msgstr "Number of portfolio items to show on the portfolio page."
+
+#~ msgid "Styling"
+#~ msgstr "Styling"
+
+#~ msgid "Pick a background color for the theme."
+#~ msgstr "Pick a background color for the theme."
+
+#~ msgid "Header &amp; Footer Background Pattern"
+#~ msgstr "Header &amp; Footer Background Pattern"
+
+#~ msgid "Select the body background pattern."
+#~ msgstr "Select the body background pattern."
+
+#~ msgid "Custom Body Background Image"
+#~ msgstr "Custom Body Background Image"
+
+#~ msgid ""
+#~ "Upload a custom background image or specify the image address of your "
+#~ "background. (http://yoursite.com/bg.png)"
+#~ msgstr ""
+#~ "Upload a custom background image or specify the image address of your "
+#~ "background. (http://yoursite.com/bg.png)"
+
+#~ msgid "Custom Background Position"
+#~ msgstr "Custom Background Position"
+
+#~ msgid "Select your custom background's position."
+#~ msgstr "Select your custom background's position."
+
+#~ msgid "Custom Background Repeat"
+#~ msgstr "Custom Background Repeat"
+
+#~ msgid "Select the custom background repeat."
+#~ msgstr "Select the custom background repeat."
+
+#~ msgid "Typography"
+#~ msgstr "Typography"
+
+#~ msgid "Sitewide Body Font Family"
+#~ msgstr "Sitewide Body Font Family"
+
+#~ msgid "Font face of the body"
+#~ msgstr "Font face of the body"
+
+#~ msgid "Sitewide Body Font Size"
+#~ msgstr "Sitewide Body Font Size"
+
+#~ msgid "Set up the body font size (px)."
+#~ msgstr "Set up the body font size (px)."
+
+#~ msgid "Sitewide Body Font Line Height"
+#~ msgstr "Sitewide Body Font Line Height"
+
+#~ msgid "Set up the body font line height size (px)."
+#~ msgstr "Set up the body font line height size (px)."
+
+#~ msgid "Menu Font Family"
+#~ msgstr "Menu Font Family"
+
+#~ msgid "Font face of the menu"
+#~ msgstr "Font face of the menu"
+
+#~ msgid "Menu Font Size"
+#~ msgstr "Menu Font Size"
+
+#~ msgid "Set up the menu font size (px)."
+#~ msgstr "Set up the menu font size (px)."
+
+#~ msgid "Titles Font Family"
+#~ msgstr "Titles Font Family"
+
+#~ msgid "Font face of the titles"
+#~ msgstr "Font face of the titles"
+
+#~ msgid "H1 Title Font Size"
+#~ msgstr "H1 Title Font Size"
+
+#~ msgid "Set up the h1 titles font size (px)."
+#~ msgstr "Set up the h1 titles font size (px)."
+
+#~ msgid "H2 Title Font Size"
+#~ msgstr "H2 Title Font Size"
+
+#~ msgid "Set up the h2 titles font size (px)."
+#~ msgstr "Set up the h2 titles font size (px)."
+
+#~ msgid "H3 Title Font Size"
+#~ msgstr "H3 Title Font Size"
+
+#~ msgid "Set up the h3 titles font size (px)."
+#~ msgstr "Set up the h3 titles font size (px)."
+
+#~ msgid "H4 Title Font Size"
+#~ msgstr "H4 Title Font Size"
+
+#~ msgid "Set up the h4 titles font size (px)."
+#~ msgstr "Set up the h4 titles font size (px)."
+
+#~ msgid "H5 Title Font Size"
+#~ msgstr "H5 Title Font Size"
+
+#~ msgid "Set up the h5 titles font size (px)."
+#~ msgstr "Set up the h5 titles font size (px)."
+
+#~ msgid "H6 Title Font Size"
+#~ msgstr "H6 Title Font Size"
+
+#~ msgid "Set up the h6 titles font size (px)."
+#~ msgstr "Set up the h6 titles font size (px)."
+
+#~ msgid "Feat. Slider"
+#~ msgstr "Feat. Slider"
+
+#~ msgid "Enable or disable the homepage featured slider"
+#~ msgstr "Enable or disable the homepage featured slider"
+
+#~ msgid "Slider Type"
+#~ msgstr "Slider Type"
+
+#~ msgid "Static Image"
+#~ msgstr "Static Image"
+
+#~ msgid "Upload your image (946x375)"
+#~ msgstr "Upload your image (946x375)"
+
+#~ msgid "Featured Slider"
+#~ msgstr "Featured Slider"
+
+#~ msgid "Slider Effect"
+#~ msgstr "Slider Effect"
+
+#~ msgid "Select the effect of the featured slider"
+#~ msgstr "Select the effect of the featured slider"
+
+#~ msgid "Transition Speed"
+#~ msgstr "Transition Speed"
+
+#~ msgid "Slide transition speed."
+#~ msgstr "Slide transition speed."
+
+#~ msgid "Slide Pause Time"
+#~ msgstr "Slide Pause Time"
+
+#~ msgid "How long each slide will show (milliseconds)."
+#~ msgstr "How long each slide will show (milliseconds)."
+
+#~ msgid "Pause on Hover"
+#~ msgstr "Pause on Hover"
+
+#~ msgid "Stop animation while hovering."
+#~ msgstr "Stop animation while hovering."
+
+#~ msgid "Footer"
+#~ msgstr "Footer"
+
+#~ msgid "Enable Custom Footer Copyright"
+#~ msgstr "Enable Custom Footer Copyright"
+
+#~ msgid "Displays your custom copyright text."
+#~ msgstr "Displays your custom copyright text."
+
+#~ msgid "Backup"
+#~ msgstr "Backup"
+
+#~ msgid "RW_Meta_Box Debug:"
+#~ msgstr "RW_Meta_Box Debug:"
+
+#~ msgid "Portfolio Item Type"
+#~ msgstr "Portfolio Item Type"
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid "Video"
+#~ msgstr "Video"
+
+#~ msgid "Audio"
+#~ msgstr "Audio"
+
+#~ msgid "Choose the type of your item"
+#~ msgstr "Choose the type of your item"
+
+#~ msgid "Enter the URL of your video"
+#~ msgstr "Enter the URL of your video"
+
+#~ msgid "Audio File URL"
+#~ msgstr "Audio File URL"
+
+#~ msgid ""
+#~ "Enter the URL of your audio file <small>(eg. yoursite.com/sound.mp3)</"
+#~ "small>"
+#~ msgstr ""
+#~ "Enter the URL of your audio file <small>(eg. yoursite.com/sound.mp3)</"
+#~ "small>"
+
+#~ msgid "Audio File ID"
+#~ msgstr "Audio File ID"
+
+#~ msgid ""
+#~ "Enter a number for the audio ID <small>(must be unique in your portfolio)"
+#~ "</small>"
+#~ msgstr ""
+#~ "Enter a number for the audio ID <small>(must be unique in your portfolio)"
+#~ "</small>"
+
+#~ msgid "Audio File Title"
+#~ msgstr "Audio File Title"
+
+#~ msgid "Enter the title of the audio file"
+#~ msgstr "Enter the title of the audio file"
+
+#~ msgid "Audio File Artist"
+#~ msgstr "Audio File Artist"
+
+#~ msgid "Enter the name of the artist"
+#~ msgstr "Enter the name of the artist"
+
+#~ msgid "Select a color"
+#~ msgstr "Select a color"
+
+#~ msgid "Featured Categories"
+#~ msgstr "Featured Categories"
+
+#~ msgid "Slider Item"
+#~ msgstr "Slider Item"
+
+#~ msgid "Add New Slide"
+#~ msgstr "Add New Slide"
+
+#~ msgid "Nothing found"
+#~ msgstr "Nothing found"
+
+#~ msgid "Featured Slider Options"
+#~ msgstr "Featured Slider Options"
+
+#~ msgid "Slide Link"
+#~ msgstr "Slide Link"
+
+#~ msgid "Insert a custom link for your slide (optional)"
+#~ msgstr "Insert a custom link for your slide (optional)"
+
+#~ msgid "Slide Type"
+#~ msgstr "Slide Type"
+
+#~ msgid "Select the type of your slide"
+#~ msgstr "Select the type of your slide"
+
+#~ msgid "Video ID"
+#~ msgstr "Video ID"
+
+#~ msgid "Example: http://www.youtube.com/watch?v=<strong>Bb1CuDI5IcA</strong>"
+#~ msgstr ""
+#~ "Example: http://www.youtube.com/watch?v=<strong>Bb1CuDI5IcA</strong>"
+
+#~ msgid "Tick if you want to enable a caption for your slide"
+#~ msgstr "Tick if you want to enable a caption for your slide"
+
+#~ msgid "Caption Text"
+#~ msgstr "Caption Text"
+
+#~ msgid ""
+#~ "Insert the content of the caption (shortcodes &amp; html are allowed)"
+#~ msgstr ""
+#~ "Insert the content of the caption (shortcodes &amp; html are allowed)"
+
+#~ msgid "Portfolio Categories"
+#~ msgstr "Portfolio Categories"
+
+#~ msgid "Portfolio Category"
+#~ msgstr "Portfolio Category"
+
+#~ msgid "Search Categories"
+#~ msgstr "Search Categories"
+
+#~ msgid "Popular Categories"
+#~ msgstr "Popular Categories"
+
+#~ msgid "All Categories"
+#~ msgstr "All Categories"
+
+#~ msgid "Edit Portfolio Category"
+#~ msgstr "Edit Portfolio Category"
+
+#~ msgid "Update Portfolio Category"
+#~ msgstr "Update Portfolio Category"
+
+#~ msgid "Add New Portfolio Category"
+#~ msgstr "Add New Portfolio Category"
+
+#~ msgid "New Portfolio Category Name"
+#~ msgstr "New Portfolio Category Name"
+
+#~ msgid "Separate Portfolio category with commas"
+#~ msgstr "Separate Portfolio category with commas"
+
+#~ msgid "Add or remove portfolio category"
+#~ msgstr "Add or remove portfolio category"
+
+#~ msgid "Choose from the most used portfolio category"
+#~ msgstr "Choose from the most used portfolio category"
+
+#~ msgid "Portfolio Item"
+#~ msgstr "Portfolio Item"
+
+#~ msgid "Add New Portfolio Item"
+#~ msgstr "Add New Portfolio Item"
+
+#~ msgid "Edit Portfolio Item"
+#~ msgstr "Edit Portfolio Item"
+
+#~ msgid "New Portfolio Item"
+#~ msgstr "New Portfolio Item"
+
+#~ msgid "View Portfolio Item"
+#~ msgstr "View Portfolio Item"
+
+#~ msgid "Search Portfolio"
+#~ msgstr "Search Portfolio"
+
+#~ msgid ""
+#~ "A widget that allows the display and configuration of 6 125x125 ads "
+#~ "blocks."
+#~ msgstr ""
+#~ "A widget that allows the display and configuration of 6 125x125 ads "
+#~ "blocks."
+
+#~ msgid "Gotham - 125x125 Ads"
+#~ msgstr "Gotham - 125x125 Ads"
+
+#~ msgid "Sponsored By"
+#~ msgstr "Sponsored By"
+
+#~ msgid "Gotham - Contact Form"
+#~ msgstr "Gotham - Contact Form"
+
+#~ msgid "Name*"
+#~ msgstr "Name*"
+
+#~ msgid "E-Mail*"
+#~ msgstr "E-Mail*"
+
+#~ msgid "Submit"
+#~ msgstr "Submit"
+
+#~ msgid "Contact Form"
+#~ msgstr "Contact Form"
+
+#~ msgid "A widget that displays your contact info."
+#~ msgstr "A widget that displays your contact info."
+
+#~ msgid "Gotham - Contact Us"
+#~ msgstr "Gotham - Contact Us"
+
+#~ msgid "Contact Us"
+#~ msgstr "Contact Us"
+
+#~ msgid "Phone #"
+#~ msgstr "Phone #"
+
+#~ msgid "A widget that displays your Flickr photos."
+#~ msgstr "A widget that displays your Flickr photos."
+
+#~ msgid "Gotham - Flickr Photos"
+#~ msgstr "Gotham - Flickr Photos"
+
+#~ msgid "Photostream"
+#~ msgstr "Photostream"
+
+#~ msgid "Flickr ID:"
+#~ msgstr "Flickr ID:"
+
+#~ msgid "Type (user or group):"
+#~ msgstr "Type (user or group):"
+
+#~ msgid "Display (random or latest):"
+#~ msgstr "Display (random or latest):"
+
+#~ msgid "Edit this entry."
+#~ msgstr "Edit this entry."
+
+#~ msgid "Categories:"
+#~ msgstr "Categories:"
+
+#~ msgid "0 <span class=\"grey\">Comments</span>"
+#~ msgstr "0 <span class=\"grey\">Comments</span>"
+
+#~ msgid "Subscribe to RSS"
+#~ msgstr "Subscribe to RSS"
+
+#~ msgid "Tagged as:<br /> "
+#~ msgstr "Tagged as:<br /> "
+
+#~ msgid "Latest From The Blog Section"
+#~ msgstr "Latest From The Blog Section"
+
+#~ msgid "Enable/Disable Header Custom Text"
+#~ msgstr "Enable/Disable Header Custom Text"
+
+#~ msgid "Enable or disable the header custom text section"
+#~ msgstr "Enable or disable the header custom text section"
+
+#~ msgid "Insert the content of the header custom text section"
+#~ msgstr "Insert the content of the header custom text section"
+
+#~ msgid "Enable/Disable Flickr Icon"
+#~ msgstr "Enable/Disable Flickr Icon"
+
+#~ msgid "Enable or disable the top page Flickr icon"
+#~ msgstr "Enable or disable the top page Flickr icon"
+
+#~ msgid "Your Flickr Profile URL"
+#~ msgstr "Your Flickr Profile URL"
+
+#~ msgid "Enable/Disable Breadcumbs Navigation"
+#~ msgstr "Enable/Disable Breadcumbs Navigation"
+
+#~ msgid "Enable or disable breadcrumbs navigation"
+#~ msgstr "Enable or disable breadcrumbs navigation"
+
+#~ msgid ""
+#~ "Insert the intro section content. (html &amp; shortcodes are supported)"
+#~ msgstr ""
+#~ "Insert the intro section content. (html &amp; shortcodes are supported)"
+
+#~ msgid "Portfolio Page"
+#~ msgstr "Portfolio Page"
+
+#~ msgid "Select your portfolio page."
+#~ msgstr "Select your portfolio page."
+
+#~ msgid "Recent Blog Title"
+#~ msgstr "Recent Blog Title"
+
+#~ msgid "Enter the title of the recent blog section"
+#~ msgstr "Enter the title of the recent blog section"
+
+#~ msgid "Blog Page"
+#~ msgstr "Blog Page"
+
+#~ msgid "Select your blog page."
+#~ msgstr "Select your blog page."
+
+#~ msgid "Enable or disable the homepage clients logo section"
+#~ msgstr "Enable or disable the homepage clients logo section"
+
+#~ msgid "Client Logos Title"
+#~ msgstr "Client Logos Title"
+
+#~ msgid "Enter the title of the client logos section"
+#~ msgstr "Enter the title of the client logos section"
+
+#~ msgid "Client Logo 1"
+#~ msgstr "Client Logo 1"
+
+#~ msgid "Upload your image (126x65)"
+#~ msgstr "Upload your image (126x65)"
+
+#~ msgid "Client Logo 2"
+#~ msgstr "Client Logo 2"
+
+#~ msgid "Client Logo 3"
+#~ msgstr "Client Logo 3"
+
+#~ msgid "Client Logo 4"
+#~ msgstr "Client Logo 4"
+
+#~ msgid "Client Logo 5"
+#~ msgstr "Client Logo 5"
+
+#~ msgid "Client Logo 6"
+#~ msgstr "Client Logo 6"
+
+#~ msgid ""
+#~ "Select main content and sidebar alignment. Choose between 1, 2 or 3 "
+#~ "column layout."
+#~ msgstr ""
+#~ "Select main content and sidebar alignment. Choose between 1, 2 or 3 "
+#~ "column layout."
+
+#~ msgid "Sitewide Links Color"
+#~ msgstr "Sitewide Links Color"
+
+#~ msgid "Sitewide links color styling"
+#~ msgstr "Sitewide links color styling"
+
+#~ msgid "Sitewide Links Hover Color"
+#~ msgstr "Sitewide Links Hover Color"
+
+#~ msgid "Sitewide links hover color styling"
+#~ msgstr "Sitewide links hover color styling"
+
+#~ msgid "Menu Links Color"
+#~ msgstr "Menu Links Color"
+
+#~ msgid "Menu links color styling"
+#~ msgstr "Menu links color styling"
+
+#~ msgid "Menu Links Color Hover"
+#~ msgstr "Menu Links Color Hover"
+
+#~ msgid "Menu links hover color styling"
+#~ msgstr "Menu links hover color styling"
+
+#~ msgid "Site Titles &amp; Menu Font Family"
+#~ msgstr "Site Titles &amp; Menu Font Family"
+
+#~ msgid "Font face of the site titles"
+#~ msgstr "Font face of the site titles"
+
+#~ msgid "Contact"
+#~ msgstr "Contact"
+
+#~ msgid "Contact Address"
+#~ msgstr "Contact Address"
+
+#~ msgid "Insert your contact address"
+#~ msgstr "Insert your contact address"
+
+#~ msgid "Show/Hide Popup Bubble"
+#~ msgstr "Show/Hide Popup Bubble"
+
+#~ msgid "Displays the popup bubble over the map."
+#~ msgstr "Displays the popup bubble over the map."
+
+#~ msgid "Popup Bubble Text"
+#~ msgstr "Popup Bubble Text"
+
+#~ msgid "Text to display if popup bubble is enabled"
+#~ msgstr "Text to display if popup bubble is enabled"
+
+#~ msgid "Map Zoom"
+#~ msgstr "Map Zoom"
+
+#~ msgid "Level of zoom on the map"
+#~ msgstr "Level of zoom on the map"
+
+#~ msgid "Insert your email address"
+#~ msgstr "Insert your email address"
+
+#~ msgid "Welcome to the innoVative Options Panel."
+#~ msgstr "Welcome to the innoVative Options Panel."
+
+#~ msgid ""
+#~ "innoVative has a simple to use administration panel. The theme options "
+#~ "are conveniently spread over a number of tabs. Each tab contains the "
+#~ "options that pertain to a particular area of the theme."
+#~ msgstr ""
+#~ "innoVative has a simple to use administration panel. The theme options "
+#~ "are conveniently spread over a number of tabs. Each tab contains the "
+#~ "options that pertain to a particular area of the theme."
+
+#~ msgid "Latest Work Section Description"
+#~ msgstr "Latest Work Section Description"
+
+#~ msgid "Enter the content of the description of latest work section"
+#~ msgstr "Enter the content of the description of latest work section"
+
+#~ msgid "Work Page"
+#~ msgstr "Work Page"
+
+#~ msgid "Menu Background Pattern"
+#~ msgstr "Menu Background Pattern"
+
+#~ msgid "Select the menu background pattern."
+#~ msgstr "Select the menu background pattern."
+
+#~ msgid "Body Background Pattern"
+#~ msgstr "Body Background Pattern"
+
+#~ msgid "innoVative - Contact Form"
+#~ msgstr "innoVative - Contact Form"
+
+#~ msgid "View Portfolio"
+#~ msgstr "View Portfolio"
+
+#~ msgid "seek and you shall find"
+#~ msgstr "seek and you shall find"
+
+#~ msgid "You are here: "
+#~ msgstr "You are here: "
+
+#~ msgid "To Top"
+#~ msgstr "To Top"
+
+#~ msgid "Client Thumb Size"
+#~ msgstr "Client Thumb Size"
+
+#~ msgid "Edit this entry.<br />"
+#~ msgstr "Edit this entry.<br />"
+
+#~ msgid "Client Name: "
+#~ msgstr "Client Name: "
+
+#~ msgid "Classification: "
+#~ msgstr "Classification: "
+
+#~ msgid "view images"
+#~ msgstr "view images"
+
+#~ msgid "Previous Article"
+#~ msgstr "Previous Article"
+
+#~ msgid "Next Article"
+#~ msgstr "Next Article"
+
+#~ msgid "Body Background Color"
+#~ msgstr "Body Background Color"
+
+#~ msgid "Body Sitewide Font Color"
+#~ msgstr "Body Sitewide Font Color"
+
+#~ msgid "Pick a color for the body font."
+#~ msgstr "Pick a color for the body font."
+
+#~ msgid "Footer Background Color"
+#~ msgstr "Footer Background Color"
+
+#~ msgid "Footer Font Color"
+#~ msgstr "Footer Font Color"
+
+#~ msgid "Pick a color for the footer font."
+#~ msgstr "Pick a color for the footer font."
+
+#~ msgid "Sitewide Titles Color"
+#~ msgstr "Sitewide Titles Color"
+
+#~ msgid "Pick a color for the titles."
+#~ msgstr "Pick a color for the titles."
+
+#~ msgid "Footer Titles Color"
+#~ msgstr "Footer Titles Color"
+
+#~ msgid "Pick a color for the footer titles."
+#~ msgstr "Pick a color for the footer titles."
+
+#~ msgid "Footer Menu Links Color"
+#~ msgstr "Footer Menu Links Color"
+
+#~ msgid "Footer menu links color styling"
+#~ msgstr "Footer menu links color styling"
+
+#~ msgid "Slider ID"
+#~ msgstr "Slider ID"
+
+#~ msgid ""
+#~ "Enter a number for the slider ID <small>(must be unique in your portfolio)"
+#~ "</small>"
+#~ msgstr ""
+#~ "Enter a number for the slider ID <small>(must be unique in your portfolio)"
+#~ "</small>"
+
+#~ msgid "Slider Images"
+#~ msgstr "Slider Images"
+
+#~ msgid ""
+#~ "Upload your slider images for the portfolio. You can order the slides by "
+#~ "dragging the images."
+#~ msgstr ""
+#~ "Upload your slider images for the portfolio. You can order the slides by "
+#~ "dragging the images."
+
+#~ msgid "Client Name"
+#~ msgstr "Client Name"
+
+#~ msgid "Enter the name of the client <small>(optional)</small>"
+#~ msgstr "Enter the name of the client <small>(optional)</small>"
+
+#~ msgid "Classification"
+#~ msgstr "Classification"
+
+#~ msgid ""
+#~ "Enter the type of classification <small>(eg. Photography) (optional)</"
+#~ "small>"
+#~ msgstr ""
+#~ "Enter the type of classification <small>(eg. Photography) (optional)</"
+#~ "small>"
+
+#~ msgid "A widget that displays the Feerdburner email submit form."
+#~ msgstr "A widget that displays the Feerdburner email submit form."
+
+#~ msgid "GR8 - RSS &amp; Twitter Subscribers"
+#~ msgstr "GR8 - RSS &amp; Twitter Subscribers"
+
+#~ msgid "followers"
+#~ msgstr "followers"
+
+#~ msgid "subscribers"
+#~ msgstr "subscribers"
+
+#~ msgid "Feedburner ID"
+#~ msgstr "Feedburner ID"
+
+#~ msgid "A widget that displays recent posts, popular posts and tags."
+#~ msgstr "A widget that displays recent posts, popular posts and tags."
+
+#~ msgid "GR8 - Tabbed"
+#~ msgstr "GR8 - Tabbed"
+
+#~ msgid "Recent Posts Tab Title"
+#~ msgstr "Recent Posts Tab Title"
+
+#~ msgid "Popular Posts Tab Title"
+#~ msgstr "Popular Posts Tab Title"
+
+#~ msgid "Tags Tab Title"
+#~ msgstr "Tags Tab Title"
+
+#~ msgid "read the blog"
+#~ msgstr "read the blog"
+
+#~ msgid "more works"
+#~ msgstr "more works"
+
+#~ msgid "Share"
+#~ msgstr "Share"
+
+#~ msgid "No posts found. Try a different search?"
+#~ msgstr "No posts found. Try a different search?"
+
+#~ msgid "Custom Menu"
+#~ msgstr "Custom Menu"
+
+#~ msgid "Call Us"
+#~ msgstr "Call Us"
+
+#~ msgid "FILTER BY"
+#~ msgstr "FILTER BY"
+
+#~ msgid "0 comments"
+#~ msgstr "0 comments"
+
+#~ msgid "% comments"
+#~ msgstr "% comments"
+
+#~ msgid "View Project"
+#~ msgstr "View Project"
+
+#~ msgid "View full Portfolio"
+#~ msgstr "View full Portfolio"
+
+#~ msgid "*You forgot to enter your phone #."
+#~ msgstr "*You forgot to enter your phone #."
+
+#~ msgid "Email*"
+#~ msgstr "Email*"
+
+#~ msgid "Select a category:"
+#~ msgstr "Select a category:"
+
+#~ msgid "Enable/Disable Telephone Number Section"
+#~ msgstr "Enable/Disable Telephone Number Section"
+
+#~ msgid "Enter your telephone."
+#~ msgstr "Enter your telephone."
+
+#~ msgid "Enable or disable the top page Dribble icon"
+#~ msgstr "Enable or disable the top page Dribble icon"
+
+#~ msgid "Enable/Disable Youtube Icon"
+#~ msgstr "Enable/Disable Youtube Icon"
+
+#~ msgid "Enable or disable the top page Youtube icon"
+#~ msgstr "Enable or disable the top page Youtube icon"
+
+#~ msgid "Your Youtube Profile URL"
+#~ msgstr "Your Youtube Profile URL"
+
+#~ msgid "Enter your Youtube profile url."
+#~ msgstr "Enter your Youtube profile url."
+
+#~ msgid "Enable/Disable Latest Tweets"
+#~ msgstr "Enable/Disable Latest Tweets"
+
+#~ msgid "Portfolio Options"
+#~ msgstr "Portfolio Options"
+
+#~ msgid "Enable/Disable Testimonials section"
+#~ msgstr "Enable/Disable Testimonials section"
+
+#~ msgid "Enter the title of the testimonials section"
+#~ msgstr "Enter the title of the testimonials section"
+
+#~ msgid "Testimonial 1"
+#~ msgstr "Testimonial 1"
+
+#~ msgid "Testimonial 1 Author"
+#~ msgstr "Testimonial 1 Author"
+
+#~ msgid "Enter the name of the Testimonial 1 author"
+#~ msgstr "Enter the name of the Testimonial 1 author"
+
+#~ msgid "Testimonial 2"
+#~ msgstr "Testimonial 2"
+
+#~ msgid "Enter the content of testimonial 2"
+#~ msgstr "Enter the content of testimonial 2"
+
+#~ msgid "Testimonial 2 Author"
+#~ msgstr "Testimonial 2 Author"
+
+#~ msgid "Enter the name of the Testimonial 2 author"
+#~ msgstr "Enter the name of the Testimonial 2 author"
+
+#~ msgid "Testimonial 3"
+#~ msgstr "Testimonial 3"
+
+#~ msgid "Enter the content of testimonial 3"
+#~ msgstr "Enter the content of testimonial 3"
+
+#~ msgid "Testimonial 3 Author"
+#~ msgstr "Testimonial 3 Author"
+
+#~ msgid "Enter the name of the Testimonial 3 author"
+#~ msgstr "Enter the name of the Testimonial 3 author"
+
+#~ msgid "Testimonial 4"
+#~ msgstr "Testimonial 4"
+
+#~ msgid "Enter the content of testimonial 4"
+#~ msgstr "Enter the content of testimonial 4"
+
+#~ msgid "Testimonial 4 Author"
+#~ msgstr "Testimonial 4 Author"
+
+#~ msgid "Enter the name of the Testimonial 4 author"
+#~ msgstr "Enter the name of the Testimonial 4 author"
+
+#~ msgid "Testimonial 5"
+#~ msgstr "Testimonial 5"
+
+#~ msgid "Enter the content of testimonial 5"
+#~ msgstr "Enter the content of testimonial 5"
+
+#~ msgid "Testimonial 5 Author"
+#~ msgstr "Testimonial 5 Author"
+
+#~ msgid "Enter the name of the Testimonial 5 author"
+#~ msgstr "Enter the name of the Testimonial 5 author"
+
+#~ msgid "Enable/Disable Recent Projects Section"
+#~ msgstr "Enable/Disable Recent Projects Section"
+
+#~ msgid "Enable or disable the homepage portfolio section"
+#~ msgstr "Enable or disable the homepage portfolio section"
+
+#~ msgid "Recent Projects Section Title"
+#~ msgstr "Recent Projects Section Title"
+
+#~ msgid "Enter the title of the recent projects section"
+#~ msgstr "Enter the title of the recent projects section"
+
+#~ msgid "Enable/Disable Blog Default Comments"
+#~ msgstr "Enable/Disable Blog Default Comments"
+
+#~ msgid "Enable or disable the default blog comments"
+#~ msgstr "Enable or disable the default blog comments"
+
+#~ msgid "Styling Options"
+#~ msgstr "Styling Options"
+
+#~ msgid "How many featured posts to show in the featured slider."
+#~ msgstr "How many featured posts to show in the featured slider."
+
+#~ msgid "Show Caption"
+#~ msgstr "Show Caption"
+
+#~ msgid "Select how to display the caption."
+#~ msgstr "Select how to display the caption."
+
+#~ msgid "Contact Options"
+#~ msgstr "Contact Options"
+
+#~ msgid "Cannot delete file. Something's wrong."
+#~ msgstr "Cannot delete file. Something's wrong."
+
+#~ msgid "Delete"
+#~ msgstr "Delete"
+
+#~ msgid "Upload new files"
+#~ msgstr "Upload new files"
+
+#~ msgid "Add more file"
+#~ msgstr "Add more file"
+
+#~ msgid "Delete this image"
+#~ msgstr "Delete this image"
+
+#~ msgid "Photo"
+#~ msgstr "Photo"
+
+#~ msgid "Enter the website URL"
+#~ msgstr "Enter the website URL"
+
+#~ msgid "Skype Username"
+#~ msgstr "Skype Username"
+
+#~ msgid "Zoomba - Feedburner Email Form"
+#~ msgstr "Zoomba - Feedburner Email Form"
+
+#~ msgid "Sure, Count me in"
+#~ msgstr "Sure, Count me in"
+
+#~ msgid "Get Updates by Email"
+#~ msgstr "Get Updates by Email"
+
+#~ msgid "Custom Text"
+#~ msgstr "Custom Text"
+
+#~ msgid "Zoomba - Popular Posts"
+#~ msgstr "Zoomba - Popular Posts"
+
+#~ msgid "Number of posts"
+#~ msgstr "Number of posts"
+
+#~ msgid "A widget that displays the latest items from portfolio."
+#~ msgstr "A widget that displays the latest items from portfolio."
+
+#~ msgid "Zoomba - Portfolio Slider"
+#~ msgstr "Zoomba - Portfolio Slider"
+
+#~ msgid "Recent Projects"
+#~ msgstr "Recent Projects"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "Number of Items"
+#~ msgstr "Number of Items"
+
+#~ msgid "A widget that displays your blog recent posts."
+#~ msgstr "A widget that displays your blog recent posts."
+
+#~ msgid "Zoomba - Recent Posts"
+#~ msgstr "Zoomba - Recent Posts"
+
+#~ msgid "Recent Posts"
+#~ msgstr "Recent Posts"
+
+#~ msgid "Zoomba - Social"
+#~ msgstr "Zoomba - Social"
+
+#~ msgid "Our Social Profiles"
+#~ msgstr "Our Social Profiles"
+
+#~ msgid "LinkedIn Profile URL"
+#~ msgstr "LinkedIn Profile URL"
+
+#~ msgid "Flickr Profile Url"
+#~ msgstr "Flickr Profile Url"
+
+#~ msgid "Dribble Profile Url"
+#~ msgstr "Dribble Profile Url"
+
+#~ msgid "Youtube Profile Url"
+#~ msgstr "Youtube Profile Url"
+
+#~ msgid "Slide URL"
+#~ msgstr "Slide URL"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "Mail (will not be published)"
+#~ msgstr "Mail (will not be published)"
+
+#~ msgid "POST COMMENT"
+#~ msgstr "POST COMMENT"
+
+#~ msgid "Page Options"
+#~ msgstr "Page Options"
+
+#~ msgid "Page Description (optional)"
+#~ msgstr "Page Description (optional)"
+
+#~ msgid "Enter the description of the page displayed in header"
+#~ msgstr "Enter the description of the page displayed in header"
+
+#~ msgid "Enable or disable the top right header custom text"
+#~ msgstr "Enable or disable the top right header custom text"
+
+#~ msgid "Top Right Custom Text"
+#~ msgstr "Top Right Custom Text"
+
+#~ msgid "If enabled, insert top right custom text"
+#~ msgstr "If enabled, insert top right custom text"
+
+#~ msgid "Activate to add the custom text below to the theme footer."
+#~ msgstr "Activate to add the custom text below to the theme footer."
+
+#~ msgid "Custom HTML and Text that will appear in the footer of your theme."
+#~ msgstr "Custom HTML and Text that will appear in the footer of your theme."
+
+#~ msgid "No comments"
+#~ msgstr "No comments"
+
+#~ msgid "Socialize"
+#~ msgstr "Socialize"
+
+#~ msgid "Rss Feed Url"
+#~ msgstr "Rss Feed Url"
+
+#~ msgid "Your RSS Feed Url"
+#~ msgstr "Your RSS Feed Url"
+
+#~ msgid "Video ID (ie. vimeo.com/<strong>21189547</strong>)"
+#~ msgstr "Video ID (ie. vimeo.com/<strong>21189547</strong>)"
+
+#~ msgid "Homepage Portfolio Section Title"
+#~ msgstr "Homepage Portfolio Section Title"
+
+#~ msgid "Write the title for the portfolio section on the homepage."
+#~ msgstr "Write the title for the portfolio section on the homepage."
+
+#~ msgid "Show Directional Navigaton"
+#~ msgstr "Show Directional Navigaton"
+
+#~ msgid "Display navigation arrows."
+#~ msgstr "Display navigation arrows."
+
+#~ msgid "Show Bullets Navigaton"
+#~ msgstr "Show Bullets Navigaton"
+
+#~ msgid "Display navigation bullets."
+#~ msgstr "Display navigation bullets."
+
+#~ msgid "Show Navigation Only on Hover"
+#~ msgstr "Show Navigation Only on Hover"
+
+#~ msgid "Display navigation arrows only on mouse hover."
+#~ msgstr "Display navigation arrows only on mouse hover."
+
+#~ msgid "Caption Opacity"
+#~ msgstr "Caption Opacity"
+
+#~ msgid "Change the opacity of the caption (min: 0.1 max: 1"
+#~ msgstr "Change the opacity of the caption (min: 0.1 max: 1"
+
+#~ msgid "District 9 - Contact Us"
+#~ msgstr "District 9 - Contact Us"
+
+#~ msgid "District 9 - Popular Posts"
+#~ msgstr "District 9 - Popular Posts"
+
+#~ msgid "District 9 - Recent Posts"
+#~ msgstr "District 9 - Recent Posts"
+
+#~ msgid "Top Left Header Text"
+#~ msgstr "Top Left Header Text"
+
+#~ msgid "Top left header content"
+#~ msgstr "Top left header content"
+
+#~ msgid "Handerson - Contact Us"
+#~ msgstr "Handerson - Contact Us"
+
+#~ msgid "Handerson - Popular Posts"
+#~ msgstr "Handerson - Popular Posts"
+
+#~ msgid "Handerson - Recent Posts"
+#~ msgstr "Handerson - Recent Posts"
+
+#~ msgid "Posts tagged"
+#~ msgstr "Posts tagged"
+
+#~ msgid "Enter the blog page title."
+#~ msgstr "Enter the blog page title."
+
+#~ msgid "Homepage Portfolio Section Description"
+#~ msgstr "Homepage Portfolio Section Description"
+
+#~ msgid "Write a description for the portfolio section on the homepage."
+#~ msgstr "Write a description for the portfolio section on the homepage."
+
+#~ msgid "Search here ..."
+#~ msgstr "Search here ..."
+
+#~ msgid "Homepage Recent Blog Posts Section Description"
+#~ msgstr "Homepage Recent Blog Posts Section Description"
+
+#~ msgid ""
+#~ "Write a description for the recent plog posts section on the homepage."
+#~ msgstr ""
+#~ "Write a description for the recent plog posts section on the homepage."
+
+#~ msgid "Select a pattern."
+#~ msgstr "Select a pattern."
+
+#~ msgid "Sliding Speed"
+#~ msgstr "Sliding Speed"
+
+#~ msgid "type keyword and hit enter to search"
+#~ msgstr "type keyword and hit enter to search"
+
+#~ msgid ""
+#~ "Enable or disable the latest tweets secrion from the bottom of the page."
+#~ msgstr ""
+#~ "Enable or disable the latest tweets secrion from the bottom of the page."
+
+#~ msgid "Write the text that appears in the homepage custom text box."
+#~ msgstr "Write the text that appears in the homepage custom text box."
+
+#~ msgid "Blog Archives"
+#~ msgstr "Blog Archives"
+
+#~ msgid "Pages:"
+#~ msgstr "Pages:"
+
+#~ msgid "Insert the title that will display on the blog page."
+#~ msgstr "Insert the title that will display on the blog page."
+
+#~ msgid "Welcome to my Blog"
+#~ msgstr "Welcome to my Blog"
+
+#~ msgid "Write an intro text displayed on the homepage."
+#~ msgstr "Write an intro text displayed on the homepage."
+
+#~ msgid "Read Full Article"
+#~ msgstr "Read Full Article"
+
+#~ msgid "Blog Category"
+#~ msgstr "Blog Category"
+
+#~ msgid "Select the category for your blog posts."
+#~ msgstr "Select the category for your blog posts."
+
+#~ msgid "Divider Shortcode"
+#~ msgstr "Divider Shortcode"
+
+#~ msgid "Dividers"
+#~ msgstr "Dividers"
+
+#~ msgid "Columns Shortcode"
+#~ msgstr "Columns Shortcode"
+
+#~ msgid "Columns"
+#~ msgstr "Columns"
+
+#~ msgid "One Half"
+#~ msgstr "One Half"
+
+#~ msgid "One Half Last"
+#~ msgstr "One Half Last"
+
+#~ msgid "One Third"
+#~ msgstr "One Third"
+
+#~ msgid "One Third Last"
+#~ msgstr "One Third Last"
+
+#~ msgid "One Fourth"
+#~ msgstr "One Fourth"
+
+#~ msgid "One Fourth Last"
+#~ msgstr "One Fourth Last"
+
+#~ msgid "One Fifth"
+#~ msgstr "One Fifth"
+
+#~ msgid "One Fifth Last"
+#~ msgstr "One Fifth Last"
+
+#~ msgid "One Sixth"
+#~ msgstr "One Sixth"
+
+#~ msgid "One Sixth Last"
+#~ msgstr "One Sixth Last"
+
+#~ msgid "Two Third"
+#~ msgstr "Two Third"
+
+#~ msgid "Two Third Last"
+#~ msgstr "Two Third Last"
+
+#~ msgid "Two Fifth"
+#~ msgstr "Two Fifth"
+
+#~ msgid "Two Fifth Last"
+#~ msgstr "Two Fifth Last"
+
+#~ msgid "Three Fourth"
+#~ msgstr "Three Fourth"
+
+#~ msgid "Three Fourth Last"
+#~ msgstr "Three Fourth Last"
+
+#~ msgid "Three Fifth"
+#~ msgstr "Three Fifth"
+
+#~ msgid "Three Fifth Last"
+#~ msgstr "Three Fifth Last"
+
+#~ msgid "Four Fifth"
+#~ msgstr "Four Fifth"
+
+#~ msgid "Four Fifth Last"
+#~ msgstr "Four Fifth Last"
+
+#~ msgid "Five Sixth"
+#~ msgstr "Five Sixth"
+
+#~ msgid "Five Sixth Last"
+#~ msgstr "Five Sixth Last"
+
+#~ msgid "Buttons Shortcode"
+#~ msgstr "Buttons Shortcode"
+
+#~ msgid "Colored Buttons"
+#~ msgstr "Colored Buttons"
+
+#~ msgid "Colored Buttons Shortcode"
+#~ msgstr "Colored Buttons Shortcode"
+
+#~ msgid "Read More Button Shortcode"
+#~ msgstr "Read More Button Shortcode"
+
+#~ msgid "Drop Caps"
+#~ msgstr "Drop Caps"
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Circle"
+#~ msgstr "Circle"
+
+#~ msgid "List Style"
+#~ msgstr "List Style"
+
+#~ msgid "Arrow"
+#~ msgstr "Arrow"
+
+#~ msgid "Check Mark"
+#~ msgstr "Check Mark"
+
+#~ msgid "Framed Boxes"
+#~ msgstr "Framed Boxes"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Note"
+#~ msgstr "Note"
+
+#~ msgid "Highlight"
+#~ msgstr "Highlight"
+
+#~ msgid "Red"
+#~ msgstr "Red"
+
+#~ msgid "Blue"
+#~ msgstr "Blue"
+
+#~ msgid "Green"
+#~ msgstr "Green"
+
+#~ msgid "Yellow"
+#~ msgstr "Yellow"
+
+#~ msgid "Tooltips"
+#~ msgstr "Tooltips"
+
+#~ msgid "Tooltip"
+#~ msgstr "Tooltip"
+
+#~ msgid "Styled Table"
+#~ msgstr "Styled Table"
+
+#~ msgid "Short Url"
+#~ msgstr "Short Url"
+
+#~ msgid "Shorten Url"
+#~ msgstr "Shorten Url"
+
+#~ msgid "Url Shortening Shortcode"
+#~ msgstr "Url Shortening Shortcode"
+
+#~ msgid "Google Map Shortcode"
+#~ msgstr "Google Map Shortcode"
+
+#~ msgid "Tabs Shortcode"
+#~ msgstr "Tabs Shortcode"
+
+#~ msgid "Tabs"
+#~ msgstr "Tabs"
+
+#~ msgid "Horizontal"
+#~ msgstr "Horizontal"
+
+#~ msgid "Vertical"
+#~ msgstr "Vertical"
+
+#~ msgid "Tab Items"
+#~ msgstr "Tab Items"
+
+#~ msgid "Tab Item"
+#~ msgstr "Tab Item"
+
+#~ msgid "Accordions Shortcode"
+#~ msgstr "Accordions Shortcode"
+
+#~ msgid "Accordions"
+#~ msgstr "Accordions"
+
+#~ msgid "Accordion"
+#~ msgstr "Accordion"
+
+#~ msgid "Accordion Item"
+#~ msgstr "Accordion Item"
+
+#~ msgid "Toggle Shortcode"
+#~ msgstr "Toggle Shortcode"
+
+#~ msgid "Google Chart Shortcode"
+#~ msgstr "Google Chart Shortcode"
+
+#~ msgid "Corporate Pricing Table Shortcode"
+#~ msgstr "Corporate Pricing Table Shortcode"
+
+#~ msgid "Pricing Table"
+#~ msgstr "Pricing Table"
+
+#~ msgid "Column Header"
+#~ msgstr "Column Header"
+
+#~ msgid "Column Header Shortcode"
+#~ msgstr "Column Header Shortcode"
+
+#~ msgid "Column Options Shortcode"
+#~ msgstr "Column Options Shortcode"
+
+#~ msgid "Column Item Checked"
+#~ msgstr "Column Item Checked"
+
+#~ msgid "Column Item X"
+#~ msgstr "Column Item X"
+
+#~ msgid "Contact Form Shortcode"
+#~ msgstr "Contact Form Shortcode"
+
+#~ msgid "Multimedia Shortcode"
+#~ msgstr "Multimedia Shortcode"
+
+#~ msgid "Video Shortcode"
+#~ msgstr "Video Shortcode"
+
+#~ msgid "Audio Shortcode"
+#~ msgstr "Audio Shortcode"
+
+#~ msgid "White"
+#~ msgstr "White"
+
+#~ msgid "Gray"
+#~ msgstr "Gray"
+
+#~ msgid "Orange"
+#~ msgstr "Orange"
+
+#~ msgid "Purple"
+#~ msgstr "Purple"
+
+#~ msgid "Pink"
+#~ msgstr "Pink"
+
+#~ msgid "Size"
+#~ msgstr "Size"
+
+#~ msgid "Large"
+#~ msgstr "Large"
+
+#~ msgid "Select the size of the button. Normal is default"
+#~ msgstr "Select the size of the button. Normal is default"
+
+#~ msgid "Button Link"
+#~ msgstr "Button Link"
+
+#~ msgid "Target"
+#~ msgstr "Target"
+
+#~ msgid "Self"
+#~ msgstr "Self"
+
+#~ msgid "Blank"
+#~ msgstr "Blank"
+
+#~ msgid "Select where to target the button link"
+#~ msgstr "Select where to target the button link"
+
+#~ msgid "Insert the button rel attribute"
+#~ msgstr "Insert the button rel attribute"
+
+#~ msgid "Can be left blank"
+#~ msgstr "Can be left blank"
+
+#~ msgid "Align"
+#~ msgstr "Align"
+
+#~ msgid "Left"
+#~ msgstr "Left"
+
+#~ msgid "Right"
+#~ msgstr "Right"
+
+#~ msgid "Select the alignment of the button"
+#~ msgstr "Select the alignment of the button"
+
+#~ msgid "Insert Button"
+#~ msgstr "Insert Button"
+
+#~ msgid "Read More Button Link"
+#~ msgstr "Read More Button Link"
+
+#~ msgid "Insert read more button link"
+#~ msgstr "Insert read more button link"
+
+#~ msgid "Insert Read More Button"
+#~ msgstr "Insert Read More Button"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Select where to target the url link"
+#~ msgstr "Select where to target the url link"
+
+#~ msgid "Insert the short url rel attribute"
+#~ msgstr "Insert the short url rel attribute"
+
+#~ msgid "Insert Short Url"
+#~ msgstr "Insert Short Url"
+
+#~ msgid "Map ID"
+#~ msgstr "Map ID"
+
+#~ msgid ""
+#~ "Specify a different id for every map if you want to display multiple maps "
+#~ "on same page"
+#~ msgstr ""
+#~ "Specify a different id for every map if you want to display multiple maps "
+#~ "on same page"
+
+#~ msgid "Map Width"
+#~ msgstr "Map Width"
+
+#~ msgid "Specify map width (default is 600)"
+#~ msgstr "Specify map width (default is 600)"
+
+#~ msgid "Specify map height (default is 370)"
+#~ msgstr "Specify map height (default is 370)"
+
+#~ msgid "Map Location Address"
+#~ msgstr "Map Location Address"
+
+#~ msgid ""
+#~ "Specify map location address (optional). ie. Bla Street 3, Washington, "
+#~ "Olympia, USA"
+#~ msgstr ""
+#~ "Specify map location address (optional). ie. Bla Street 3, Washington, "
+#~ "Olympia, USA"
+
+#~ msgid "Map Location Latitude"
+#~ msgstr "Map Location Latitude"
+
+#~ msgid "Specify map location latitude coordonate(optional). ie. 49.99"
+#~ msgstr "Specify map location latitude coordonate(optional). ie. 49.99"
+
+#~ msgid "Map Location Longitude"
+#~ msgstr "Map Location Longitude"
+
+#~ msgid "Specify map location longitude coordonate (optional). ie. 49.99"
+#~ msgstr "Specify map location longitude coordonate (optional). ie. 49.99"
+
+#~ msgid "Specify map location zoom (optional, default is 10)"
+#~ msgstr "Specify map location zoom (optional, default is 10)"
+
+#~ msgid "Insert popup location text (optional)"
+#~ msgstr "Insert popup location text (optional)"
+
+#~ msgid "Insert Google Map"
+#~ msgstr "Insert Google Map"
+
+#~ msgid "Chart Type"
+#~ msgstr "Chart Type"
+
+#~ msgid "Pie"
+#~ msgstr "Pie"
+
+#~ msgid "Pie 2d"
+#~ msgstr "Pie 2d"
+
+#~ msgid "XY Line"
+#~ msgstr "XY Line"
+
+#~ msgid "Spark Line"
+#~ msgstr "Spark Line"
+
+#~ msgid "Meter"
+#~ msgstr "Meter"
+
+#~ msgid "Scatter"
+#~ msgstr "Scatter"
+
+#~ msgid "Venn"
+#~ msgstr "Venn"
+
+#~ msgid "Select chart type"
+#~ msgstr "Select chart type"
+
+#~ msgid "Chart Size"
+#~ msgstr "Chart Size"
+
+#~ msgid "Specify chart size (default is 400x200)"
+#~ msgstr "Specify chart size (default is 400x200)"
+
+#~ msgid "Specify chart title"
+#~ msgstr "Specify chart title"
+
+#~ msgid "Chart Data"
+#~ msgstr "Chart Data"
+
+#~ msgid ""
+#~ "Insert values separated by comma and make sure there is no space between "
+#~ "entries. (ie. 41.52,37.79,20.67,0.03). Separate multiple data blocks by "
+#~ "pipe sign (ie. 0,25,50|2,33,43)"
+#~ msgstr ""
+#~ "Insert values separated by comma and make sure there is no space between "
+#~ "entries. (ie. 41.52,37.79,20.67,0.03). Separate multiple data blocks by "
+#~ "pipe sign (ie. 0,25,50|2,33,43)"
+
+#~ msgid "Chart Data Labels"
+#~ msgstr "Chart Data Labels"
+
+#~ msgid ""
+#~ "Insert chart data labels separated by pipe sign(|) and make sure there is "
+#~ "no space between entries"
+#~ msgstr ""
+#~ "Insert chart data labels separated by pipe sign(|) and make sure there is "
+#~ "no space between entries"
+
+#~ msgid "Specify chart background color in hexadecimal number format."
+#~ msgstr "Specify chart background color in hexadecimal number format."
+
+#~ msgid "transparent"
+#~ msgstr "transparent"
+
+#~ msgid "white"
+#~ msgstr "white"
+
+#~ msgid "black"
+#~ msgstr "black"
+
+#~ msgid "More examples"
+#~ msgstr "More examples"
+
+#~ msgid "here"
+#~ msgstr "here"
+
+#~ msgid "Chart Colors"
+#~ msgstr "Chart Colors"
+
+#~ msgid ""
+#~ "Specify chart colors in hexadecimal number format separated by comma and "
+#~ "make sure there is no space between entries"
+#~ msgstr ""
+#~ "Specify chart colors in hexadecimal number format separated by comma and "
+#~ "make sure there is no space between entries"
+
+#~ msgid "Advanced Chart Options"
+#~ msgstr "Advanced Chart Options"
+
+#~ msgid "Insert chart advanced options (optional)"
+#~ msgstr "Insert chart advanced options (optional)"
+
+#~ msgid "See"
+#~ msgstr "See"
+
+#~ msgid "Google Chart Feature List"
+#~ msgstr "Google Chart Feature List"
+
+#~ msgid "for more info"
+#~ msgstr "for more info"
+
+#~ msgid "Chart Alignment"
+#~ msgstr "Chart Alignment"
+
+#~ msgid "Select chart alignment"
+#~ msgstr "Select chart alignment"
+
+#~ msgid "Insert Google Chart"
+#~ msgstr "Insert Google Chart"
+
+#~ msgid "Person Name"
+#~ msgstr "Person Name"
+
+#~ msgid "Insert person name"
+#~ msgstr "Insert person name"
+
+#~ msgid "Insert person website name (optional)"
+#~ msgstr "Insert person website name (optional)"
+
+#~ msgid "Column Type"
+#~ msgstr "Column Type"
+
+#~ msgid "Select column type (normal is default)"
+#~ msgstr "Select column type (normal is default)"
+
+#~ msgid "Column Header Title"
+#~ msgstr "Column Header Title"
+
+#~ msgid "Insert column header title"
+#~ msgstr "Insert column header title"
+
+#~ msgid "Colum Header Description"
+#~ msgstr "Colum Header Description"
+
+#~ msgid "Insert column header description"
+#~ msgstr "Insert column header description"
+
+#~ msgid "Insert Column Header"
+#~ msgstr "Insert Column Header"
+
+#~ msgid "Price"
+#~ msgstr "Price"
+
+#~ msgid "Insert price"
+#~ msgstr "Insert price"
+
+#~ msgid "Price decimals"
+#~ msgstr "Price decimals"
+
+#~ msgid "Insert price decimals (optional)"
+#~ msgstr "Insert price decimals (optional)"
+
+#~ msgid "Currency Sign"
+#~ msgstr "Currency Sign"
+
+#~ msgid "Insert price currency sign (ie. $)"
+#~ msgstr "Insert price currency sign (ie. $)"
+
+#~ msgid "Insert button text (default is \"Buy Now!\")"
+#~ msgstr "Insert button text (default is \"Buy Now!\")"
+
+#~ msgid "Insert button link"
+#~ msgstr "Insert button link"
+
+#~ msgid "Insert Column Options"
+#~ msgstr "Insert Column Options"
+
+#~ msgid "Specify a different id for every video inserted"
+#~ msgstr "Specify a different id for every video inserted"
+
+#~ msgid "Video Title"
+#~ msgstr "Video Title"
+
+#~ msgid "Width"
+#~ msgstr "Width"
+
+#~ msgid "Specify the width of the video (default is 550)"
+#~ msgstr "Specify the width of the video (default is 550)"
+
+#~ msgid "Height"
+#~ msgstr "Height"
+
+#~ msgid "Specify the height of the video (default is 300)"
+#~ msgstr "Specify the height of the video (default is 300)"
+
+#~ msgid "Mp4 File Url"
+#~ msgstr "Mp4 File Url"
+
+#~ msgid "Specify the url of the .mp4 file"
+#~ msgstr "Specify the url of the .mp4 file"
+
+#~ msgid "WebM File Url"
+#~ msgstr "WebM File Url"
+
+#~ msgid "Specify the url of the .webm file"
+#~ msgstr "Specify the url of the .webm file"
+
+#~ msgid "Ogg File Url"
+#~ msgstr "Ogg File Url"
+
+#~ msgid "Specify the url of the .ogv file"
+#~ msgstr "Specify the url of the .ogv file"
+
+#~ msgid "Specify the url of the youtube video"
+#~ msgstr "Specify the url of the youtube video"
+
+#~ msgid "Specify video thumbnail image"
+#~ msgstr "Specify video thumbnail image"
+
+#~ msgid "Size will be automatically adjusted to the video size"
+#~ msgstr "Size will be automatically adjusted to the video size"
+
+#~ msgid "Video Alignment"
+#~ msgstr "Video Alignment"
+
+#~ msgid "Insert Video Shortcode"
+#~ msgstr "Insert Video Shortcode"
+
+#~ msgid "Specify the id of the Youtube video"
+#~ msgstr "Specify the id of the Youtube video"
+
+#~ msgid "Select video alignment"
+#~ msgstr "Select video alignment"
+
+#~ msgid "Insert Youtube Shortcode"
+#~ msgstr "Insert Youtube Shortcode"
+
+#~ msgid "Insert Vimeo Shortcode"
+#~ msgstr "Insert Vimeo Shortcode"
+
+#~ msgid "Specify a different id for every audio file inserted"
+#~ msgstr "Specify a different id for every audio file inserted"
+
+#~ msgid "File(s) Url"
+#~ msgstr "File(s) Url"
+
+#~ msgid ""
+#~ "Insert one song url or multiple file urls separated by comma for playlist"
+#~ msgstr ""
+#~ "Insert one song url or multiple file urls separated by comma for playlist"
+
+#~ msgid "Title(s)"
+#~ msgstr "Title(s)"
+
+#~ msgid "Insert one or multiple names separated by comma"
+#~ msgstr "Insert one or multiple names separated by comma"
+
+#~ msgid "Audio Alignment"
+#~ msgstr "Audio Alignment"
+
+#~ msgid "Select audio alignment"
+#~ msgstr "Select audio alignment"
+
+#~ msgid "Insert Audio Shortcode"
+#~ msgstr "Insert Audio Shortcode"
+
+#~ msgid "Default is 3."
+#~ msgstr "Default is 3."
+
+#~ msgid "Enable/Disable Footer Social Icons (Right)"
+#~ msgstr "Enable/Disable Footer Social Icons (Right)"
+
+#~ msgid "Activate the social icons section."
+#~ msgstr "Activate the social icons section."
+
+#~ msgid "Display the Rss feeds icon."
+#~ msgstr "Display the Rss feeds icon."
+
+#~ msgid "Display the Facebook social icon."
+#~ msgstr "Display the Facebook social icon."
+
+#~ msgid "Display the LinkedIn social icon."
+#~ msgstr "Display the LinkedIn social icon."
+
+#~ msgid "Specify your linkedin profile url."
+#~ msgstr "Specify your linkedin profile url."
+
+#~ msgid "Display the Youtube social icon."
+#~ msgstr "Display the Youtube social icon."
+
+#~ msgid "Specify your Youtube profile url."
+#~ msgstr "Specify your Youtube profile url."
+
+#~ msgid "Display the Vimeo social icon."
+#~ msgstr "Display the Vimeo social icon."
+
+#~ msgid "Enter your Vimeo Profile Url"
+#~ msgstr "Enter your Vimeo Profile Url"
+
+#~ msgid "Specify your Vimeo profile url."
+#~ msgstr "Specify your Vimeo profile url."
+
+#~ msgid "Fax #"
+#~ msgstr "Fax #"

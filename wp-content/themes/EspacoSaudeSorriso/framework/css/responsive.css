@@ -1,0 +1,243 @@
+/* Table of Contents
+==================================================
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+ */
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+/* ----------------------------------------------------- */
+/* Tablet (Portrait) */
+/* ----------------------------------------------------- */
+/* Width of 768px */
+/* ----------------------------------------------------- */
+
+    /* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.tel-email {
+	display: none;	
+}
+#header .span5 {
+	width: 518px;
+}
+.main-menu {
+	float: right;	
+}
+.right-bar {
+	display: none;	
+}
+.widgets-section {
+	background: none;	
+}
+h2 {
+	font-size: 22px;	
+}
+.gallery-item-content img, .gallery-item-content {
+	height: auto;	
+}
+.right-bg {
+	right: -580px !important;
+}
+.vertical-line {
+	background-position: 557px 0;	
+}
+.slider-wrapper {
+	height: auto;	
+}
+.ui-datepicker-title {
+	margin-left: 0 !important;	
+}
+.ui-datepicker-month {
+	margin-left: 8px !important;	
+}
+}
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+
+#header {
+	height: auto;	
+}
+#menu-nav {
+	display: none;
+}
+.main-menu {
+	float: none;
+	margin-left: 0;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.mnav {
+	display: block;
+	width: 100%;
+	margin: 6px 0 0;
+	border: 1px solid #d7dadc;
+	padding: 2px 2px 2px 0;
+	border-radius: 0;
+}
+.tel-email {
+	display: none;	
+}
+.news-widgets-bar div {
+	display: none;	
+}
+.widgets-section {
+	background: none;	
+}
+h2 {
+	font-size: 22px;	
+}
+.site-title {
+	text-align: center;	
+}
+.intro-text h2 {
+	font-size: 20px;	
+}
+.intro-text {
+	padding: 15px 0;	
+}
+.home-banner-content img {
+	display: none;	
+}
+.home-banner-content p, .home-banner-content h3 {
+	margin-left: 10px;	
+}
+.news-item img {
+	width: 100%;	
+}
+.homepage-sidebar {
+	padding-right: 25px;	
+}
+.container .one-half, .one-sixth {
+	width: 100%;
+	margin: 0 0 20px;	
+}
+.footer-sidebar-widget {
+	padding-left: 10px;	
+	padding-right: 10px;	
+}
+.copyright {
+	text-align: center;
+}
+.footer-menu li {
+	float: none;
+	display: inline;
+	margin-right: 5px;	
+}
+.footer-menu {
+	float: none;	
+}
+.homepage-sidebar .textwidget .one-half {
+	width: 50%;
+}
+.one-fourth, .one-third {
+	width: 100%;	
+}
+.page-top {
+	padding-left: 10px;
+	padding-right: 10px;	
+}
+.gallery-filters ul li a {
+	font-size: 11px;
+
+}
+.gallery-filters ul li {
+	margin-right: 5px;
+	padding-right: 5px;
+	line-height: 20px;
+}
+.gallery-filters ul li:first-child {
+	padding-left: 5px;	
+}
+.gallery-filters .active span {
+	display: none;	
+}
+.gallery-filters {
+	margin-bottom: 30px;	
+}
+.gallery-item-content img {
+	height: auto;
+	width: 100%;
+}
+.gallery-item-content {
+	height: auto;	
+}
+.thumb-overlay {
+	width: 100%;
+	height: 100%;	
+}
+.entry-meta {
+	text-align: center;	
+}
+.entry-meta ul li {
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100%;
+	background: none !important;
+	border-bottom: 1px solid #e5e4e4;
+}
+.page-top h2 {
+	font-size: 22px;	
+}
+.news-widgets h2 {
+	padding-left: 10px;	
+}
+.gallery-single-page .flexslider {
+	max-width: 100%;	
+}
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form textarea {
+	max-width: 260px;
+}
+.four-fifth {
+	margin-left: 0;
+	width: 100%;	
+}
+.pricing-column {
+	margin-bottom: 20px;
+	width: 100%;
+}
+.pricing-featured {
+	margin-top: 0;
+	width: 100%;
+		
+}
+span.table-price {
+	margin-left: 90px;	
+}
+.slider-wrapper {
+	height: auto;	
+}
+.vertical-line {
+	background: none;	
+}
+}
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+.mnav {
+	display: block;
+	width: 100%;
+	margin: 6px 0 0;
+	border: 1px solid #d7dadc;
+	padding: 0;
+	border-radius: 0;
+}
+span.table-price {
+	margin-left: 215px;	
+}
+}

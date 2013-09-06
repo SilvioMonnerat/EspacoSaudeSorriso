@@ -62,12 +62,14 @@ global $sd_data
 	<div class="container">
 		<div class="row">
 			<div class="span4">
+				<p><a href=""><div class="logo_footer">espaço saúde sorriso</div></a></p>
 				<?php /* Replace default text if option is set */
-	if( $sd_data['copyright'] != '') : ?>
-				<p><?php echo stripslashes($sd_data['copyright']); ?></p>
-				<?php else : ?>
-				<p>Copyright &copy; <?php echo the_time('Y'); ?> - <a href="<?php echo home_url( '/' ) ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"> <?php echo get_bloginfo( 'name' ); ?> </a> </p>
-				<?php endif; ?>
+				//if( $sd_data['copyright'] != '') : ?>
+					<!-- <p><?php //echo stripslashes($sd_data['copyright']); ?></p> -->
+					
+				<?php //else : ?>
+					<!-- <p>Copyright &copy; <?php //echo the_time('Y'); ?> - <a href="<?php //echo home_url( '/' ) ?>" title="<?php //echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"> <?php //echo get_bloginfo( 'name' ); ?> </a> </p> -->
+				<?php// endif; ?>
 			</div>
 			<div class="span8">
 				<div class="footer-menu">

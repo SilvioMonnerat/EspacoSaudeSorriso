@@ -1365,6 +1365,7 @@ span.table-price span.dollar-sign {
 	padding: 10px;
 }
 .member-details {
+	text-align: center;
 }
 .member-box img {
 	display: block;
@@ -1375,7 +1376,7 @@ span.table-price span.dollar-sign {
 }
 .member-details h3 {
 	color: #5a5a62;
-	font-size: 13px;
+	font-size: 11px;
 	padding: 0;
 }
 .member-details h5 {

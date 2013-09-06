@@ -8,26 +8,26 @@ function register_portfolio() {
 	global $sd_data;
 	
 	$labels = array(
-		'name' => __( 'Gallery', 'framework' ),
-		'singular_name' => __( 'Gallery Item', 'framework' ),
-		'add_new' => __( 'Add New Item', 'framework' ),
-		'add_new_item' => __( 'Add New Gallery Item', 'framework' ),
-		'edit_item' => __( 'Edit Gallery Item', 'framework' ),
-		'new_item' => __( 'Add New Gallery Item', 'framework' ),
-		'view_item' => __( 'View Item', 'framework' ),
-		'search_items' => __( 'Search Gallery', 'framework' ),
-		'not_found' => __( 'No gallery items found', 'framework' ),
+		'name'               => __( 'Gallery', 'framework' ),
+		'singular_name'      => __( 'Gallery Item', 'framework' ),
+		'add_new'            => __( 'Add New Item', 'framework' ),
+		'add_new_item'       => __( 'Add New Gallery Item', 'framework' ),
+		'edit_item'          => __( 'Edit Gallery Item', 'framework' ),
+		'new_item'           => __( 'Add New Gallery Item', 'framework' ),
+		'view_item'          => __( 'View Item', 'framework' ),
+		'search_items'       => __( 'Search Gallery', 'framework' ),
+		'not_found'          => __( 'No gallery items found', 'framework' ),
 		'not_found_in_trash' => __( 'No gallery items found in trash', 'framework' )
 	);
 	
     $portfolio_args = array(  
-        'labels' => $labels,
-        'public' => true,
-        'show_ui' => true,
+        'labels'          => $labels,
+        'public'          => true,
+        'show_ui'         => true,
         'capability_type' => 'post',
-        'hierarchical' => false,
-        'rewrite' => array('slug' => $sd_data['portfolio_slug']), // Permalinks format
-        'supports' => array('title', 'editor', 'thumbnail')
+        'hierarchical'    => false,
+        'rewrite'         => array('slug' => $sd_data['portfolio_slug']), // Permalinks format
+        'supports'        => array('title', 'editor', 'thumbnail')
        );  
   
     register_post_type( 'portfolio' , $portfolio_args );  
@@ -38,10 +38,10 @@ register_taxonomy(
 	"portfolio_filter", 
 	array("portfolio"),
 	array(
-		"hierarchical" => true,
-		"label" => "Gallery Filter",
+		"hierarchical"   => true,
+		"label"          => "Gallery Filter",
 		"singular_label" => "Gallery Filter",
-		"rewrite" => true
+		"rewrite"        => true
 		)
 	);
 
@@ -53,13 +53,13 @@ add_action('init', 'register_portfolio');
  
 function portfolio_edit_columns( $portfolio_columns ) {
 	$portfolio_columns = array(
-		"cb" => "<input type=\"checkbox\" />",
-		"title" => __('Title', 'framework'),
-		"thumbnail" => __('Thumbnail', 'portfolioposttype'),
+		"cb"               => "<input type=\"checkbox\" />",
+		"title"            => __('Title', 'framework'),
+		"thumbnail"        => __('Thumbnail', 'portfolioposttype'),
 		"portfolio_filter" => __('Filter', 'portfolioposttype'),
-		"author" => __('Author', 'portfolioposttype'),
-		"comments" => __('Comments', 'portfolioposttype'),
-		"date" => __('Date', 'portfolioposttype'),
+		"author"           => __('Author', 'portfolioposttype'),
+		"comments"         => __('Comments', 'portfolioposttype'),
+		"date"             => __('Date', 'portfolioposttype'),
 	);
 	$portfolio_columns['comments'] = '<div class="vers"><img alt="Comments" src="' . esc_url( admin_url( 'images/comment-grey-bubble.png' ) ) . '" /></div>';
 	return $portfolio_columns;

@@ -43,8 +43,6 @@ global $sd_data;
 </title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/css/style.css" media="all" />
-<link href='http://fonts.googleapis.com/css?family=Marvel:400,700italic,400italic,700' rel='stylesheet' type='text/css'>
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 <?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
 <!--[if lt IE 9]>
@@ -53,6 +51,16 @@ global $sd_data;
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(''); ?>>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!-- header -->
 <header id="header" class="clearfix">
 	<div class="container">
@@ -69,8 +77,8 @@ global $sd_data;
 			</div>
 			<!-- blog title logo end --> 
 			<!-- primary menu -->
-			<div class="<?php echo $header_class = ($sd_data['top_phone_email_bar'] == 1 ? 'span6' : 'span9'); ?>">
-				<nav id="main-menu" class="main-menu row">
+			<div class="<?php echo $header_class = ($sd_data['top_phone_email_bar'] == 1 ? 'span5' : 'span9'); ?>">
+				<nav id="main-menu" class="main-menu">
 					<?php
 			// Using wp_nav_menu() to display menu
 			wp_nav_menu( array(
@@ -88,7 +96,7 @@ global $sd_data;
 			<!-- primary menu end--> 
 			<?php if ( $sd_data['top_phone_email_bar'] == 1) : ?>
 			<!-- tel email section --> 
-			<div class="span3 tel-email">
+			<div class="span4 tel-email">
 			<ul>
 			<?php if ( !empty($sd_data['top_phone']) ) : ?>
 			<li><strong><?php _e('Tel:', 'framework'); ?></strong> <?php echo $sd_data['top_phone']; ?></li>

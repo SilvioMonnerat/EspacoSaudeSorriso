@@ -19,13 +19,13 @@
 	background-color: #8cc7ae;
 }
 .current-menu-item a, .sf-menu li.sfHover a, .sf-menu li a:hover, #main-menu .sf-menu li ul li a:hover, #main-menu .sf-menu li li.sfHover a, #main-menu .sf-menu li li.sfHover li a:hover, .read-more, .pagination .current, .pagination .inactive:hover, .pagination .pagi-first:hover, .pagination .pagi-last:hover, .pagination .pagi-previous:hover, .pagination .pagi-next:hover, .thumb-overlay-content, .gallery-single-page .flex-prev:hover, .gallery-single-page .flex-next:hover, #searchsubmit, .banner-button:hover, .pricing-featured .pricing-header, .pricing-featured .pricing-table-button {
-	background-color: #a188bc;
+	background-color: #987cb5;
 }
 a:hover, .news-item h3 a:hover, .thecarousel a, #footer a:hover, .copyright a:hover, .footer-menu .current-menu-item a, .entry-title a:hover, .entry-meta ul li a:hover, .sidebar-widget a:hover, .popular-posts h4 a:hover, .comment-text cite a:hover {
 	color: #8cc7ae;
 }
 .latest-tweets li a, .gallery-filters .active, .gallery-filters a:hover {
-		color: #a188bc;
+		color: #987cb5;
 }
 .accordion .current {
 	border: 1px solid #8cc7ae;
@@ -37,5 +37,5 @@ a:hover, .news-item h3 a:hover, .thecarousel a, #footer a:hover, .copyright a:ho
 	background-color: #8cc7ae !important;
 }
 #aec-calendar .fc-event, #aec-modal .link {
-	background-color: #a188bc !important;
+	background-color: #987cb5 !important;
 }

@@ -26,7 +26,7 @@ global $sd_data;
 				$nr_posts = ($sd_data['home_sidebar_hide'] == 1) ? $sd_data['home_news_posts_disabled'] : $sd_data['home_news_posts'] ;
 				$i = 0;
 				$args = array(
-					'post_type' => 'post',
+					'post_type'      => 'post',
 					'posts_per_page' => $nr_posts,
 					'order'          => 'DESC',
 					'orderby'        => 'date',
@@ -53,11 +53,12 @@ global $sd_data;
 							<?php the_title(); ?>
 							</a></h3>
 						<p><?php echo substr(get_the_excerpt(), 0, 50); ?>...</p>
-						<div class="news-meta clearfix"> <span class="news-date">
-							<?php the_time(get_option('date_format')); ?>
-							</span> <span class="news-comments">
-							<?php comments_popup_link( '0', '1', '%', 'comments-link', 'c'); ?>
-							</span> <span class="news-rating"><?php echo sd_post_like_link(get_the_ID()); ?></span> </div>
+						<div class="news-meta clearfix"> 
+							<span class="news-date"> <?php the_time(get_option('date_format')); ?></span>
+							<!-- <span class="news-comments"><?php //comments_popup_link( '0', '1', '%', 'comments-link', 'c'); ?></span> -->
+							<!-- <span class="news-rating"><?php //echo sd_post_like_link(get_the_ID()); ?></span> -->
+							<span class="news-rating"><div class="fb-like" data-href="<?php the_permalink() ?>" data-width="80" data-layout="button_count" data-show-faces="true" data-send="false"></div></span>
+						</div>
 					</div>
 				</div>
 				<?php endwhile; wp_reset_query(); endif; ?>

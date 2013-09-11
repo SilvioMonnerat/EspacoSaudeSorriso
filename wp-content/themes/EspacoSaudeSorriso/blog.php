@@ -10,11 +10,11 @@ get_header(); ?>
 	<?php 
 		global $wp_query;
 		$paged = get_query_var('paged') ? get_query_var('paged') : 1;
-		$args = array(
+		$args  = array(
 			'post_status' => 'publish',
-			'orderby' => 'date',
-			'order' => 'DESC',
-			'paged' => $paged
+			'orderby'     => 'date',
+			'order'       => 'DESC',
+			'paged'       => $paged
 			);
 		
 		$wp_query = new WP_Query($args);

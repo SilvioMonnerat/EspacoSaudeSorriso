@@ -544,30 +544,30 @@ function sd_google_map($atts) {
 
 	// default atts
 	$atts = shortcode_atts(array(	
-		'latitude'   => '0', 
-		'longitude'    => '0',
-		'id' => 'map',
-		'zoom' => '10',
-		'width' => '400',
-		'height' => '300',
-		'maptype' => 'ROADMAP',
-		'address' => '',
-		'kml' => '',
-		'kmlautofit' => 'yes',
-		'marker' => '',
-		'markerimage' => '',
-		'traffic' => 'no',
-		'bike' => 'no',
-		'fusion' => '',
-		'start' => '',
-		'end' => '',
-		'popup' => '',
+		'latitude'          => '0', 
+		'longitude'         => '0',
+		'id'                => 'map',
+		'zoom'              => '10',
+		'width'             => '400',
+		'height'            => '300',
+		'maptype'           => 'ROADMAP',
+		'address'           => '',
+		'kml'               => '',
+		'kmlautofit'        => 'yes',
+		'marker'            => '',
+		'markerimage'       => '',
+		'traffic'           => 'no',
+		'bike'              => 'no',
+		'fusion'            => '',
+		'start'             => '',
+		'end'               => '',
+		'popup'             => '',
 		'infowindowdefault' => 'yes',
-		'directions' => '',
-		'hidecontrols' => 'false',
-		'scale' => 'false',
-		'scrollwheel' => 'true',
-		'style' => ''		
+		'directions'        => '',
+		'hidecontrols'      => 'false',
+		'scale'             => 'false',
+		'scrollwheel'       => 'true',
+		'style'             => ''		
 	), $atts);
 									
 	$returnme = '<div id="' .$atts['id'] . '" style="width:' . $atts['width'] . 'px;height:' . $atts['height'] . 'px;" class="google_map ' . $atts['style'] . '"></div>';
@@ -791,15 +791,15 @@ function sd_google_map($atts) {
 
 function sd_google_chart( $atts ) {
 	extract(shortcode_atts(array(
-		'data' => '',
-		'colors' => '',
-		'size' => '400x200',
-		'bg' => 'ffffff',
-		'title' => '',
-		'labels' => '',
+		'data'     => '',
+		'colors'   => '',
+		'size'     => '400x200',
+		'bg'       => 'ffffff',
+		'title'    => '',
+		'labels'   => '',
 		'advanced' => '',
-		'type' => 'pie',
-		'align' => ''
+		'type'     => 'pie',
+		'align'    => ''
 	), $atts));
  
 	switch ($type) {
@@ -861,7 +861,7 @@ function sd_toggle($atts, $content = null, $code) {
 function sd_tabs( $atts, $content ){
 	extract(shortcode_atts(array(
 		'type' => '',
-		'id' => ''
+		'id'   => ''
 		), $atts));
 	
 	$GLOBALS['tab_count'] = 0;
@@ -895,7 +895,7 @@ function sd_tabs( $atts, $content ){
 	
 	$i++;	
 	
-	$tabs[] = '<li><a class="" href="#tabs-'.$i.'">'.$tab['title'].'</a></li>';
+	$tabs[]  = '<li><a class="" href="#tabs-'.$i.'">'.$tab['title'].'</a></li>';
 	$panes[] = '<div id="tabs-'.$i.'">'.do_shortcode($tab['content']).'</div>';
 	}
 	
@@ -929,7 +929,7 @@ function sd_tab_group( $atts, $content ){
 function sd_accordion($atts, $content = null, $code) {
 	extract(shortcode_atts(array(
 		'style' => false,
-		'icon' => ''
+		'icon'  => ''
 	), $atts));
 
 	if (!preg_match_all("/(.?)\[(accordion)\b(.*?)(?:(\/))?\](?:(.+?)\[\/accordion\])?(.?)/s", $content, $matches)) {
@@ -982,8 +982,8 @@ function sd_drop_caps( $atts, $content = null ) {
 
 function sd_framed_box( $atts, $content = null ) {
 	extract(shortcode_atts(array(
-		'bg'	=> '#ffffff',
-		'text'	=> '#696969',
+		'bg'	    => '#ffffff',
+		'text'	    => '#696969',
 		'border'	=> '#e4e4e4'
 	), $atts));
 
@@ -998,12 +998,12 @@ function sd_framed_box( $atts, $content = null ) {
 
 function sd_icon_box( $atts, $content = null ) {
 	extract(shortcode_atts(array(
-		'bg'	=> '#ffffff',
-		'text'	=> '#696969',
+		'bg'	    => '#ffffff',
+		'text'	    => '#696969',
 		'border'	=> '#ffffff',
-		'icon'	=> 'heart',
+		'icon'	    => 'heart',
 		'iconbg'	=> '#00ADEE',
-		'title'	=> ''
+		'title'	    => ''
 	), $atts));
 	
 	$box_title = ( !empty($title) ? '<h3>' . $title . '</h3>' : '' );
@@ -1027,12 +1027,12 @@ function sd_icon_box( $atts, $content = null ) {
 
 function sd_colored_buttons( $atts, $content = null ) {
 	extract(shortcode_atts(array(
-		'link'	=> '#',
+		'link'	    => '#',
 		'target'	=> '',
-		'color'	=> 'white',
-		'size'	=> '',
-		'align'	=> '',
-		'rel'	=> ''
+		'color'	    => 'white',
+		'size'   	=> '',
+		'align'	    => '',
+		'rel'   	=> ''
 	), $atts));
 
 	$align = ($align) ? ' align'.$align : '';
@@ -1059,11 +1059,11 @@ function sd_colored_buttons( $atts, $content = null ) {
 
 function sd_action_box( $atts, $content = null ) {
 	extract(shortcode_atts(array(
-		'title'	 => 'Default Title',
-		'link'	 => '#',
-		'button' => 'white',
+		'title'  	 => 'Default Title',
+		'link'   	 => '#',
+		'button'     => 'white',
 		'buttontext' => 'Sign Up!',
-		'target' => '_self',
+		'target'     => '_self',
 	), $atts));
 	
 	$out = '<div class="action-box clearfix">
@@ -1113,8 +1113,8 @@ function sd_pricing_table($atts, $content = null) {
 function sd_pricing_header($atts, $content = null) {
 	extract(shortcode_atts(array(
 		'title' => '',
-		'desc' => '',
-		'type' => ''
+		'desc'  => '',
+		'type'  => ''
 	), $atts));
 	
 	if (empty($desc))

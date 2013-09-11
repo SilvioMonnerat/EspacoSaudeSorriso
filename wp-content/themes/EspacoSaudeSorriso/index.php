@@ -12,9 +12,9 @@ get_header(); ?>
 		$paged = get_query_var('paged') ? get_query_var('paged') : 1;
 		$args = array(
 			'post_status' => 'publish',
-			'orderby' => 'date',
-			'order' => 'DESC',
-			'paged' => $paged
+			'orderby'     => 'date',
+			'order'       => 'DESC',
+			'paged'       => $paged
 			);
 		
 		$wp_query = new WP_Query($args);
@@ -23,9 +23,7 @@ get_header(); ?>
 	?>
 	<?php get_template_part( 'framework/inc/post-formats/content', get_post_format() ); ?>
 	<?php endwhile; else: ?>
-	<p>
-		<?php _e('Sorry, no posts matched your criteria', 'framework') ?>
-		.</p>
+	<p> <?php _e('Sorry, no posts matched your criteria', 'framework') ?>.</p>
 	<?php endif; ?>
 	<!--pagination-->
 	<?php sd_custom_pagination();  ?>

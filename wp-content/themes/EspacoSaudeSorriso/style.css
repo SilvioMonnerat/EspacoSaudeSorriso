@@ -14,9 +14,12 @@ Author URI: http://cabanacriacao.com/
 /* ------------------------------------------.sf-menu li ------------------------------ */
 
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic");
+@import url("http://fonts.googleapis.com/css?family=Maven+Pro:400,900,700,500"); /* font-family: 'Maven Pro', sans-serif; */
 
 body {
-	font: normal 13px/22px "Open Sans", Arial, Tahoma, sans-serif;
+	font: normal 13px/22px 'Maven Pro', sans-serif;
+	font-style: normal;
+	font-weight: normal;
 	color: #909096;
 	-webkit-text-stroke: 0.001px transparent;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -62,7 +65,7 @@ h4,
 h5,
 h6 {
 	color: #2b2828;
-	font-family: "Open Sans", Tahoma, serif;
+	font-family: 'Maven Pro', sans-serif;
 	font-weight: 600;
 	line-height: normal;
 	padding-bottom: 15px;
@@ -186,7 +189,7 @@ ol {
 
 #header {
 	background-color: #fff;
-	border-bottom: 1px solid #cfcfd1;
+	/*border-bottom: 1px solid #cfcfd1;*/
 	height: 77px;
 	position: relative;
 }
@@ -195,11 +198,11 @@ ol {
 	width: 100%;
 	overflow: hidden;
 	position: absolute;
-	top: 16px;
+	top: 15px!important;
 	z-index: 1;
 }
 .right-bar div {
-	height: 45px;
+	height: 70px;
 	margin: 0 auto;
 	position: relative;
 	width: 940px;
@@ -207,15 +210,15 @@ ol {
 .right-bar div div {
 	background-color: #8cc7ae;
 	display: block;
-	height: 45px;
+	height: 70px;
 	position: absolute;
 	right: -100%;
 	width: 100%;
 }
 .tel-email {
-	background-color: #8cc7ae;
-	height: 45px;
-	margin-top: 16px;
+	background-color: #8cc7ae !important;
+	height: 77px;
+	margin-top: 13px!important;
 	position: relative;
 	z-index: 2;
 
@@ -228,11 +231,20 @@ ol {
 	border-bottom-left-radius: 20px;
 
 }
+.tel-email{
+	background: url(images/border-round-top-tel.png) repeat-x !important;
+}
+.tel-email ul {
+	position: absolute;
+	top: 5px;
+}
 .tel-email ul li {
-	float: left;
-	font-size: 12px;
+	/*float: left;*/
+	margin-top: 20px;
+	font-size: 14px !important;
+	font-weight: normal;
 	list-style: none;
-	line-height: 45px;
+	line-height: 0;
 	margin-left: 20px;
 	color: #fff;
 }
@@ -240,10 +252,11 @@ ol {
 /* 07. Main Header Navigation
 /* ------------------------------------------------------------------------ */
 .main-menu {
-	float: right;
-	margin-top: 22px;
+	/*margin-top: 22px;*/
+	margin-top: 20px !important;
 	position: relative;
-	z-index: 250;
+	z-index: 9999;
+	margin-left: -60px;
 }
 .mnav {
 	display: none;
@@ -313,7 +326,15 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	transition: all .3s ease-in-out;
 }
 .sf-menu a {
-	color: #494848;
+	color: #b9b5b6 !important;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Maven Pro', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+.sf-menu a:hover{
+	color:#FFF !important;
 }
 .sf-menu li {
 	margin-right: 5px;
@@ -323,23 +344,24 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	margin-right: 0;	
 }
 .sf-menu li a:hover {
-	color: #fff;
-	background-color: #ff4301;
+	color:#FFF !important;
+	background-color: #997cb8;
 }
 .current-menu-item a {
-	color: #fff;
-	background-color: #ff4301;
+	color:#FFF !important;
+	background-color: #997cb8;
 }
 /* menu with children */
 #main-menu .sf-with-ul {
 }
 /* menu with children hover */
 #main-menu .sfHover .sf-with-ul:hover {
+	color:#FFF !important;
 }
 /* dropdown active */
 .sf-menu li.sfHover a {
-	color: #fff;
-	background-color: #ff4301;
+	color:#FFF !important;
+	background-color: #997cb8;
 }
 /* SUBMENU 1 */
 
@@ -357,6 +379,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	margin: 0;
 	padding: 0 10px;
 	border-top: none;
+	color:#FFF !important;
 }
 .sf-menu li li {
 	text-transform: capitalize;
@@ -370,7 +393,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	background: none;
 	border: none;
 	border-radius: 0;
-	color: #696969;
+	color:#FFF !important;
 	line-height: 30px;
 	margin: 0;
 	padding: 0 10px;
@@ -382,9 +405,9 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 }
 #main-menu .sf-menu li ul li a:hover {
 	border: none;
-	background-color: #ff4301;
+	background-color: #997cb8;
 	border-radius: 0;
-	color: #fff;
+	color:#FFF !important;
 	margin: 0;
 	-webkit-transition: all 0.01s linear 0s;
 	-moz-transition: all 0.01s linear 0s;
@@ -405,14 +428,15 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	border-radius: 5px;
 }
 #main-menu .sf-menu li li li a {
-	color: #696969;
+	color:#FFF !important;
 }
 .sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
 	outline: 0;
+	color: #FFF;
 }
 /* level 2 a active */
 #main-menu .sf-menu li li.sfHover a {
-	color: #fff;
+	color:#FFF !important;
 	border: none;
 	margin: 0;
 	background: #ff4301;
@@ -421,15 +445,15 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 }
 /* level 3 a color */
 #main-menu .sf-menu li li.sfHover li a {
-	color: #696969;
+	color:#FFF !important;
 	background: none;
 }
 /* level 3 a hover color */
 #main-menu .sf-menu li li.sfHover li a:hover {
-	color: #fff;
+	color:#FFF !important;
 	border: none;
 	margin: 0;
-	background: #ff4301;
+	background: #997cb8;
 }
 .sf-menu li li .sf-with-ul {
 }
@@ -474,7 +498,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 .intro-text h2 {
 	color: #987cb5;
 	font-weight: 300;
-	font-size: 30px;
+	font-size: 33px;
 	line-height: 30px;
 	padding: 0;
 }
@@ -676,6 +700,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	margin-bottom: 30px;
 }
 .content {
+	/*display: none;*/
 	padding-top: 50px;
 }
 .vertical-line {
@@ -699,7 +724,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	font-size: 30px;
 	font-weight: 300;
 	padding: 0;
-	margin-left: 230px;
+	margin-left: 245px;
 }
 /* bottom custom content */
 .bottom-custom-content {
@@ -719,8 +744,8 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 
 .blog-entry {
 	border-bottom: 1px solid #e5e4e4;
-	margin-bottom: 30px;
-	padding-bottom: 40px;
+	/*margin-bottom: 30px;
+	padding-bottom: 40px;*/
 	position: relative;
 }
 .post-format-standard,
@@ -767,6 +792,10 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	margin-right: 10px;
 	padding-right: 10px;
 	text-transform: capitalize;
+
+}
+.entry-meta ul li:last-child{
+	border-right: none;
 }
 .entry-meta ul li a {
 	color: #4b5254;
@@ -794,19 +823,24 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 .entry-meta .meta-rating {
 	background: none;
 	float: right;
+	margin-top: 5px;
+	margin-bottom: -5px;
 }
 .entry-meta ul li.meta-comments {
-	background-position: -631px -216px;
+	background-position: 0;
 	border-right: none;
 	float: right;
-	margin-right: 0;
-	padding-left: 24px;
-	padding-right: 10px;
+	margin-right: -25px;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 5px;
+	margin-bottom: -5px;
 }
 .capitalize {
 	text-transform: capitalize;
 }
 .entry-content {
+	margin-bottom: 50px;
 }
 .entry-content object, .entry-content embed {
 	max-width: 100%;
@@ -817,10 +851,12 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 }
 .entry-title {
 	font-size: 24px;
-	font-weight: 600;
-	padding: 0 0 10px;
+	font-weight: normal;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 23px;
+	color:#4b5254;
+	padding: 1em 0;
 	line-height: 30px;
-	margin-bottom: 5px;
 }
 .entry-title span {
 	display: none;
@@ -864,21 +900,34 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	padding-top: 20px;
 }
 .read-more {
-	background-color: #ff4301;
-	border-radius: 30px;
+	/*background-color: #ff4301;*/
+	background: url(images/bg-readmore.png) transparent no-repeat !important;
+	/*border-radius: 30px;*/
 	color: #fff;
 	display: inline-block;
 	line-height: 30px;
 	padding: 0 15px;
-	-webkit-transition: background .3s linear;
+	/*-webkit-transition: background .3s linear;
 	-moz-transition: background .3s linear;
 	-ms-transition: background .3s linear;
 	-o-transition: background .3s linear;
-	transition: background .3s linear;
+	transition: background .3s linear;*/
+	-webkit-transition: all .3s ease-out;
+		-moz-transition: all .3s ease-out;
+			-ms-transition: all .3s ease-out;
+				-o-transition: all .3s ease-out;
+					transition: all .3s ease-out;
+	
 }
 .read-more:hover {
-	background-color: #8cc7ae;
+	/*background-color: #ff4301;*/
+	background: url(images/bg-readmore.png) transparent bottom no-repeat !important;
 	color: #fff;
+	-webkit-transition: all .3s ease-in;
+		-moz-transition: all .3s ease-in;
+			-ms-transition: all .3s ease-in;
+				-o-transition: all .3s ease-in;
+					transition: all .3s ease-in;
 }
 
 /* ------------------------------------------------------------------------ */
@@ -1522,6 +1571,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 /* ------------------------------------------------------------------------ */
 
 .pagination {
+	margin-top: 30px;
 	padding-bottom: 30px;
 	text-align: center;
 }
@@ -1723,8 +1773,8 @@ h3#reply-title {
 }
 #respond {
 	position: relative;
-	margin: 20px 0 40px;
-	padding-top: 20px;
+	margin: 0 0 40px;
+	padding-top: 0;
 }
 .comment-notes {
 	display: none;
@@ -2346,4 +2396,12 @@ span.wpcf7-not-valid-tip {
 
 .framed-box .three-fourth, .framed-box .one-fourth {
 	margin-bottom: 0;	
+}
+
+/* ------------------------------------------------------------------------ */
+/* 11. Contact form 7
+/* ------------------------------------------------------------------------ */
+
+.wpcf7-form input[type="submit"] {
+	background-color: #a188bc !important;
 }

@@ -703,6 +703,9 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	/*display: none;*/
 	padding-top: 50px;
 }
+.content-home{
+	display: none;
+}
 .vertical-line {
 	background: url(framework/images/content-bg.png) repeat-y 718px 0;
 	border-bottom: 1px solid #e5e4e4;
@@ -912,22 +915,12 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	-ms-transition: background .3s linear;
 	-o-transition: background .3s linear;
 	transition: background .3s linear;*/
-	-webkit-transition: all .3s ease-out;
-		-moz-transition: all .3s ease-out;
-			-ms-transition: all .3s ease-out;
-				-o-transition: all .3s ease-out;
-					transition: all .3s ease-out;
 	
 }
 .read-more:hover {
 	/*background-color: #ff4301;*/
 	background: url(images/bg-readmore.png) transparent bottom no-repeat !important;
 	color: #fff;
-	-webkit-transition: all .3s ease-in;
-		-moz-transition: all .3s ease-in;
-			-ms-transition: all .3s ease-in;
-				-o-transition: all .3s ease-in;
-					transition: all .3s ease-in;
 }
 
 /* ------------------------------------------------------------------------ */

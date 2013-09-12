@@ -340,6 +340,29 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	margin-right: 5px;
 	text-transform: capitalize;
 }
+
+/*.sf-menu li .beforeItem{
+	position: absolute;
+	background: url(images/beforeItem.png) no-repeat;
+	height: 32px;
+	width: 14px;
+	left: -6px;
+	top: 0;
+}
+.sf-menu li .afterItem{
+	position: absolute;
+	background: url(images/afterItem.png) no-repeat;
+	height: 32px;
+	width: 14px;
+	right: -6px;
+	top: 0;
+}
+.sf-menu li .menutem{
+	background: #987bb7 !important;
+	display: inline-block;
+	margin: 0px;
+}*/
+
 .sf-menu li:last-child {
 	margin-right: 0;	
 }
@@ -349,8 +372,31 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 }
 .current-menu-item a {
 	color:#FFF !important;
-	background-color: #997cb8;
 }
+
+.current-menu-item .beforeItem{
+	position: absolute;
+	background: url(images/beforeItem.png) no-repeat;
+	height: 32px;
+	width: 14px;
+	left: -6px;
+	top: 0;
+}
+.current-menu-item .menutem{
+	background: #987bb7 !important;
+	display: inline-block;
+	margin: 0px;
+}
+.current-menu-item .afterItem{
+	position: absolute;
+	background: url(images/afterItem.png) no-repeat;
+	height: 32px;
+	width: 14px;
+	right: -6px;
+	top: 0;
+}
+
+
 /* menu with children */
 #main-menu .sf-with-ul {
 }

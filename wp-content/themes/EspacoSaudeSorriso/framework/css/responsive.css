@@ -126,6 +126,9 @@ h2 {
 	padding-left: 10px;	
 	padding-right: 10px;	
 }
+.logo_footer{
+	margin: 0 auto;
+}
 .copyright {
 	text-align: center;
 }
@@ -187,7 +190,8 @@ h2 {
 	border-bottom: 1px solid #e5e4e4;
 }
 .page-top h2 {
-	font-size: 22px;	
+	font-size: 22px;
+	margin-left: 0;
 }
 .news-widgets h2 {
 	padding-left: 10px;	

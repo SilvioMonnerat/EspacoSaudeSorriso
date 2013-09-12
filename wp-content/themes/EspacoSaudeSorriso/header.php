@@ -80,17 +80,19 @@ global $sd_data;
 			<div class="<?php echo $header_class = ($sd_data['top_phone_email_bar'] == 1 ? 'span5' : 'span9'); ?>">
 				<nav id="main-menu" class="main-menu">
 					<?php
-			// Using wp_nav_menu() to display menu
-			wp_nav_menu( array(
-				'menu' => 'Main Menu', // Select the menu to show by Name
-				'class' => 'sf-menu',
-				'menu_class' =>'sf-menu',
-				'menu_id' => 'menu-nav',
-				'container' => false, // Remove the navigation container div
-				'theme_location' => 'Header Menu'
-				)
-			);
-		?>
+						// Using wp_nav_menu() to display menu
+						wp_nav_menu( array(
+							'menu'            => 'Main Menu', // Select the menu to show by Name
+							'class'           => 'sf-menu',
+							'menu_class'      => 'sf-menu',
+							'menu_id'         => 'menu-nav',
+							'before'          => '<span class="beforeItem"></span><span class="menutem">',
+							'after'           => '</span><span class="afterItem"></span>',
+							'container'       => false, // Remove the navigation container div
+							'theme_location'  => 'Header Menu'
+							)
+						);
+					?>
 				</nav>
 			</div>
 			<!-- primary menu end--> 

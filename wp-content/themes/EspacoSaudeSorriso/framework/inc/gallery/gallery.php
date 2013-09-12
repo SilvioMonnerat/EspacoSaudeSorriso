@@ -17,6 +17,7 @@
 		</ul>
 	</div>
 	<div class="gallery-single-content">
+		<div class="team-title"> <?php the_title() ?> </div>
 		<?php the_content(); ?>
 		
 	</div>

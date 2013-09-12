@@ -1476,6 +1476,9 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 .gallery-item:hover .thumb-overlay {
 	opacity: 1;	
 }
+.gallery-item:hover .thumb-overlay-team {
+	opacity: 1;	
+}
 .thumb-overlay-content {
 	background-color: #ff4301;
 	border-radius: 30px;
@@ -1526,6 +1529,9 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	width: 184px;
 	height: 41px;
 	display: inline-block;
+}
+.gallery-single-content .team-email:hover{
+	background: url(images/bg-email-team.png) no-repeat bottom;
 }
 .gallery-single-content .team-email a{
 	font-weight: bold;

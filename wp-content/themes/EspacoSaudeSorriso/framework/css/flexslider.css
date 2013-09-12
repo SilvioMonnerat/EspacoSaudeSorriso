@@ -89,6 +89,7 @@ html[xmlns] .slides {
 .flexslider {
 	margin: 0 0 8px;
 	position: relative;
+	z-index: 9;
 	zoom: 1;
 }
 .flex-viewport {

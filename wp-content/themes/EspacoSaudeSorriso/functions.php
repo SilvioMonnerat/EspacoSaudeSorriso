@@ -142,9 +142,9 @@
 	function sd_rel_prettyphoto($content) {
 		global $post;
 		
-		$pattern ="/<a(.*?)href=('|\")(.*?).(bmp|gif|jpeg|jpg|png)('|\")(.*?)>/i";
+		$pattern     = "/<a(.*?)href=('|\")(.*?).(bmp|gif|jpeg|jpg|png)('|\")(.*?)>/i";
 		$replacement = '<a$1href=$2$3.$4$5 rel="PrettyPhoto['.$post->ID.']"$6>';
-		$content = preg_replace($pattern, $replacement, $content);
+		$content     = preg_replace($pattern, $replacement, $content);
 	
 	return $content;
 	}
@@ -202,57 +202,57 @@
 	// Register sidebars
  	function sd_register_sidebars() {
 		register_sidebar( array(
-			'name' => __( 'Main Sidebar', 'framework' ),
-			'id' => 'main-sidebar',
-			'description' => '',
+			'name'          => __( 'Main Sidebar', 'framework' ),
+			'id'            => 'main-sidebar',
+			'description'   => '',
 			'before_widget' => '<aside class="sidebar-widget clearfix">',
-			'after_widget' => '</aside>',
-			'before_title' => '<h3>',
-			'after_title' => '<span class="title-arrow"></span></h3>',
+			'after_widget'  => '</aside>',
+			'before_title'  => '<h3>',
+			'after_title'   => '<span class="title-arrow"></span></h3>',
 			) 
 		);
 		
 		register_sidebar( array(
-			'name' => __( 'Homepage Sidebar', 'framework' ),
-			'id' => 'homepage-sidebar',
-			'description' => '',
+			'name'          => __( 'Homepage Sidebar', 'framework' ),
+			'id'            => 'homepage-sidebar',
+			'description'   => '',
 			'before_widget' => '<aside class="homepage-sidebar clearfix">',
-			'after_widget' => '</aside>',
-			'before_title' => '<h2>',
-			'after_title' => '</h2>',
+			'after_widget'  => '</aside>',
+			'before_title'  => '<h2>',
+			'after_title'   => '</h2>',
 			) 
 		);
 		
 		register_sidebar( array(
-			'name' => __( 'Footer Left Sidebar', 'framework' ),
-			'id' => 'footer-left-sidebar',
-			'description' => '',
+			'name'          => __( 'Footer Left Sidebar', 'framework' ),
+			'id'            => 'footer-left-sidebar',
+			'description'   => '',
 			'before_widget' => '<aside class="footer-sidebar-widget clearfix">',
-			'after_widget' => '</aside>',
-			'before_title' => '<h4 class="footer-title">',
-			'after_title' => '</h4>',
+			'after_widget'  => '</aside>',
+			'before_title'  => '<h4 class="footer-title">',
+			'after_title'   => '</h4>',
 			) 
 		);
 		
 		register_sidebar( array(
-			'name' => __( 'Footer Middle Sidebar', 'framework' ),
-			'id' => 'footer-middle-sidebar',
-			'description' => '',
+			'name'          => __( 'Footer Middle Sidebar', 'framework' ),
+			'id'            => 'footer-middle-sidebar',
+			'description'   => '',
 			'before_widget' => '<aside class="footer-sidebar-widget clearfix">',
-			'after_widget' => '</aside>',
-			'before_title' => '<h4 class="footer-title">',
-			'after_title' => '</h4>',
+			'after_widget'  => '</aside>',
+			'before_title'  => '<h4 class="footer-title">',
+			'after_title'   => '</h4>',
 			) 
 		);
 		
 		register_sidebar( array(
-			'name' => __( 'Footer Right Sidebar', 'framework' ),
-			'id' => 'footer-right-sidebar',
-			'description' => '',
+			'name'          => __( 'Footer Right Sidebar', 'framework' ),
+			'id'            => 'footer-right-sidebar',
+			'description'   => '',
 			'before_widget' => '<aside class="footer-sidebar-widget clearfix">',
-			'after_widget' => '</aside>',
-			'before_title' => '<h4 class="footer-title">',
-			'after_title' => '</h4>',
+			'after_widget'  => '</aside>',
+			'before_title'  => '<h4 class="footer-title">',
+			'after_title'   => '</h4>',
 			) 
 		);
 	}

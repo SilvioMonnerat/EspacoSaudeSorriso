@@ -70,10 +70,10 @@ get_header();
 								<?php _e('view', 'framework'); ?>
 								</a></span>
 								<?php 
-				$image_id = get_post_thumbnail_id();  
-				$full_image_url = wp_get_attachment_image_src($image_id,'full');  
-				$full_image_url = $full_image_url[0];
-			?>
+									$image_id = get_post_thumbnail_id();  
+									$full_image_url = wp_get_attachment_image_src($image_id,'full');  
+									$full_image_url = $full_image_url[0];
+								?>
 								<span class="image-icon"><a rel="lightbox" title="<?php the_title(); ?>" href="<?php echo $full_image_url; ?> ">
 								<?php _e('view photo', 'framework'); ?>
 								</a></span> </div>

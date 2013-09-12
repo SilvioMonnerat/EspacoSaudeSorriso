@@ -88,7 +88,7 @@ get_header();
 							//the_post_thumbnail('gallery-columns'); 
 							the_crop_image($img, "&amp;w=$width&amp;h=$height&amp;zc=1");
 						?>
-						<div class="thumb-overlay">
+						<div class="thumb-overlay-team">
 							<div class="thumb-overlay-content"> <span class="link-icon"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 								<?php _e('view', 'framework'); ?>
 								</a></span>

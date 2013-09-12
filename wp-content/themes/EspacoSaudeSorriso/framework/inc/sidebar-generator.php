@@ -58,9 +58,9 @@ class sidebar_generator {
 				register_sidebar(array(
 					'name'=>$sidebar,
 			    	'before_widget' => '<div id="%1$s" class="widget %2$s sidebar-widget">',
-		   			'after_widget' => '</div>',
-		   			'before_title' => '<h3 class="title">',
-					'after_title' => '<span class="title-arrow"></span></h3>',
+		   			'after_widget'  => '</div>',
+		   			'before_title'  => '<h3 class="title">',
+					'after_title'   => '<span class="title-arrow"></span></h3>',
 		    	));
 			}
 		}

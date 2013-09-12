@@ -13,6 +13,7 @@
 	include_once('framework/inc/enqueue.php'); // Enqueue JavaScripts & CSS
 	include_once('framework/inc/shortcodes.php'); // Load Shortcodes
 	include_once('framework/inc/post-types/portfolio.php'); // Load Portfolio Post Type
+	include_once('framework/inc/post-types/team.php'); // Load Team Post Type
 	include_once('framework/inc/sidebar-generator.php'); // Load Unlimited Sidebars
 	include_once('framework/inc/post-rating.php'); // Load Post Rating
 	
@@ -157,7 +158,7 @@
 	add_theme_support( 'automatic-feed-links' );
 	
 	// Add post formats WP 3.1+
-	add_theme_support('post-formats', array( 'video', 'audio', 'link', 'gallery'));
+	add_theme_support('post-formats', array( 'video', 'audio', 'link', 'gallery','team'));
 
 	// Run shortcodes in widgets
 	add_filter('widget_text', 'do_shortcode');

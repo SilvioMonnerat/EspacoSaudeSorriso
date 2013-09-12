@@ -81,10 +81,9 @@ get_header();
 					</figure>
 					<?php endif; ?>
 					<div class="gallery-details">
-						<h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-							<?php the_title(); ?>
-							</a></h3>
-						<p><?php echo get_the_term_list( get_the_ID(), 'portfolio_filter', '', ', ' ); ?></p>
+						<h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"> <?php the_title(); ?></a></h3>
+						<!-- <p><?php //echo get_the_term_list( get_the_ID(), 'portfolio_filter', '', ', ' ); ?></p> -->
+						<a href="<?php the_permalink() ?>"><div class="read"><span></span></div></a>
 					</div>
 				</div>
 			</div>

@@ -4,7 +4,7 @@
 /* ------------------------------------------------------------------------ */
 global $sd_data;
 ?>
-
+<?php if(is_home()){ ?>
 <div class="home-banner">
 	<div class="container">
 		<div class="home-banner-content clearfix">
@@ -15,3 +15,4 @@ global $sd_data;
 		</div>
 	</div>
 </div>
+<?php } ?>

@@ -36,38 +36,38 @@ if($types) {
 
 
 $meta_boxes[] = array(
-	'id' => 'page_options',
-	'title' => 'Gallery Template Options',
-	'pages' => array( 'page' ),
+	'id'      => 'page_options',
+	'title'   => 'Gallery Template Options',
+	'pages'   => array( 'page' ),
 	'context' => 'normal',
 
-	'fields' => array(
+	'fields'  => array(
 
 
 		array(
-			'name' => 'Select Gallery Categories',
-			'id'   => $prefix . "portfolio-taxonomies",
-			'type' => 'checkbox_list',
+			'name'    => 'Select Gallery Categories',
+			'id'      => $prefix . "portfolio-taxonomies",
+			'type'    => 'checkbox_list',
 			// Options of checkboxes, in format 'value' => 'Label'
 			'options' => $types_array,
-			'desc' => 'Optional: Choose which gallery category you want to display on this page (If Gallery Template is chosen).'
+			'desc'    => 'Optional: Choose which gallery category you want to display on this page (If Gallery Template is chosen).'
 		),
 	)
 );
 
 $meta_boxes[] = array(
-	'id' => 'portfolio_item',
-	'title' => 'Gallery Page Options',
-	'pages' => array( 'portfolio' ),
+	'id'      => 'portfolio_item',
+	'title'   => 'Gallery Page Options',
+	'pages'   => array( 'portfolio', 'team' ),
 	'context' => 'normal',
 
-	'fields' => array(
+	'fields'  => array(
 
 		array(
-			'name'	=> 'Gallery Slider Images',
-			'desc'	=> 'Upload up to 20 images for the slider - or only one to display a single image. <br /><br /><strong>Note:</strong> The Preview Image will be the Image set as Featured Image.',
-			'id'	=> $prefix . 'portfolio-slider',
-			'type'	=> 'plupload_image',
+			'name'	           => 'Gallery Slider Images',
+			'desc'	           => 'Upload up to 20 images for the slider - or only one to display a single image. <br /><br /><strong>Note:</strong> The Preview Image will be the Image set as Featured Image.',
+			'id'	           => $prefix . 'portfolio-slider',
+			'type'	           => 'plupload_image',
 			'max_file_uploads' => 20,
 		)
 	)
@@ -80,15 +80,13 @@ $meta_boxes[] = array(
  *
  * @return void
  */
-function sd_register_meta_boxes()
-{
+function sd_register_meta_boxes() {
 	// Make sure there's no errors when the plugin is deactivated or during upgrade
 	if ( !class_exists( 'RW_Meta_Box' ) )
 		return;
 
 	global $meta_boxes;
-	foreach ( $meta_boxes as $meta_box )
-	{
+	foreach ( $meta_boxes as $meta_box ) {
 		new RW_Meta_Box( $meta_box );
 	}
 }

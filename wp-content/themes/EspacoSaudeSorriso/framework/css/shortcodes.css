@@ -41,6 +41,20 @@
 	margin-bottom: 20px;
 	float: left;
 }
+
+.one-third  .about-title{
+	font-size: 25px;
+	font-style: normal;
+	font-weight: normal;
+	color:#2b2828;
+}
+.two-third .about-title{
+	font-size: 25px;
+	font-style: normal;
+	font-weight: normal;
+	color:#2b2828;
+}
+
 .last {
 	margin-right: 0 !important;
 	clear: right;

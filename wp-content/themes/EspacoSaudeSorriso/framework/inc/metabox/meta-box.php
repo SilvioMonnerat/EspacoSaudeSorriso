@@ -34,13 +34,11 @@ define( 'RWMB_CLASSES_DIR', trailingslashit( RWMB_INC_DIR . 'classes' ) );
 // Helper function to retrieve meta value
 require_once RWMB_INC_DIR . 'helpers.php';
 
-if ( is_admin() )
-{
+if ( is_admin() ) {
 	require_once RWMB_INC_DIR . 'common.php';
 
 	// Field classes
-	foreach ( glob( RWMB_FIELDS_DIR . '*.php' ) as $file )
-	{
+	foreach ( glob( RWMB_FIELDS_DIR . '*.php' ) as $file )	{
 		require_once $file;
 	}
 

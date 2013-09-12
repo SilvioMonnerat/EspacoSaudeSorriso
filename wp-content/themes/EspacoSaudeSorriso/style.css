@@ -1330,6 +1330,10 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 /* 13. Gallery Page
 /* ------------------------------------------------------------------------ */
 
+.team-filters{
+	display: none;
+}
+
 /* gallery filter */
 .gallery-filters {
 	padding: 50px 0;
@@ -1384,9 +1388,10 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	position: relative;
 }
 .gallery-item-content {
+	position: relative;
 	background-color: #eeeef0;
 	padding: 10px;
-	height: 250px;
+	height: auto;
 }
 .gallery-item-content img {
 	width: 250px;
@@ -1395,6 +1400,9 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 .gallery-item-content figure {
 	margin-bottom: 10px;	
 }
+.gallery-details{
+	position: relative;
+}
 .gallery-details h3 {
 	color: #5a5a62;
 	font-size: 13px;
@@ -1402,18 +1410,58 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	line-height: 16px;
 	padding-bottom: 0;
 }
+.gallery-details .term-filter{
+	background-color: #FFF;
+	padding: 10px;
+	margin-top: 20px;
+}
+.gallery-details span.desc{
+	margin-top: 10px;
+}
+.gallery-details .term-filter a{
+	background: url(framework/images/sprite.png) no-repeat -787px -582px;
+	display: inline-block;
+	list-style: none;
+	padding-left: 20px;
+}
 .gallery-details p {
 	color: #909096;
-	font-size: 12px;	
+	font-size: 12px;
+	margin-bottom: 10px;	
+}
+.gallery-details .read{
+	background: url(images/read-service.png) no-repeat;
+	width: 260px;
+	margin-bottom: -10px;
+	height: 48px;
 }
 .gallery-content figure {
 	position: relative;	
+}
+.team-content{
+	margin-top: 30px;
 }
 .thumb-overlay {
 	background-color: rgba(0, 0, 0, .5);
 	top: 0;
 	height: 190px;
 	left: 0;
+	max-height: 100%;
+	max-width: 100%;
+	position: absolute;
+	opacity: 0;
+	width: 250px;
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-ms-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+}
+.thumb-overlay-team {
+	background-color: rgba(0, 0, 0, .5);
+	top: 10px;
+	height: 190px;
+	left: 10px;
 	max-height: 100%;
 	max-width: 100%;
 	position: absolute;
@@ -1455,8 +1503,38 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 
 /* gallery single page */
 
+
+
 .gallery-single-page {
 	margin-top: 50px;	
+}
+.gallery-single-content{
+	position: relative;
+}
+.gallery-single-content .read{
+
+}
+.gallery-single-content .team-title{
+	font-size: 22px;
+	font-weight: bold;
+	color:#2b2828;
+	margin-bottom: 20px;
+}
+.gallery-single-content .team-email{
+	margin-top: 20px;
+	background: url(images/bg-email-team.png) no-repeat;
+	width: 184px;
+	height: 41px;
+	display: inline-block;
+}
+.gallery-single-content .team-email a{
+	font-weight: bold;
+	font-style: normal;
+	color:#FFF;
+	font-size: 18px;
+	text-align: center;
+	line-height: 41px;
+	margin-left: 20px;
 }
 .gallery-single-page .flexslider {
 	float: left;
@@ -2398,3 +2476,28 @@ span.wpcf7-not-valid-tip {
 .wpcf7-form input[type="submit"] {
 	background-color: #a188bc !important;
 }
+
+/* ------------------------------------------------------------------------ */
+/* 11. Contact form 7
+/* ------------------------------------------------------------------------ */
+
+#meta_control label {		
+	clear: both;
+	display: block;
+	width: 98%;
+	margin: 1em 0;
+	font-size: 14px;
+}
+#meta_control textarea {
+	clear: both;
+	display: block;
+	width: 98%;
+}
+#meta_control input[type='text'] {
+	clear: both;
+	display: block;
+	width: 98%;
+}
+.meta-textarea {
+	
+}	

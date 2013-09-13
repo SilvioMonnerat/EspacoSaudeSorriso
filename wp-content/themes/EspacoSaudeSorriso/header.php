@@ -77,7 +77,7 @@ global $sd_data;
 			</div>
 			<!-- blog title logo end --> 
 			<!-- primary menu -->
-			<div class="<?php echo $header_class = ($sd_data['top_phone_email_bar'] == 1 ? 'span5' : 'span9'); ?>">
+			<div class="<?php echo $header_class = ($sd_data['top_phone_email_bar'] == 1 ? 'span7' : 'span9'); ?>">
 				<nav id="main-menu" class="main-menu">
 					<?php
 						// Using wp_nav_menu() to display menu
@@ -98,13 +98,13 @@ global $sd_data;
 			<!-- primary menu end--> 
 			<?php if ( $sd_data['top_phone_email_bar'] == 1) : ?>
 			<!-- tel email section --> 
-			<div class="span4 tel-email">
+			<div class="span3 tel-email">
 			<ul>
 			<?php if ( !empty($sd_data['top_phone']) ) : ?>
-			<li><strong><?php _e('Tel:', 'framework'); ?></strong> <?php echo $sd_data['top_phone']; ?></li>
+			<li><?php _e('Tel:', 'framework'); ?> <?php echo $sd_data['top_phone']; ?></li>
 			<?php endif; ?>
 			<?php if ( !empty($sd_data['top_email']) ) : ?>
-			<li><strong><?php _e('Email:', 'framework'); ?></strong> <?php echo $sd_data['top_email']; ?></li>
+			<li><?php _e('Email:', 'framework'); ?> <?php echo $sd_data['top_email']; ?></li>
 			<?php endif; ?>
 			</ul>
 			</div>

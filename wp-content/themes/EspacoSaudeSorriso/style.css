@@ -219,7 +219,8 @@ ol {
 	background-color: #8cc7ae !important;
 	height: 77px;
 	margin-top: 13px!important;
-	position: relative;
+	position: absolute;
+	right: 0;
 	z-index: 2;
 
 	-webkit-border-top-left-radius: 20px;
@@ -253,10 +254,10 @@ ol {
 /* ------------------------------------------------------------------------ */
 .main-menu {
 	/*margin-top: 22px;*/
-	margin-top: 20px !important;
+	margin-top: 35px !important;
 	position: relative;
 	z-index: 9999;
-	margin-left: -80px;
+	margin-left: -95px;
 }
 .mnav {
 	display: none;
@@ -327,7 +328,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 }
 .sf-menu a {
 	color: #b9b5b6 !important;
-	font-size: 14px;
+	font-size: 13px;
 	text-transform: uppercase;
 	font-family: 'Maven Pro', sans-serif;
 	font-style: normal;
@@ -518,6 +519,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	padding-bottom: 0;
 	position: relative;
 	z-index: 999;
+	margin-left: -20px;
 }
 .site-title img {
 	max-width: 100%;
@@ -2571,9 +2573,19 @@ span.wpcf7-not-valid-tip {
 	-webkit-border-radius: 0 !important;
 	-o-border-radius: 0 !important;
 	-moz-border-radius: 0 !important;
+	-webkit-transition: Linear 0.5s ease-out;
+		-moz-transition: Linear 0.5s ease-out;
+			-ms-transition: Linear 0.5s ease-out;
+				-o-transition: Linear 0.5s ease-out;
+					transition: Linear 0.5s ease-out;
 }
 .wpcf7-form input[type="submit"]:hover{
 	background: url(images/bg-readmore.png) no-repeat bottom !important;
+	-webkit-transition: Linear 0.5s ease-in;
+		-moz-transition: Linear 0.5s ease-in;
+			-ms-transition: Linear 0.5s ease-in;
+				-o-transition: Linear 0.5s ease-in;
+					transition: Linear 0.5s ease-in;
 }
 
 

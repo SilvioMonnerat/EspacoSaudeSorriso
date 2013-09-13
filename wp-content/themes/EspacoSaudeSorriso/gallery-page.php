@@ -12,13 +12,13 @@ get_header();
 		$portfolio_filters = get_terms('portfolio_filter');
 		if($portfolio_filters): ?>
 			<ul>
-				<li><a href="#" data-filter="*" class="active">
+				<!-- <li><a href="#" data-filter="*" class="active">
 					<?php _e('All', 'framework'); ?>
-					<span></span> </a></li>
+					<span></span> </a></li> -->
 				<?php foreach($portfolio_filters as $portfolio_filter): ?>
 				<?php if(rwmb_meta('sd_portfolio-taxonomies', 'type=checkbox_list')  && !in_array('0', rwmb_meta('sd_portfolio-taxonomies', 'type=checkbox_list'))): ?>
 				<?php if(in_array($portfolio_filter->term_id, rwmb_meta('sd_portfolio-taxonomies', 'type=checkbox_list') )): ?>
-				<li><a href="#" data-filter=".<?php echo $portfolio_filter->slug; ?>"><?php echo $portfolio_filter->name; ?><span></span></a></li>
+				<li><a href="#" data-filter=".<?php echo $portfolio_filter->slug; ?>" class="active"><?php echo $portfolio_filter->name; ?><span></span></a></li>
 				<?php endif; ?>
 				<?php else: ?>
 				<li><a href="#" data-filter=".<?php echo $portfolio_filter->slug; ?>"><?php echo $portfolio_filter->name; ?><span></span></a></li>

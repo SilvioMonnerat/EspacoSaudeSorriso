@@ -8,14 +8,14 @@ function register_team() {
 	global $sd_data;
 	
 	$labels = array(
-		'name'               => __( 'Team', 'framework' ),
-		'singular_name'      => __( 'Team Item', 'framework' ),
+		'name'               => __( 'Equipe', 'framework' ),
+		'singular_name'      => __( 'Equipe Item', 'framework' ),
 		'add_new'            => __( 'Add New Item', 'framework' ),
-		'add_new_item'       => __( 'Add New Team Item', 'framework' ),
-		'edit_item'          => __( 'Edit Team Item', 'framework' ),
-		'new_item'           => __( 'Add New Team Item', 'framework' ),
+		'add_new_item'       => __( 'Add New Equipe Item', 'framework' ),
+		'edit_item'          => __( 'Edit Equipe Item', 'framework' ),
+		'new_item'           => __( 'Add New Equipe Item', 'framework' ),
 		'view_item'          => __( 'View Item', 'framework' ),
-		'search_items'       => __( 'Search Team', 'framework' ),
+		'search_items'       => __( 'Search Equipe', 'framework' ),
 		'not_found'          => __( 'No gallery items found', 'framework' ),
 		'not_found_in_trash' => __( 'No gallery items found in trash', 'framework' )
 	);
@@ -39,8 +39,8 @@ register_taxonomy(
 	array("team"),
 	array(
 		"hierarchical"   => true,
-		"label"          => "Team Filter",
-		"singular_label" => "Team Filter",
+		"label"          => "Equipe Filter",
+		"singular_label" => "Equipe Filter",
 		"rewrite"        => true
 		)
 	);

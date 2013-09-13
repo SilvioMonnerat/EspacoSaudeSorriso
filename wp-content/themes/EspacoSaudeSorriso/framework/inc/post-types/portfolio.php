@@ -8,16 +8,16 @@ function register_portfolio() {
 	global $sd_data;
 	
 	$labels = array(
-		'name'               => __( 'Gallery', 'framework' ),
-		'singular_name'      => __( 'Gallery Item', 'framework' ),
+		'name'               => __( 'Serviço', 'framework' ),
+		'singular_name'      => __( 'Serviço Item', 'framework' ),
 		'add_new'            => __( 'Add New Item', 'framework' ),
-		'add_new_item'       => __( 'Add New Gallery Item', 'framework' ),
-		'edit_item'          => __( 'Edit Gallery Item', 'framework' ),
-		'new_item'           => __( 'Add New Gallery Item', 'framework' ),
+		'add_new_item'       => __( 'Add New Serviço Item', 'framework' ),
+		'edit_item'          => __( 'Edit Serviço Item', 'framework' ),
+		'new_item'           => __( 'Add New Serviço Item', 'framework' ),
 		'view_item'          => __( 'View Item', 'framework' ),
-		'search_items'       => __( 'Search Gallery', 'framework' ),
-		'not_found'          => __( 'No gallery items found', 'framework' ),
-		'not_found_in_trash' => __( 'No gallery items found in trash', 'framework' )
+		'search_items'       => __( 'Search Serviço', 'framework' ),
+		'not_found'          => __( 'No serviço items found', 'framework' ),
+		'not_found_in_trash' => __( 'No serviço items found in trash', 'framework' )
 	);
 	
     $portfolio_args = array(  
@@ -39,8 +39,8 @@ register_taxonomy(
 	array("portfolio"),
 	array(
 		"hierarchical"   => true,
-		"label"          => "Gallery Filter",
-		"singular_label" => "Gallery Filter",
+		"label"          => "Serviço Filter",
+		"singular_label" => "Serviço Filter",
 		"rewrite"        => true
 		)
 	);

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-08-08 21:20:25+0000\n"
+"PO-Revision-Date: 2013-09-12 00:03:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -222,7 +222,7 @@ msgstr "Anexo"
 
 #: wp-admin/nav-menus.php:478
 msgid "Menus can be displayed in locations defined by your theme, even used in sidebars by adding a &#8220;Custom Menus&#8221; widget on the <a href=\"%1$s\">Widgets</a> screen. If your theme does not support the custom menus feature (the default themes, %2$s and %3$s, do), you can learn about adding this support by following the Documentation link to the side."
-msgstr "Os menus podem ser mostrados em posições definadas por seu tema, ou mesmo em barras laterais adicionando-se um widget de &#8220;Menu Personalizado&#8221; na tela <a href=\"%1$s\">Widgets</a>. Se o seu tema não suporta o recurso de menus personalizados (os temas padrão %2$s e %3$s suportam), você pode aprender como adicionar esse suporte acessando o link para a Documentação ao lado. "
+msgstr "Os menus podem ser mostrados em lugares definidos por seu tema e mesmo em laterais usando o widget &#8220;Menu personalizado&#8221; no painel <a href=\"%1$s\">Widgets</a>. Se seu tema não suporta o recuso de menu personalizado (os temas padrão, %2$s e %3$s, suportam!), você pode aprender sobre como adicionar este recurso acessando o link &#8220;Documentação sobre Menus&#8221; ao lado."
 
 #: wp-admin/includes/image-edit.php:85
 msgid "You can proportionally scale the original image. For best results the scaling should be done before performing any other operations on it like crop, rotate, etc. Note that images can only be scaled down, not up."

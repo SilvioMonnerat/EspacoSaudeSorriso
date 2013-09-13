@@ -315,9 +315,9 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	padding: 0 12px;
 	position: relative;
 	
-	-webkit-border-radius: 20px;
+	/*-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
-	border-radius: 20px;
+	border-radius: 20px;*/
 	
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
@@ -338,30 +338,31 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 }
 .sf-menu li {
 	margin-right: 5px;
+	margin-bottom: 5px;
 	text-transform: capitalize;
 }
 
-/*.sf-menu li .beforeItem{
+.sf-menu li:hover .beforeItem{
 	position: absolute;
-	background: url(images/beforeItem.png) no-repeat;
+	background: url(images/beforeItem.png) no-repeat !important;
 	height: 32px;
 	width: 14px;
 	left: -6px;
 	top: 0;
 }
-.sf-menu li .afterItem{
+.sf-menu li:hover .afterItem{
 	position: absolute;
-	background: url(images/afterItem.png) no-repeat;
+	background: url(images/afterItem.png) no-repeat !important;
 	height: 32px;
 	width: 14px;
 	right: -6px;
 	top: 0;
 }
-.sf-menu li .menutem{
-	background: #987bb7 !important;
+.sf-menu li:hover .menutem{
+	background: #987bb7 !important ;
 	display: inline-block;
 	margin: 0px;
-}*/
+}
 
 .sf-menu li:last-child {
 	margin-right: 0;	
@@ -2532,6 +2533,50 @@ span.wpcf7-not-valid-tip {
 /* ------------------------------------------------------------------------ */
 /* 11. Contact form 7
 /* ------------------------------------------------------------------------ */
+.wpcf7 .wpcf7-form p{
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color:#9f9999;
+	font-family: 'Maven Pro', sans-serif;
+}
+.wpcf7-form input{
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color:#9f9999;
+	font-family: 'Maven Pro', sans-serif;
+}
+.wpcf7-form textarea{
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color:#9f9999;
+	font-family: 'Maven Pro', sans-serif;
+}
+.wpcf7-form input[type="submit"]{
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color:#FFF;
+	font-family: 'Maven Pro', sans-serif;
+}
+.wpcf7-form input[type="submit"]{
+	background: url(images/bg-readmore.png) no-repeat !important;
+	height: 30px;
+	width: 90px;
+	display: inline-block;
+	border-radius: 0 !important;
+	-ms-border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	-o-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+}
+.wpcf7-form input[type="submit"]:hover{
+	background: url(images/bg-readmore.png) no-repeat bottom !important;
+}
+
+
 
 #meta_control label {		
 	clear: both;
@@ -2552,4 +2597,12 @@ span.wpcf7-not-valid-tip {
 }
 .meta-textarea {
 	
-}	
+}
+#wpbody	 #wpbody-content li{
+	list-style: none;
+}
+#wpbody #widgets-left .widget-title h4{
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+}

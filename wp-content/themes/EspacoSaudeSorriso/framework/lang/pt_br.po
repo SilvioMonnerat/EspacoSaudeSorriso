@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-15 14:43+0200\n"
-"PO-Revision-Date: 2013-09-06 18:07-0300\n"
+"PO-Revision-Date: 2013-09-13 12:25-0300\n"
 "Last-Translator: Skat Design <royal.flush@rocketmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,31 +18,31 @@ msgstr ""
 
 #: 404.php:13 404.php:14 ../getfit/404.php:13 ../getfit/404.php:14
 msgid "Back to Homepage"
-msgstr "Back to Homepage"
+msgstr "Voltar para a Home Page"
 
 #: 404.php:15 ../getfit/404.php:15
 msgid "We are really sorry, but the page you requested was not found."
-msgstr "We are really sorry, but the page you requested was not found."
+msgstr "A página solicitada não foi encontrada."
 
 #: 404.php:19 ../getfit/404.php:19
 msgid ""
 "It seems that the page you were trying to reach does not exist anymore or "
 "maybe it has just been moved."
 msgstr ""
-"It seems that the page you were trying to reach does not exist anymore or "
-"maybe it has just been moved."
+"Parece que a página que você está tentando acessar não existe ou foi "
+"removido."
 
 #: 404.php:20 ../getfit/404.php:20
 msgid ""
 "If you're looking for something try using the search form the top or just "
 "click on the image to go to the homepage."
 msgstr ""
-"If you're looking for something try using the search form the top or just "
-"click on the image to go to the homepage."
+"Se você está procurando algo tente usar o formulário de busca na parte "
+"superior ou apenas clique na imagem para ir para a página inicial."
 
 #: 404.php:23 ../getfit/404.php:23
 msgid "Sorry for the inconvenience."
-msgstr "Sorry for the inconvenience."
+msgstr "Pedimos desculpas pelo transtorno."
 
 #: archive.php:16 blog.php:27 full-width-page.php:22 index.php:27 page.php:30
 #: search.php:16 single-portfolio.php:21 single.php:16
@@ -51,19 +51,21 @@ msgstr "Sorry for the inconvenience."
 #: ../getfit/page.php:30 ../getfit/search.php:16
 #: ../getfit/single-portfolio.php:21 ../getfit/single.php:16
 msgid "Sorry, no posts matched your criteria"
-msgstr "Sorry, no posts matched your criteria"
+msgstr "Desculpe, não corresponde às suas postagens critérios"
 
 #: comments.php:18 ../getfit/comments.php:18
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Está postagem e protegido por senha. Entre com a senha para visualizar os "
+"comentários"
 
 #: comments.php:29 ../getfit/comments.php:29
 msgid "1 <span class=\"custom-word\">Comment</span>"
-msgstr "1 <span class=\"custom-word\">Comment</span>"
+msgstr "1 <span class=\"custom-word\">Comentário</span>"
 
 #: comments.php:29 ../getfit/comments.php:29
 msgid "% <span class=\"custom-word\">Comments</span>"
-msgstr "% <span class=\"custom-word\">Comments</span>"
+msgstr "% <span class=\"custom-word\">Comentários</span>"
 
 #: comments.php:41 ../getfit/comments.php:41
 msgid "Trackbacks/Pings"
@@ -71,11 +73,11 @@ msgstr "Trackbacks/Pings"
 
 #: comments.php:64 ../getfit/comments.php:64
 msgid "Comments are closed."
-msgstr "Comments are closed."
+msgstr "Os comentários estão fechados."
 
 #: comments.php:72 ../getfit/comments.php:72
 msgid "Name (required)"
-msgstr "Name (required)"
+msgstr "Nome (required)"
 
 #: comments.php:74 ../getfit/comments.php:74
 msgid "E-Mail (required)"
@@ -88,11 +90,11 @@ msgstr "Website"
 #: comments.php:80 functions.php:516 ../getfit/comments.php:80
 #: ../getfit/functions.php:516
 msgid "Reply"
-msgstr "Reply"
+msgstr "Responder"
 
 #: comments.php:81 ../getfit/comments.php:81
 msgid "Cancel reply"
-msgstr "Cancel reply"
+msgstr "Cancelar a resposta"
 
 #: comments.php:83 ../getfit/comments.php:83
 msgid "Leave a <span class=\"custom-word\">reply</span>"
@@ -106,24 +108,24 @@ msgstr "Enviar Comentário!"
 #: ../getfit/functions.php:80
 #: ../getfit/framework/inc/plugin-activation.php:164
 msgid "Install Required Plugins"
-msgstr "Install Required Plugins"
+msgstr "Installar os Plugins requeridos"
 
 #: functions.php:81 framework/inc/plugin-activation.php:165
 #: ../getfit/functions.php:81
 #: ../getfit/framework/inc/plugin-activation.php:165
 msgid "Install Plugins"
-msgstr "Install Plugins"
+msgstr "Instalar Plugins"
 
 #: functions.php:82 framework/inc/plugin-activation.php:166
 #: ../getfit/functions.php:82
 #: ../getfit/framework/inc/plugin-activation.php:166
 #, php-format
 msgid "Installing Plugin: %s"
-msgstr "Installing Plugin: %s"
+msgstr "Instalando Plugin: %s"
 
 #: functions.php:83 ../getfit/functions.php:83
 msgid "Something went wrong with the plugin API."
-msgstr "Something went wrong with the plugin API."
+msgstr "Algo deu errado com a API plugin."
 
 #: functions.php:94 framework/inc/plugin-activation.php:487
 #: framework/inc/plugin-activation.php:499
@@ -134,19 +136,19 @@ msgstr "Something went wrong with the plugin API."
 #: ../getfit/framework/inc/plugin-activation.php:536
 #: ../getfit/framework/inc/plugin-activation.php:2040
 msgid "Return to Required Plugins Installer"
-msgstr "Return to Required Plugins Installer"
+msgstr "Voltar para Obrigatório Installer Plugins"
 
 #: functions.php:95 framework/inc/plugin-activation.php:178
 #: framework/inc/plugin-activation.php:1843 ../getfit/functions.php:95
 #: ../getfit/framework/inc/plugin-activation.php:178
 #: ../getfit/framework/inc/plugin-activation.php:1843
 msgid "Plugin activated successfully."
-msgstr "Plugin activated successfully."
+msgstr "Plugin ativado com sucesso."
 
 #: functions.php:96 ../getfit/functions.php:96
 #, php-format
 msgid "All plugins installed and activated successfully. %s"
-msgstr "All plugins installed and activated successfully. %s"
+msgstr "Todos os plugins instalado e ativado com sucesso. %s"
 
 #: functions.php:176 ../getfit/functions.php:176
 msgid "Header Navigation"
@@ -178,19 +180,19 @@ msgstr "Footer Right Sidebar"
 
 #: functions.php:297 ../getfit/functions.php:297
 msgid "First"
-msgstr "First"
+msgstr "Primeiro"
 
 #: functions.php:307 ../getfit/functions.php:307
 msgid "Last"
-msgstr "Last"
+msgstr "Útimo"
 
 #: functions.php:501 ../getfit/functions.php:501
 msgid "at"
-msgstr "at"
+msgstr "em"
 
 #: functions.php:506 ../getfit/functions.php:506
 msgid "You comment awaits moderation."
-msgstr "You comment awaits moderation."
+msgstr "Você aguarda a moderação do comentário"
 
 #: functions.php:510 ../getfit/functions.php:510
 msgid "(Edit)"
@@ -205,14 +207,14 @@ msgstr "Todos"
 #: ../getfit/taxonomy-portfolio_filter.php:20
 #: ../getfit/framework/inc/gallery/related-gallery.php:42
 msgid "view"
-msgstr "view"
+msgstr "Visualizar"
 
 #: gallery-page.php:78 taxonomy-portfolio_filter.php:28
 #: framework/inc/gallery/related-gallery.php:50 ../getfit/gallery-page.php:78
 #: ../getfit/taxonomy-portfolio_filter.php:28
 #: ../getfit/framework/inc/gallery/related-gallery.php:50
 msgid "view photo"
-msgstr "view photo"
+msgstr "Visualizar fotos"
 
 #: header.php:92 ../getfit/header.php:92
 msgid "Tel:"
@@ -224,7 +226,7 @@ msgstr "Email:"
 
 #: searchform.php:9 ../getfit/searchform.php:9
 msgid "looking for something?"
-msgstr "looking for something?"
+msgstr "procurando por algo?"
 
 #: searchform.php:10 ../getfit/searchform.php:10
 msgid "Search"
@@ -233,17 +235,17 @@ msgstr "Pesquisar"
 #: admin/classes/class.options_machine.php:563
 #: ../getfit/admin/classes/class.options_machine.php:563
 msgid "Last Backup : "
-msgstr "Last Backup : "
+msgstr "Último Backup : "
 
 #: admin/front-end/options.php:43 admin/front-end/options.php:67
 #: ../getfit/admin/front-end/options.php:43
 #: ../getfit/admin/front-end/options.php:67
 msgid "Save All Changes"
-msgstr "Save All Changes"
+msgstr "Salvar todas as alterações"
 
 #: admin/front-end/options.php:68 ../getfit/admin/front-end/options.php:68
 msgid "Options Reset"
-msgstr "Options Reset"
+msgstr "Redefinir Opções"
 
 #: admin/functions/functions.options.php:127
 #: ../getfit/admin/functions/functions.options.php:127
@@ -253,12 +255,12 @@ msgstr "Homepage Slider"
 #: admin/functions/functions.options.php:131
 #: ../getfit/admin/functions/functions.options.php:131
 msgid "Enable Home Slider"
-msgstr "Enable Home Slider"
+msgstr "AtivarHome Slider"
 
 #: admin/functions/functions.options.php:132
 #: ../getfit/admin/functions/functions.options.php:132
 msgid "Check to enable the Home Slider."
-msgstr "Check to enable the Home Slider."
+msgstr "Marque para ativar o Home Slider."
 
 #: admin/functions/functions.options.php:135
 #: admin/functions/functions.options.php:151
@@ -273,7 +275,7 @@ msgstr "Check to enable the Home Slider."
 #: ../getfit/admin/functions/functions.options.php:401
 #: ../getfit/admin/functions/functions.options.php:493
 msgid "Enable"
-msgstr "Enable"
+msgstr "Ativar"
 
 #: admin/functions/functions.options.php:136
 #: admin/functions/functions.options.php:152
@@ -288,32 +290,32 @@ msgstr "Enable"
 #: ../getfit/admin/functions/functions.options.php:402
 #: ../getfit/admin/functions/functions.options.php:494
 msgid "Disable"
-msgstr "Disable"
+msgstr "Desativar"
 
 #: admin/functions/functions.options.php:142
 #: ../getfit/admin/functions/functions.options.php:142
 msgid "Homepage Intro"
-msgstr "Homepage Intro"
+msgstr "Homepage Intro "
 
 #: admin/functions/functions.options.php:146
 #: ../getfit/admin/functions/functions.options.php:146
 msgid "Enable Home Intro"
-msgstr "Enable Home Intro"
+msgstr "Ativar Home Intro"
 
 #: admin/functions/functions.options.php:147
 #: ../getfit/admin/functions/functions.options.php:147
 msgid "Check to enable the home intro."
-msgstr "Check to enable the home intro."
+msgstr "Confira a permitir a introdução da Home."
 
 #: admin/functions/functions.options.php:155
 #: ../getfit/admin/functions/functions.options.php:155
 msgid "Intro Content"
-msgstr "Intro Content"
+msgstr "Intro conteúdo"
 
 #: admin/functions/functions.options.php:156
 #: ../getfit/admin/functions/functions.options.php:156
 msgid "Insert the intro content."
-msgstr "Insert the intro content."
+msgstr "Insira o conteúdo intro."
 
 #: admin/functions/functions.options.php:165
 #: ../getfit/admin/functions/functions.options.php:165
@@ -323,162 +325,165 @@ msgstr "Homepage Banner"
 #: admin/functions/functions.options.php:169
 #: ../getfit/admin/functions/functions.options.php:169
 msgid "Enable Home Banner"
-msgstr "Enable Home Banner"
+msgstr "Ativar Home Banner"
 
 #: admin/functions/functions.options.php:170
 #: ../getfit/admin/functions/functions.options.php:170
 msgid "Check to enable the home banner."
-msgstr "Check to enable the home banner."
+msgstr "Marque para ativar a bandeira na Home"
 
 #: admin/functions/functions.options.php:178
 #: ../getfit/admin/functions/functions.options.php:178
 msgid "Display the banner sitewide?"
-msgstr "Display the banner sitewide?"
+msgstr "Exibir o banner no site inteiro?"
 
 #: admin/functions/functions.options.php:179
 #: ../getfit/admin/functions/functions.options.php:179
 msgid "Check to display the banner sitewide intstead of just on the homepage."
-msgstr "Check to display the banner sitewide intstead of just on the homepage."
+msgstr ""
+"Marque para exibir o banner intstead sitewide de apenas na página inicial."
 
 #: admin/functions/functions.options.php:185
 #: ../getfit/admin/functions/functions.options.php:185
 msgid "Image Banner"
-msgstr "Image Banner"
+msgstr "Imagem Banner"
 
 #: admin/functions/functions.options.php:186
 #: ../getfit/admin/functions/functions.options.php:186
 msgid "Upload an image for the banner (220x220 px)."
-msgstr "Upload an image for the banner (220x220 px)."
+msgstr "Upload de imagem para o banner (220x220 px)."
 
 #: admin/functions/functions.options.php:192
 #: ../getfit/admin/functions/functions.options.php:192
 msgid "Banner Title"
-msgstr "Banner Title"
+msgstr "Banner Título"
 
 #: admin/functions/functions.options.php:193
 #: ../getfit/admin/functions/functions.options.php:193
 msgid "Type your banner's title."
-msgstr "Type your banner's title."
+msgstr "Escreva seu título de banner."
 
 #: admin/functions/functions.options.php:199
 #: ../getfit/admin/functions/functions.options.php:199
 msgid "Banner Text"
-msgstr "Banner Text"
+msgstr "Banner Texto"
 
 #: admin/functions/functions.options.php:200
 #: ../getfit/admin/functions/functions.options.php:200
 msgid "Type your banner's text."
-msgstr "Type your banner's text."
+msgstr "Digite o texto do banner."
 
 #: admin/functions/functions.options.php:206
 #: ../getfit/admin/functions/functions.options.php:206
 msgid "Button Text"
-msgstr "Button Text"
+msgstr "Botão de Texto"
 
 #: admin/functions/functions.options.php:207
 #: ../getfit/admin/functions/functions.options.php:207
 msgid "Type the button's text."
-msgstr "Type the button's text."
+msgstr "Digite o texto do botão."
 
 #: admin/functions/functions.options.php:209
 #: ../getfit/admin/functions/functions.options.php:209
 msgid "Click Here to Explore"
-msgstr "Click Here to Explore"
+msgstr "Clique Aqui para explorar"
 
 #: admin/functions/functions.options.php:213
 #: ../getfit/admin/functions/functions.options.php:213
 msgid "Button Url"
-msgstr "Button Url"
+msgstr "Botão Url"
 
 #: admin/functions/functions.options.php:214
 #: ../getfit/admin/functions/functions.options.php:214
 msgid "Type the button's url."
-msgstr "Type the button's url."
+msgstr "Digite a URL do botão."
 
 #: admin/functions/functions.options.php:223
 #: ../getfit/admin/functions/functions.options.php:223
 msgid "Homepage News &amp; Widgets"
-msgstr "Homepage News &amp; Widgets"
+msgstr "Homepage Notícias &amp; Widgets"
 
 #: admin/functions/functions.options.php:227
 #: ../getfit/admin/functions/functions.options.php:227
 msgid "Enable News &amp; Widgets Section"
-msgstr "Enable News &amp; Widgets Section"
+msgstr "Ativar Notícias &amp; Widgets Sessão"
 
 #: admin/functions/functions.options.php:228
 #: ../getfit/admin/functions/functions.options.php:228
 msgid "Check to enable the homepage news &amp; widgets section."
-msgstr "Check to enable the homepage news &amp; widgets section."
+msgstr "Marque para ativar a página inicial notícias &amp; widgets sessão."
 
 #: admin/functions/functions.options.php:236
 #: ../getfit/admin/functions/functions.options.php:236
 msgid "News Section Title"
-msgstr "News Section Title"
+msgstr "Título da sessão notícia"
 
 #: admin/functions/functions.options.php:237
 #: ../getfit/admin/functions/functions.options.php:237
 msgid "Type the news's section title."
-msgstr "Type the news's section title."
+msgstr "Digite o título da seção de notícias."
 
 #: admin/functions/functions.options.php:243
 #: ../getfit/admin/functions/functions.options.php:243
 msgid "Number of posts to display."
-msgstr "Number of posts to display."
+msgstr "Número de posts para mostrar."
 
 #: admin/functions/functions.options.php:244
 #: ../getfit/admin/functions/functions.options.php:244
 msgid "Select the number of posts to be displayed."
-msgstr "Select the number of posts to be displayed."
+msgstr "Selecione o número de mensagens a serem exibidos."
 
 #: admin/functions/functions.options.php:253
 #: ../getfit/admin/functions/functions.options.php:253
 msgid "Hide Sidebar?"
-msgstr "Hide Sidebar?"
+msgstr "Ocultar Sidebar?"
 
 #: admin/functions/functions.options.php:254
 #: ../getfit/admin/functions/functions.options.php:254
 msgid "Check to hide the sidebar."
-msgstr "Check to hide the sidebar."
+msgstr "Verifique para esconder sidebar."
 
 #: admin/functions/functions.options.php:260
 #: ../getfit/admin/functions/functions.options.php:260
 msgid "Number of posts to display if sidebar is disabled."
-msgstr "Number of posts to display if sidebar is disabled."
+msgstr "Número de posts para mostrar se barra lateral está desativado."
 
 #: admin/functions/functions.options.php:261
 #: ../getfit/admin/functions/functions.options.php:261
 msgid "Select the number of posts to be displayed if sidebar is disabled."
-msgstr "Select the number of posts to be displayed if sidebar is disabled."
+msgstr ""
+"Selecione o número de mensagens a serem exibidos se barra lateral está "
+"desativado."
 
 #: admin/functions/functions.options.php:272
 #: ../getfit/admin/functions/functions.options.php:272
 msgid "Homepage Bottom Custom Content"
-msgstr "Homepage Bottom Custom Content"
+msgstr "Homepage Botão conteúdo personalizado"
 
 #: admin/functions/functions.options.php:276
 #: ../getfit/admin/functions/functions.options.php:276
 msgid "Enable Bottom Custom Section"
-msgstr "Enable Bottom Custom Section"
+msgstr "Botão Ativar sessão personalizada"
 
 #: admin/functions/functions.options.php:277
 #: ../getfit/admin/functions/functions.options.php:277
 msgid "Check to enable the bottom custom section."
-msgstr "Check to enable the bottom custom section."
+msgstr "Marque para ativar a seção personalizada inferior."
 
 #: admin/functions/functions.options.php:285
 #: ../getfit/admin/functions/functions.options.php:285
 msgid "Bottom Custom Content"
-msgstr "Bottom Custom Content"
+msgstr "Fundo de conteúdo personalizado"
 
 #: admin/functions/functions.options.php:286
 #: ../getfit/admin/functions/functions.options.php:286
 msgid "Insert your bottom custom content."
-msgstr "Insert your bottom custom content."
+msgstr "Insira o seu conteúdo personalizado inferior."
 
 #: admin/functions/functions.options.php:292
 #: ../getfit/admin/functions/functions.options.php:292
 msgid "Display Sitewide?"
-msgstr "Display Sitewide?"
+msgstr "Mostrar Sitewide?"
 
 #: admin/functions/functions.options.php:293
 #: ../getfit/admin/functions/functions.options.php:293
@@ -486,20 +491,20 @@ msgid ""
 "Check to display the bottom custom section sitewide intstead of just on the "
 "homepage."
 msgstr ""
-"Check to display the bottom custom section sitewide intstead of just on the "
-"homepage."
+"Marque para exibir o fundo personalizado seção intstead sitewide de apenas "
+"na página inicial."
 
 #: admin/functions/functions.options.php:309
 #: admin/functions/functions.options.php:313
 #: ../getfit/admin/functions/functions.options.php:309
 #: ../getfit/admin/functions/functions.options.php:313
 msgid "Header Height"
-msgstr "Header Height"
+msgstr "Altura do Header"
 
 #: admin/functions/functions.options.php:314
 #: ../getfit/admin/functions/functions.options.php:314
 msgid "Enter the header's height (Default: 77)."
-msgstr "Enter the header's height (Default: 77)."
+msgstr "Digite a altura do Header (Padrão: 77)."
 
 #: admin/functions/functions.options.php:325
 #: ../getfit/admin/functions/functions.options.php:325
@@ -509,7 +514,7 @@ msgstr "Logo"
 #: admin/functions/functions.options.php:329
 #: ../getfit/admin/functions/functions.options.php:329
 msgid "Custom Logo"
-msgstr "Custom Logo"
+msgstr "Logo personalizada"
 
 #: admin/functions/functions.options.php:330
 #: ../getfit/admin/functions/functions.options.php:330
@@ -517,8 +522,8 @@ msgid ""
 "Upload a logo for your theme, or specify the image address of your online "
 "logo. (http://yoursite.com/logo.png)."
 msgstr ""
-"Upload a logo for your theme, or specify the image address of your online "
-"logo. (http://yoursite.com/logo.png)."
+"Carregar um logotipo para o seu tema, ou especificar o endereço da imagem do "
+"seu logotipo on-line. (http://yoursite.com/logo.png)."
 
 #: admin/functions/functions.options.php:335
 #: ../getfit/admin/functions/functions.options.php:335
@@ -538,22 +543,22 @@ msgstr "Logo Left Margin"
 #: admin/functions/functions.options.php:345
 #: ../getfit/admin/functions/functions.options.php:345
 msgid "Enter the logo's left margin (Default: 0)."
-msgstr "Enter the logo's left margin (Default: 0)."
+msgstr "Digite margem esquerda do logotipo (Padrão: 0)."
 
 #: admin/functions/functions.options.php:356
 #: ../getfit/admin/functions/functions.options.php:356
 msgid "Right Top Phone &amp; Email"
-msgstr "Right Top Phone &amp; Email"
+msgstr "Direito Top telefone &amp; e-mail"
 
 #: admin/functions/functions.options.php:360
 #: ../getfit/admin/functions/functions.options.php:360
 msgid "Enable Right Top Phone &amp; Email"
-msgstr "Enable Right Top Phone &amp; Email"
+msgstr "Ativar direito Top telefone &amp; e-mail"
 
 #: admin/functions/functions.options.php:361
 #: ../getfit/admin/functions/functions.options.php:361
 msgid "Check to display the top phone &amp; email bar."
-msgstr "Check to display the top phone &amp; email bar."
+msgstr "Marque para exibir o top telefone &amp; bar e-mail."
 
 #: admin/functions/functions.options.php:365
 #: ../getfit/admin/functions/functions.options.php:365
@@ -568,54 +573,54 @@ msgstr "Ocultar"
 #: admin/functions/functions.options.php:369
 #: ../getfit/admin/functions/functions.options.php:369
 msgid "Header Telephone Number"
-msgstr "Header Telephone Number"
+msgstr "Header Telefone"
 
 #: admin/functions/functions.options.php:370
 #: ../getfit/admin/functions/functions.options.php:370
 msgid "Enter the telephone number content (leave blank if disabled)."
-msgstr "Enter the telephone number content (leave blank if disabled)."
+msgstr "Digite o conteúdo telefone (deixe em branco se desativado)."
 
 #: admin/functions/functions.options.php:376
 #: ../getfit/admin/functions/functions.options.php:376
 msgid "Header Email Address"
-msgstr "Header Email Address"
+msgstr "Cabeçalho Endereço de Email"
 
 #: admin/functions/functions.options.php:377
 #: ../getfit/admin/functions/functions.options.php:377
 msgid "Enter the email address (leave blank if disabled)."
-msgstr "Enter the email address (leave blank if disabled)."
+msgstr "Digite o endereço de email (deixe em branco se desativado)."
 
 #: admin/functions/functions.options.php:393
 #: ../getfit/admin/functions/functions.options.php:393
 msgid "Footer Settings"
-msgstr "Footer Settings"
+msgstr "Configurações rodapé"
 
 #: admin/functions/functions.options.php:397
 #: ../getfit/admin/functions/functions.options.php:397
 msgid "Enable Widgetized Footer"
-msgstr "Enable Widgetized Footer"
+msgstr "Ativar rodapé widgetizadas"
 
 #: admin/functions/functions.options.php:398
 #: ../getfit/admin/functions/functions.options.php:398
 msgid "Check to show the Widgetized Footer."
-msgstr "Check to show the Widgetized Footer."
+msgstr "Verifique para mostrar o rodapé widgetizadas."
 
 #: admin/functions/functions.options.php:406
 #: ../getfit/admin/functions/functions.options.php:406
 msgid "Custom Copyright Text"
-msgstr "Custom Copyright Text"
+msgstr "Personalizado Texto copyright"
 
 #: admin/functions/functions.options.php:407
 #: ../getfit/admin/functions/functions.options.php:407
 msgid "Insert your custom copyright text."
-msgstr "Insert your custom copyright text."
+msgstr "Insira o texto de direitos autorais personalizada."
 
 #: admin/functions/functions.options.php:415
 #: admin/functions/functions.options.php:419
 #: ../getfit/admin/functions/functions.options.php:415
 #: ../getfit/admin/functions/functions.options.php:419
 msgid "Tracking Code"
-msgstr "Tracking Code"
+msgstr "Código de rastreamento"
 
 #: admin/functions/functions.options.php:420
 #: ../getfit/admin/functions/functions.options.php:420
@@ -623,28 +628,28 @@ msgid ""
 "Paste your Google Analytics (or other) tracking code here. This will be "
 "added into the footer template of your theme."
 msgstr ""
-"Paste your Google Analytics (or other) tracking code here. This will be "
-"added into the footer template of your theme."
+"Cole o Google Analytics (ou outro) código de rastreamento aqui. Isto será "
+"adicionado ao modelo de rodapé de seu tema."
 
 #: admin/functions/functions.options.php:432
 #: ../getfit/admin/functions/functions.options.php:432
 msgid "Theme's Primary Color"
-msgstr "Theme's Primary Color"
+msgstr "Temas Cor Primária"
 
 #: admin/functions/functions.options.php:433
 #: ../getfit/admin/functions/functions.options.php:433
 msgid "Pick the main color for the theme (default: #8cc7ae)."
-msgstr "Pick the main color for the theme (default: #8cc7ae)."
+msgstr "Escolha a cor principal para o tema (padrão: # 8cc7ae)."
 
 #: admin/functions/functions.options.php:438
 #: ../getfit/admin/functions/functions.options.php:438
 msgid "Theme's Secondary Color"
-msgstr "Theme's Secondary Color"
+msgstr "Cor Secundária do tema"
 
 #: admin/functions/functions.options.php:439
 #: ../getfit/admin/functions/functions.options.php:439
 msgid "Pick the secondary color for the theme (default: #ff4301)."
-msgstr "Pick the secondary color for the theme (default: #ff4301)."
+msgstr "Escolha a cor secundária para o tema (padrão: # ff4301)."
 
 #: admin/functions/functions.options.php:447
 #: ../getfit/admin/functions/functions.options.php:447
@@ -654,7 +659,7 @@ msgstr "Favicon"
 #: admin/functions/functions.options.php:451
 #: ../getfit/admin/functions/functions.options.php:451
 msgid "Custom Favicon"
-msgstr "Custom Favicon"
+msgstr "personalizado Favicon"
 
 #: admin/functions/functions.options.php:452
 #: ../getfit/admin/functions/functions.options.php:452
@@ -662,80 +667,83 @@ msgid ""
 "Upload a 16px x 16px Png/Gif image that will represent your website's "
 "favicon."
 msgstr ""
-"Upload a 16px x 16px Png/Gif image that will represent your website's "
-"favicon."
+"Envie uma imagem PNG / GIF 16px x 16px que irá representar favicon do seu "
+"site."
 
 #: admin/functions/functions.options.php:460
 #: ../getfit/admin/functions/functions.options.php:460
 msgid "Custm CSS"
-msgstr "Custm CSS"
+msgstr "CUSTM CSS"
 
 #: admin/functions/functions.options.php:464
 #: ../getfit/admin/functions/functions.options.php:464
 msgid "Custom CSS"
-msgstr "Custom CSS"
+msgstr "personalizado CSS"
 
 #: admin/functions/functions.options.php:465
 #: ../getfit/admin/functions/functions.options.php:465
 msgid "Quickly add some CSS to your theme by adding it to this block."
-msgstr "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+"Adicionar rapidamente um pouco de CSS para o seu tema, adicionando-o a este "
+"bloco."
 
 #: admin/functions/functions.options.php:477
 #: ../getfit/admin/functions/functions.options.php:477
 msgid "Gallery Page Slug"
-msgstr "Gallery Page Slug"
+msgstr "Galeria Slug Página"
 
 #: admin/functions/functions.options.php:478
 #: ../getfit/admin/functions/functions.options.php:478
 msgid "Enter your gallery page slug."
-msgstr "Enter your gallery page slug."
+msgstr "Digite sua página galeria lesma."
 
 #: admin/functions/functions.options.php:483
 #: ../getfit/admin/functions/functions.options.php:483
 msgid "Number of items on gallery page"
-msgstr "Number of items on gallery page"
+msgstr "Número de itens na galeria page"
 
 #: admin/functions/functions.options.php:484
 #: ../getfit/admin/functions/functions.options.php:484
 msgid "Enter the number of items on the gallery page."
-msgstr "Enter the number of items on the gallery page."
+msgstr "Digite o número de itens na página da galeria."
 
 #: admin/functions/functions.options.php:489
 #: ../getfit/admin/functions/functions.options.php:489
 msgid "Enable Related Gallery Items"
-msgstr "Enable Related Gallery Items"
+msgstr "Ativar Galeria relacionadas Itens"
 
 #: admin/functions/functions.options.php:490
 #: ../getfit/admin/functions/functions.options.php:490
 msgid "Enable the related gallery items."
-msgstr "Enable the related gallery items."
+msgstr "Ativar a galeria itens relacionados."
 
 #: admin/functions/functions.options.php:505
 #: ../getfit/admin/functions/functions.options.php:505
 msgid "Sidebar Position"
-msgstr "Sidebar Position"
+msgstr "Sidebar Posição"
 
 #: admin/functions/functions.options.php:506
 #: ../getfit/admin/functions/functions.options.php:506
 msgid "Select the position of the sidebar (right or left)."
-msgstr "Select the position of the sidebar (right or left)."
+msgstr "Seleccione a posição da barra lateral (direita ou esquerda)."
 
 #: admin/functions/functions.options.php:516
 #: ../getfit/admin/functions/functions.options.php:516
 msgid "Excerpt Length"
-msgstr "Excerpt Length"
+msgstr "trecho Comprimento"
 
 #: admin/functions/functions.options.php:517
 #: ../getfit/admin/functions/functions.options.php:517
 msgid ""
 "Enter the number of words you want to be displayed as excerpt. (Default: 30)."
 msgstr ""
-"Enter the number of words you want to be displayed as excerpt. (Default: 30)."
+"Insira o número de palavras que você deseja ser exibido como trecho. "
+"(Padrão: 30)."
 
 #: admin/functions/functions.options.php:529
 #: ../getfit/admin/functions/functions.options.php:529
 msgid "Backup and Restore Options"
-msgstr "Backup and Restore Options"
+msgstr "Backup e Restauração Opções"
 
 #: admin/functions/functions.options.php:533
 #: ../getfit/admin/functions/functions.options.php:533
@@ -744,14 +752,15 @@ msgid ""
 "restore it back at a later time. This is useful if you want to experiment on "
 "the options but would like to keep the old settings in case you need it back."
 msgstr ""
-"You can use the two buttons below to backup your current options, and then "
-"restore it back at a later time. This is useful if you want to experiment on "
-"the options but would like to keep the old settings in case you need it back."
+"Você pode usar os dois botões abaixo para fazer backup de suas opções "
+"atuais, e depois restaurá-lo de volta em um momento posterior. Isto é útil "
+"se você quiser experimentar as opções, mas gostaria de manter as "
+"configurações antigas no caso de você precisar dele de volta."
 
 #: admin/functions/functions.options.php:536
 #: ../getfit/admin/functions/functions.options.php:536
 msgid "Transfer Theme Options Data"
-msgstr "Transfer Theme Options Data"
+msgstr "Transferência de opções de tema de Dados"
 
 #: admin/functions/functions.options.php:540
 #: ../getfit/admin/functions/functions.options.php:540
@@ -761,31 +770,31 @@ msgid ""
 "the data in the text box with the one from another install and click "
 "\"Import Options"
 msgstr ""
-"You can tranfer the saved options data between different installs by copying "
-"the text inside the text box. To import data from another install, replace "
-"the data in the text box with the one from another install and click "
-"\"Import Options"
+"Você pode tranfer as opções dados guardados entre as diferentes instalações, "
+"copiando o texto dentro da caixa de texto. Para importar dados de uma outra "
+"instalação, substituir os dados na caixa de texto com o de outra instalação "
+"e clique em Options \"Importar"
 
 #: framework/inc/page-top.php:16 framework/inc/page-top.php:49
 #: ../getfit/framework/inc/page-top.php:16
 #: ../getfit/framework/inc/page-top.php:49
 msgid "Categorized as:"
-msgstr "Categorized as:"
+msgstr "Categorizado como:"
 
 #: framework/inc/page-top.php:23 ../getfit/framework/inc/page-top.php:23
 msgid "Tagged as:"
-msgstr "Tagged as:"
+msgstr "Tagged como:"
 
 #: framework/inc/page-top.php:30 framework/inc/page-top.php:35
 #: framework/inc/page-top.php:40 ../getfit/framework/inc/page-top.php:30
 #: ../getfit/framework/inc/page-top.php:35
 #: ../getfit/framework/inc/page-top.php:40
 msgid "Archive for"
-msgstr "Archive for"
+msgstr "Arquivo para"
 
 #: framework/inc/page-top.php:45 ../getfit/framework/inc/page-top.php:45
 msgid "Archive"
-msgstr "Archive"
+msgstr "Arquivo"
 
 #: framework/inc/page-top.php:58 ../getfit/framework/inc/page-top.php:58
 msgid "Search Results for:"
@@ -798,31 +807,31 @@ msgstr "Ooops, 404 Não encontrado!"
 #: framework/inc/plugin-activation.php:167
 #: ../getfit/framework/inc/plugin-activation.php:167
 msgid "Something went wrong."
-msgstr "Something went wrong."
+msgstr "Algo deu errado."
 
 #: framework/inc/plugin-activation.php:179
 #: ../getfit/framework/inc/plugin-activation.php:179
 #, php-format
 msgid "All plugins installed and activated successfully. %1$s"
-msgstr "All plugins installed and activated successfully. %1$s"
+msgstr "Todos os plugins instalado e ativado com sucesso. %1$s"
 
 #: framework/inc/plugin-activation.php:514
 #: framework/inc/plugin-activation.php:2055
 #: ../getfit/framework/inc/plugin-activation.php:514
 #: ../getfit/framework/inc/plugin-activation.php:2055
 msgid "Return to the Dashboard"
-msgstr "Return to the Dashboard"
+msgstr "Voltar ao Painel"
 
 #: framework/inc/plugin-activation.php:542
 #: ../getfit/framework/inc/plugin-activation.php:542
 #, php-format
 msgid "The following plugin was activated successfully: %s."
-msgstr "The following plugin was activated successfully: %s."
+msgstr "O seguinte plug-in foi ativado com sucesso: %s."
 
 #: framework/inc/plugin-activation.php:701
 #: ../getfit/framework/inc/plugin-activation.php:701
 msgid "Dismiss this notice"
-msgstr "Dismiss this notice"
+msgstr "Descartar este aviso"
 
 #: framework/inc/plugin-activation.php:1088
 #: ../getfit/framework/inc/plugin-activation.php:1088
@@ -832,12 +841,12 @@ msgstr "External Link"
 #: framework/inc/plugin-activation.php:1093
 #: ../getfit/framework/inc/plugin-activation.php:1093
 msgid "Private Repository"
-msgstr "Private Repository"
+msgstr "Repository privada"
 
 #: framework/inc/plugin-activation.php:1096
 #: ../getfit/framework/inc/plugin-activation.php:1096
 msgid "Pre-Packaged"
-msgstr "Pre-Packaged"
+msgstr "Pré-embalados"
 
 #: framework/inc/plugin-activation.php:1100
 #: ../getfit/framework/inc/plugin-activation.php:1100
@@ -847,22 +856,22 @@ msgstr "WordPress Repository"
 #: framework/inc/plugin-activation.php:1103
 #: ../getfit/framework/inc/plugin-activation.php:1103
 msgid "Required"
-msgstr "Required"
+msgstr "necessário"
 
 #: framework/inc/plugin-activation.php:1103
 #: ../getfit/framework/inc/plugin-activation.php:1103
 msgid "Recommended"
-msgstr "Recommended"
+msgstr "Recomendado"
 
 #: framework/inc/plugin-activation.php:1106
 #: ../getfit/framework/inc/plugin-activation.php:1106
 msgid "Not Installed"
-msgstr "Not Installed"
+msgstr "não Instalado"
 
 #: framework/inc/plugin-activation.php:1108
 #: ../getfit/framework/inc/plugin-activation.php:1108
 msgid "Installed But Not Activated"
-msgstr "Installed But Not Activated"
+msgstr "Instalado mas não ativado"
 
 #: framework/inc/plugin-activation.php:1278
 #: ../getfit/framework/inc/plugin-activation.php:1278
@@ -871,8 +880,8 @@ msgid ""
 "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
 "Dashboard\">Return to the Dashboard</a>"
 msgstr ""
-"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
-"Dashboard\">Return to the Dashboard</a>"
+"Não há plugins para instalar ou ativar. <a href=\"%1$s\" title=\"Voltar ao "
+"Painel\">Voltar ao Painel</a>"
 
 #: framework/inc/plugin-activation.php:1294
 #: ../getfit/framework/inc/plugin-activation.php:1294
@@ -882,12 +891,12 @@ msgstr "Plugin"
 #: framework/inc/plugin-activation.php:1295
 #: ../getfit/framework/inc/plugin-activation.php:1295
 msgid "Source"
-msgstr "Source"
+msgstr "código"
 
 #: framework/inc/plugin-activation.php:1296
 #: ../getfit/framework/inc/plugin-activation.php:1296
 msgid "Type"
-msgstr "Type"
+msgstr "Tipo"
 
 #: framework/inc/plugin-activation.php:1297
 #: ../getfit/framework/inc/plugin-activation.php:1297
@@ -897,38 +906,39 @@ msgstr "Status"
 #: framework/inc/plugin-activation.php:1315
 #: ../getfit/framework/inc/plugin-activation.php:1315
 msgid "Install"
-msgstr "Install"
+msgstr "Instalar"
 
 #: framework/inc/plugin-activation.php:1316
 #: ../getfit/framework/inc/plugin-activation.php:1316
 msgid "Activate"
-msgstr "Activate"
+msgstr "Ativado"
 
 #: framework/inc/plugin-activation.php:1826
 #: ../getfit/framework/inc/plugin-activation.php:1826
 msgid "Install package not available."
-msgstr "Install package not available."
+msgstr "Instale o pacote não está disponível."
 
 #: framework/inc/plugin-activation.php:1827
 #: ../getfit/framework/inc/plugin-activation.php:1827
 #, php-format
 msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
-msgstr "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+"Baixando o pacote de instalação de <span class=\"code\">%s</span>&#8230;"
 
 #: framework/inc/plugin-activation.php:1828
 #: ../getfit/framework/inc/plugin-activation.php:1828
 msgid "Unpacking the package&#8230;"
-msgstr "Unpacking the package&#8230;"
+msgstr "Descompactar o pacote&#8230;"
 
 #: framework/inc/plugin-activation.php:1829
 #: ../getfit/framework/inc/plugin-activation.php:1829
 msgid "Installing the plugin&#8230;"
-msgstr "Installing the plugin&#8230;"
+msgstr "Instalando o plugin&#8230;"
 
 #: framework/inc/plugin-activation.php:1830
 #: ../getfit/framework/inc/plugin-activation.php:1830
 msgid "Plugin install failed."
-msgstr "Plugin install failed."
+msgstr "Plugin de instalação falhou."
 
 #: framework/inc/plugin-activation.php:1831
 #: ../getfit/framework/inc/plugin-activation.php:1831
@@ -938,7 +948,7 @@ msgstr "Plugin installed successfully."
 #: framework/inc/plugin-activation.php:1842
 #: ../getfit/framework/inc/plugin-activation.php:1842
 msgid "Plugin activation failed."
-msgstr "Plugin activation failed."
+msgstr "Plugin ativação falhou."
 
 #: framework/inc/plugin-activation.php:1952
 #: ../getfit/framework/inc/plugin-activation.php:1952
@@ -946,14 +956,14 @@ msgid ""
 "The installation and activation process is starting. This process may take a "
 "while on some hosts, so please be patient."
 msgstr ""
-"The installation and activation process is starting. This process may take a "
-"while on some hosts, so please be patient."
+"O processo de instalação e ativação está começando. Este processo pode "
+"demorar um pouco em alguns exércitos, por favor seja paciente."
 
 #: framework/inc/plugin-activation.php:1953
 #: ../getfit/framework/inc/plugin-activation.php:1953
 #, php-format
 msgid "%1$s installed and activated successfully."
-msgstr "%1$s installed and activated successfully."
+msgstr "%1$s instalado e ativado com sucesso."
 
 #: framework/inc/plugin-activation.php:1953
 #: framework/inc/plugin-activation.php:1962
@@ -967,18 +977,18 @@ msgstr "Mostrar Detalhes"
 #: ../getfit/framework/inc/plugin-activation.php:1953
 #: ../getfit/framework/inc/plugin-activation.php:1962
 msgid "Hide Details"
-msgstr "Ocultar Detalhes"
+msgstr "Ocultar detalhes"
 
 #: framework/inc/plugin-activation.php:1954
 #: ../getfit/framework/inc/plugin-activation.php:1954
 msgid "All installations and activations have been completed."
-msgstr "All installations and activations have been completed."
+msgstr "Todas as instalações e activações foram concluídos."
 
 #: framework/inc/plugin-activation.php:1955
 #: ../getfit/framework/inc/plugin-activation.php:1955
 #, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando e ativando o Plugin %1$s (%2$d/%3$d)"
 
 #: framework/inc/plugin-activation.php:1959
 #: ../getfit/framework/inc/plugin-activation.php:1959
@@ -986,49 +996,49 @@ msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
 msgstr ""
-"The installation process is starting. This process may take a while on some "
-"hosts, so please be patient."
+"O processo de instalação está começando. Este processo pode levar algum "
+"tempo em alguns exércitos, por favor seja paciente."
 
 #: framework/inc/plugin-activation.php:1960
 #: ../getfit/framework/inc/plugin-activation.php:1960
 #, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Ocorreu um erro durante a instalação %1$s: <strong>%2$s</strong>."
 
 #: framework/inc/plugin-activation.php:1961
 #: ../getfit/framework/inc/plugin-activation.php:1961
 #, php-format
 msgid "The installation of %1$s failed."
-msgstr "The installation of %1$s failed."
+msgstr "Falhou a instalação de %1$s."
 
 #: framework/inc/plugin-activation.php:1962
 #: ../getfit/framework/inc/plugin-activation.php:1962
 #, php-format
 msgid "%1$s installed successfully."
-msgstr "%1$s installed successfully."
+msgstr "%1$s instalado com sucesso."
 
 #: framework/inc/plugin-activation.php:1963
 #: ../getfit/framework/inc/plugin-activation.php:1963
 msgid "All installations have been completed."
-msgstr "All installations have been completed."
+msgstr "Todas as instalações de ter sido completada."
 
 #: framework/inc/plugin-activation.php:1964
 #: ../getfit/framework/inc/plugin-activation.php:1964
 #, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando Plugin %1$s (%2$d/%3$d)"
 
 #: framework/inc/post-rating.php:73 ../getfit/framework/inc/post-rating.php:73
 msgid "Already Liked"
-msgstr "Already Liked"
+msgstr "Já curtir"
 
 #: framework/inc/post-rating.php:76 ../getfit/framework/inc/post-rating.php:76
 msgid "I like this article"
-msgstr "I like this article"
+msgstr "Eu curti este artigo"
 
 #: framework/inc/share-icons.php:10 ../getfit/framework/inc/share-icons.php:10
 msgid "Sharing is caring:"
-msgstr "Sharing is caring:"
+msgstr "Compartilhar é cuidar:"
 
 #: framework/inc/share-icons.php:14 framework/inc/share-icons.php:15
 #: ../getfit/framework/inc/share-icons.php:14
@@ -1056,11 +1066,11 @@ msgstr "Google+"
 #: ../getfit/framework/inc/share-icons.php:34
 #: ../getfit/framework/inc/share-icons.php:35
 msgid "Delicious"
-msgstr "Delicious"
+msgstr "delicioso"
 
 #: framework/inc/share-icons.php:40 ../getfit/framework/inc/share-icons.php:40
 msgid "StumbleUpon"
-msgstr "StumbleUpon"
+msgstr "Stumble Upon"
 
 #: framework/inc/share-icons.php:44 framework/inc/share-icons.php:45
 #: ../getfit/framework/inc/share-icons.php:44
@@ -1083,12 +1093,12 @@ msgstr "E-Mail"
 #: framework/inc/gallery/related-gallery.php:32
 #: ../getfit/framework/inc/gallery/related-gallery.php:32
 msgid "Related Images"
-msgstr "Related Images"
+msgstr "Imagens relacionadas"
 
 #: framework/inc/metabox/inc/classes/meta-box.php:285
 #: ../getfit/framework/inc/metabox/inc/classes/meta-box.php:285
 msgid "Please correct the errors highlighted below and try again."
-msgstr "Please correct the errors highlighted below and try again."
+msgstr "Por favor, corrija os erros destacados abaixo e tente novamente."
 
 #: framework/inc/metabox/inc/classes/meta-box.php:343
 #: ../getfit/framework/inc/metabox/inc/classes/meta-box.php:343
@@ -1103,22 +1113,22 @@ msgstr "&#8211;"
 #: framework/inc/metabox/inc/fields/file.php:65
 #: ../getfit/framework/inc/metabox/inc/fields/file.php:65
 msgid "Error: Cannot delete file"
-msgstr "Error: Cannot delete file"
+msgstr "Erro: Não foi possível excluir o arquivo"
 
 #: framework/inc/metabox/inc/fields/image.php:64
 #: ../getfit/framework/inc/metabox/inc/fields/image.php:64
 msgid "Order saved"
-msgstr "Order saved"
+msgstr "Orden salva"
 
 #: framework/inc/metabox/inc/fields/map.php:46
 #: ../getfit/framework/inc/metabox/inc/fields/map.php:46
 msgid "Find Address"
-msgstr "Find Address"
+msgstr "Encontrar endereço"
 
 #: framework/inc/metabox/inc/fields/select-advanced.php:82
 #: ../getfit/framework/inc/metabox/inc/fields/select-advanced.php:82
 msgid "Select a value"
-msgstr "Select a value"
+msgstr "Selecione uma opção"
 
 #: framework/inc/post-formats/content.php:11
 #: ../getfit/framework/inc/post-formats/content.php:11
@@ -1134,54 +1144,54 @@ msgstr "Saiba Mais"
 #: framework/inc/post-types/portfolio.php:11
 #: ../getfit/framework/inc/post-types/portfolio.php:11
 msgid "Gallery"
-msgstr "Gallery"
+msgstr "Galeria"
 
 #: framework/inc/post-types/portfolio.php:12
 #: ../getfit/framework/inc/post-types/portfolio.php:12
 msgid "Gallery Item"
-msgstr "Gallery Item"
+msgstr "Galeria de item"
 
 #: framework/inc/post-types/portfolio.php:13
 #: ../getfit/framework/inc/post-types/portfolio.php:13
 msgid "Add New Item"
-msgstr "Add New Item"
+msgstr "Adicionar novo item"
 
 #: framework/inc/post-types/portfolio.php:14
 #: framework/inc/post-types/portfolio.php:16
 #: ../getfit/framework/inc/post-types/portfolio.php:14
 #: ../getfit/framework/inc/post-types/portfolio.php:16
 msgid "Add New Gallery Item"
-msgstr "Add New Gallery Item"
+msgstr "Adicionar nova galeria"
 
 #: framework/inc/post-types/portfolio.php:15
 #: ../getfit/framework/inc/post-types/portfolio.php:15
 msgid "Edit Gallery Item"
-msgstr "Edit Gallery Item"
+msgstr "Editar galeria de item"
 
 #: framework/inc/post-types/portfolio.php:17
 #: ../getfit/framework/inc/post-types/portfolio.php:17
 msgid "View Item"
-msgstr "View Item"
+msgstr "Vizualizar itens"
 
 #: framework/inc/post-types/portfolio.php:18
 #: ../getfit/framework/inc/post-types/portfolio.php:18
 msgid "Search Gallery"
-msgstr "Search Gallery"
+msgstr "Pesquisar Galerias"
 
 #: framework/inc/post-types/portfolio.php:19
 #: ../getfit/framework/inc/post-types/portfolio.php:19
 msgid "No gallery items found"
-msgstr "No gallery items found"
+msgstr "Nenhum Galeria itens encontrados"
 
 #: framework/inc/post-types/portfolio.php:20
 #: ../getfit/framework/inc/post-types/portfolio.php:20
 msgid "No gallery items found in trash"
-msgstr "No gallery items found in trash"
+msgstr "Nenhum Galeria itens encontrados no lixo"
 
 #: framework/inc/post-types/portfolio.php:57
 #: ../getfit/framework/inc/post-types/portfolio.php:57
 msgid "Title"
-msgstr "Title"
+msgstr "Título"
 
 #: framework/inc/post-types/portfolio.php:58
 #: ../getfit/framework/inc/post-types/portfolio.php:58
@@ -1191,12 +1201,12 @@ msgstr "Thumbnail"
 #: framework/inc/post-types/portfolio.php:59
 #: ../getfit/framework/inc/post-types/portfolio.php:59
 msgid "Filter"
-msgstr "Filter"
+msgstr "Filtro"
 
 #: framework/inc/post-types/portfolio.php:60
 #: ../getfit/framework/inc/post-types/portfolio.php:60
 msgid "Author"
-msgstr "Author"
+msgstr "Autor"
 
 #: framework/inc/post-types/portfolio.php:61
 #: ../getfit/framework/inc/post-types/portfolio.php:61
@@ -1206,24 +1216,24 @@ msgstr "Comentários"
 #: framework/inc/post-types/portfolio.php:62
 #: ../getfit/framework/inc/post-types/portfolio.php:62
 msgid "Date"
-msgstr "Date"
+msgstr "Data"
 
 #: framework/inc/post-types/portfolio.php:89
 #: framework/inc/post-types/portfolio.php:99
 #: ../getfit/framework/inc/post-types/portfolio.php:89
 #: ../getfit/framework/inc/post-types/portfolio.php:99
 msgid "None"
-msgstr "None"
+msgstr "Nenhum"
 
 #: framework/inc/widgets/110x110-ads.php:17
 #: ../getfit/framework/inc/widgets/110x110-ads.php:17
 msgid "A widget that displays 8 110x110 ad blocks."
-msgstr "A widget that displays 8 110x110 ad blocks."
+msgstr "Um widget que exibe oito 110X110 blocos de anúncios."
 
 #: framework/inc/widgets/110x110-ads.php:19
 #: ../getfit/framework/inc/widgets/110x110-ads.php:19
 msgid "110x110 Ad Blocks"
-msgstr "110x110 Ad Blocks"
+msgstr "110x110 Blocos de anúncios"
 
 #: framework/inc/widgets/110x110-ads.php:143
 #: framework/inc/widgets/latest-tweets.php:158
@@ -1321,57 +1331,57 @@ msgstr "Ad 8 link url:"
 #: framework/inc/widgets/110x110-ads.php:245
 #: ../getfit/framework/inc/widgets/110x110-ads.php:245
 msgid "Randomize ads order?"
-msgstr "Randomize ads order?"
+msgstr "Randomize ordem anúncios?"
 
 #: framework/inc/widgets/latest-tweets.php:17
 #: ../getfit/framework/inc/widgets/latest-tweets.php:17
 msgid "A widget that displays your latest tweets."
-msgstr "A widget that displays your latest tweets."
+msgstr "Um widget que exibe seus últimos tweets."
 
 #: framework/inc/widgets/latest-tweets.php:19
 #: ../getfit/framework/inc/widgets/latest-tweets.php:19
 msgid "Latest Tweets"
-msgstr "Latest Tweets"
+msgstr "Últimos Tweets"
 
 #: framework/inc/widgets/latest-tweets.php:164
 #: ../getfit/framework/inc/widgets/latest-tweets.php:164
 msgid "Twitter Username e.g. skatdesign"
-msgstr "Twitter Username e.g. skatdesign"
+msgstr "Twitter Usuário, por exemplo, cabanacriacao"
 
 #: framework/inc/widgets/latest-tweets.php:170
 #: ../getfit/framework/inc/widgets/latest-tweets.php:170
 msgid "Consumer Key"
-msgstr "Consumer Key"
+msgstr "chave do Consumidor"
 
 #: framework/inc/widgets/latest-tweets.php:176
 #: ../getfit/framework/inc/widgets/latest-tweets.php:176
 msgid "Consumer Secret"
-msgstr "Consumer Secret"
+msgstr "Segredo do Consumidor"
 
 #: framework/inc/widgets/latest-tweets.php:182
 #: ../getfit/framework/inc/widgets/latest-tweets.php:182
 msgid "Access Token"
-msgstr "Access Token"
+msgstr "token de acesso"
 
 #: framework/inc/widgets/latest-tweets.php:188
 #: ../getfit/framework/inc/widgets/latest-tweets.php:188
 msgid "Access Token Secret"
-msgstr "Access Token Secret"
+msgstr "Token de acesso secreto"
 
 #: framework/inc/widgets/latest-tweets.php:194
 #: ../getfit/framework/inc/widgets/latest-tweets.php:194
 msgid "Number of tweets (max 20)"
-msgstr "Number of tweets (max 20)"
+msgstr "Número de tweets (max 20)"
 
 #: framework/inc/widgets/opening-hours.php:17
 #: ../getfit/framework/inc/widgets/opening-hours.php:17
 msgid "A widget that displays your business's opening hours."
-msgstr "A widget that displays your business's opening hours."
+msgstr "Um widget que exibe horário de funcionamento do seu negócio."
 
 #: framework/inc/widgets/opening-hours.php:19
 #: ../getfit/framework/inc/widgets/opening-hours.php:19
 msgid "Opening Hours"
-msgstr "Opening Hours"
+msgstr "Horário de funcionamento"
 
 #: framework/inc/widgets/opening-hours.php:37
 #: framework/inc/widgets/opening-hours.php:102
@@ -1432,17 +1442,17 @@ msgstr "A widget to display the popular posts."
 #: ../getfit/framework/inc/widgets/popular-posts.php:19
 #: ../getfit/framework/inc/widgets/popular-posts.php:84
 msgid "Popular Posts"
-msgstr "Popular Posts"
+msgstr "Posts mais populares"
 
 #: framework/inc/widgets/popular-posts.php:100
 #: ../getfit/framework/inc/widgets/popular-posts.php:100
 msgid "Post Count"
-msgstr "Post Count"
+msgstr "Número de mensagens"
 
 #: framework/inc/widgets/social-icons.php:17
 #: ../getfit/framework/inc/widgets/social-icons.php:17
 msgid "A widget that displays icons from your social profiles."
-msgstr "A widget that displays icons from your social profiles."
+msgstr "Um widget que exibe os ícones de seus perfis sociais."
 
 #: framework/inc/widgets/social-icons.php:19
 #: ../getfit/framework/inc/widgets/social-icons.php:19

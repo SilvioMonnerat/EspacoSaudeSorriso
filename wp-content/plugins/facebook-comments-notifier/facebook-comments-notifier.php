@@ -3,7 +3,7 @@
 Plugin Name: Facebook Comments Notifier
 Plugin URI: http://wordpress.org/extend/plugins/facebook-comments-notifier/
 Description: This plugin adds Facebook comments on your WordPress website and sends email notification when a new comment is made.
-Version: 1.4
+Version: 1.5
 Author: Lieberman Technologies, Andrew Epperson, Kevin Seifert
 Author URI: http://www.LTnow.com
 License: GPL2
@@ -77,10 +77,12 @@ function fcn_scripts_load()
 	global $post;
 
 	$options = get_option( 'fcn_options' );
+
 	$app_id  = @$options['app_id'];
 	global $admin_user_id;
 	$admin_user_id  = @$options['admin_user_id'];
 	$width   = @$options['width'];
+	$colorscheme = @$options['colorscheme'];
 
 	# NOTE: This block may need to deregister additional scripts 
 	#  if other plugins load the facebook sdk under another handle.
@@ -121,6 +123,11 @@ function fcn_scripts_load()
 	{
 		$jsparams['width'] = $width;
 	}
+	if ( $colorscheme ) 
+	{
+		$jsparams['colorscheme'] = $colorscheme;
+	}
+
 	wp_register_script( 'fcn-scripts', $fbwidget, array('jquery', 'facebook-sdk'));
 	wp_localize_script( 'fcn-scripts', 'fcn_global_data', $jsparams );
 	wp_enqueue_script( 'fcn-scripts' );
@@ -297,10 +304,11 @@ function fcn_admin_options_page()
 
 	// option keys
 	$form = array( 
-				'app_id'      => array( 'label' => __('Facebook AppID')	),
-				'admin_user_id'      => array( 'label' => __('Facebook User ID')	),
-				'admin_email' => array( 'label' => __('Notification Email(s)') ),
-				'width'       => array( 'label' => __('Width') ),
+				'app_id'      => array( 'type'=>'text', 'label' => __('Facebook AppID')	),
+				'admin_user_id'      => array('type'=>'text', 'label' => __('Facebook User ID')	),
+				'admin_email' => array( 'type'=>'text', 'label' => __('Notification Email(s)') ),
+				'width'       => array( 'type'=>'text', 'label' => __('Width') ),
+				'colorscheme'       => array( 'type'=>'select', 'label' => __('Your Color Scheme'), 'options' => array( 'light'=>'light','dark'=>'dark',), 'default' => 'light', ),
 				); 
 
 	// update model
@@ -339,7 +347,13 @@ function fcn_admin_options_page()
 	{
 		$html .= '<tr>';
 		$html .= '<td style="width:130px;">' . fcn_htmlencode( $def['label'] ) . ':</td>';
-		$html .= '<td>' . fcn_html_widget(array('id'=> $key, 'value'=> @$options[$key] )) . '</td>';
+		$widget = array('type'=>$def['type'], 'id'=> $key, 'value'=> @$options[$key] );
+
+		if ( $def['options'] ) {
+			$widget['options'] = $def['options'];
+		}
+
+		$html .= '<td>' . fcn_html_widget($widget) . '</td>';
 		$html .= '</tr>';
 	}
 	$html .= '</table>';

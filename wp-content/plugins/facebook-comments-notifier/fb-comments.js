@@ -110,7 +110,11 @@ jQuery(document).ready(function($) {
 			}
 		});
 	}
-	html += 'width="' + fcn_htmlencode(width) + '"';
+	html += ' width="' + fcn_htmlencode(width) + '" ';
+
+	if (fcn_global_data.colorscheme) {
+		html += ' colorscheme="' + fcn_htmlencode(fcn_global_data.colorscheme) + '" ';
+	}
 
 	html += '></fb:comments>' ;
 	$('#commentform').html(html);

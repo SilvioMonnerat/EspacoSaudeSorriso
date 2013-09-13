@@ -3,7 +3,7 @@ Contributors: ltnow, eppand, kseifert
 Tags: facebook, comments, comment, facebook comments, facebook comment, email, notify, notification, notifications, social, social media, commenting, email notification, email notifications
 Requires at least: 3.0
 Tested up to: 3.5.1
-Stable tag: 1.4
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,9 +60,11 @@ The plugin reads the Wordpress language setting (wordpress default is en_US).  T
 
 == Changelog ==
 
+= 1.5 =
+* Add light/dark theme option under admin settings
+
 = 1.4 =
 * Add Facebook Admin ID field to the plugin settings to support comment moderation efforts. Reference "Moderation tools" at https://developers.facebook.com/docs/reference/plugins/comments/
-
 
 = 1.3 =
 * Distinguish between comments and replies in the email notifications.

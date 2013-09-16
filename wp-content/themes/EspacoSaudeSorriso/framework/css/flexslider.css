@@ -41,7 +41,7 @@
 	transition-timing-function: ease-in;
 }
 .flexslider .slides > li {
-	display: none;
+	display: inline-block;
 	-webkit-backface-visibility: hidden;
 }
 

@@ -42,7 +42,7 @@ global $sd_data;
 							<?php _e('view', 'framework'); ?>
 							</a></span>
 							<?php 
-								$image_id = get_post_thumbnail_id();  
+								$image_id       = get_post_thumbnail_id();  
 								$full_image_url = wp_get_attachment_image_src($image_id,'full');  
 								$full_image_url = $full_image_url[0];
 							?>

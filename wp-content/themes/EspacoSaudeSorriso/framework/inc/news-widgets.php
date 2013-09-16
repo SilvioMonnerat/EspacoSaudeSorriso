@@ -47,11 +47,13 @@ global $sd_data;
 				<div class="<?php echo $class; ?>">
 					<div class="news-item">
 						<?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : ?>
+						<a href="<?php the_permalink() ?>">
 						<?php
 							$img    = get_post_image_src($post->ID);
 							//the_post_thumbnail('recent-blog'); 
 							the_crop_image($img, '&amp;w=244&amp;h=173&amp;zc=1');
 						?>
+						</a>
 						<?php endif; ?>
 						<h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 							<?php the_title(); ?>

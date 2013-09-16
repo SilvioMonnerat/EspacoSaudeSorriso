@@ -3,7 +3,7 @@
 /* ------------------------------------------------------------------------ */
 
 .one-half {
-	width: 48%;
+	width: 45%;
 }
 .one-third {
 	width: 30.66%;
@@ -1376,7 +1376,7 @@ span.table-price span.dollar-sign {
 .member-box {
 	background-color: #FFFFFF;
 	color: #5b6167;
-	padding: 10px;
+	padding: 5px;
 }
 .member-details {
 	text-align: center;

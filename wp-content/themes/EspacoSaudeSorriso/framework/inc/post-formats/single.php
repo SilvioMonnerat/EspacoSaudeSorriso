@@ -16,14 +16,6 @@ global $sd_data;
 				<?php 
                     $title  = get_the_title();
                     $img    = get_post_image_src($post->ID);
-                    $default_attr = array(
-                        'src'   => $src,
-                        'class' => "attachment-$size",
-                        'alt'   => trim(strip_tags( $attachment->post_excerpt )),
-                        'title' => trim(strip_tags( $attachment->post_title )),
-                    );
-                    $thumb     = $thumbnail["thumb"];
-					$thumbnail = get_the_post_thumbnail($post->ID);
 				?>
 				<?php 
 					if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), 'mobile') || strstr(strtolower($_SERVER['HTTP_USER_AGENT']), 'android')) { 

@@ -58,7 +58,7 @@ $meta_boxes[] = array(
 $meta_boxes[] = array(
 	'id'      => 'portfolio_item',
 	'title'   => 'Gallery Page Options',
-	'pages'   => array( 'portfolio', 'team' ),
+	'pages'   => array( 'portfolio', 'team', 'page' ),
 	'context' => 'normal',
 
 	'fields'  => array(

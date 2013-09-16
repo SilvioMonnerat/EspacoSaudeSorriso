@@ -319,12 +319,6 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	/*-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;*/
-	
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
-	-o-transition: all .3s ease-in-out;
-	-ms-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out;
 }
 .sf-menu a {
 	color: #b9b5b6 !important;
@@ -343,6 +337,14 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	text-transform: capitalize;
 }
 
+.sf-menu li .beforeItem{
+}
+.sf-menu li .afterItem{
+}
+.sf-menu li .menutem{	
+	background: #FFF;
+}
+
 .sf-menu li:hover .beforeItem{
 	position: absolute;
 	background: url(images/beforeItem.png) no-repeat !important;
@@ -350,6 +352,11 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	width: 14px;
 	left: -6px;
 	top: 0;
+	-webkit-transition: background .3s linear;
+		-moz-transition: background .3s linear;
+			-ms-transition: background .3s linear;
+				-o-transition: background .3s linear;
+					transition: background .3s linear;
 }
 .sf-menu li:hover .afterItem{
 	position: absolute;
@@ -358,6 +365,11 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	width: 14px;
 	right: -6px;
 	top: 0;
+	-webkit-transition: background .3s linear;
+		-moz-transition: background .3s linear;
+			-ms-transition: background .3s linear;
+				-o-transition: background .3s linear;
+					transition: background .3s linear;
 }
 .sf-menu li:hover .menutem{
 	background: #987bb7 !important ;
@@ -733,9 +745,15 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	position: relative;
 	z-index: 2;
 }
+
 .homepage-sidebar {
 	padding-left: 25px;
 	margin-bottom: 30px;
+}
+#equipe {
+	margin-right: 5% !important;
+}
+#equipe:last-child{
 }
 .homepage-sidebar .textwidget .one-half {
 	margin-bottom: 17px;	
@@ -776,7 +794,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	font-size: 30px;
 	font-weight: 300;
 	padding: 0;
-	margin-left: 230px;
+	margin-left: 215px;
 }
 /* bottom custom content */
 .bottom-custom-content {
@@ -959,16 +977,16 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	display: inline-block;
 	line-height: 30px;
 	padding: 0 15px;
-	/*-webkit-transition: background .3s linear;
+	-webkit-transition: background .3s linear;
 	-moz-transition: background .3s linear;
 	-ms-transition: background .3s linear;
 	-o-transition: background .3s linear;
-	transition: background .3s linear;*/
+	transition: background .3s linear;
 	
 }
 .read-more:hover {
 	/*background-color: #ff4301;*/
-	background: url(images/bg-readmore.png) transparent bottom no-repeat !important;
+	background: url(images/bg-readmore_hover.png) transparent no-repeat !important;
 	color: #fff;
 }
 
@@ -1560,6 +1578,10 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 .gallery-single-page {
 	margin-top: 50px;	
 }
+.gallery-page{
+	margin-top: 0;
+	margin-bottom:  15px;
+}
 .gallery-single-content{
 	position: relative;
 }
@@ -1578,9 +1600,15 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	width: 184px;
 	height: 41px;
 	display: inline-block;
+	-webkit-transition: background .3s linear;
+	-moz-transition: background .3s linear;
+	-ms-transition: background .3s linear;
+	-o-transition: background .3s linear;
+	transition: background .3s linear;
 }
 .gallery-single-content .team-email:hover{
-	background: url(images/bg-email-team.png) no-repeat bottom;
+	background: url(images/bg-email-team-hover.png) no-repeat bottom;
+
 }
 .gallery-single-content .team-email a{
 	font-weight: bold;
@@ -1595,6 +1623,11 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	float: left;
 	margin: 0 30px 0 0;
 	width: 570px;
+}
+.gallery-page .flexslider {
+	float: left;
+	margin: 0 30px 0 0;
+	width: 100%;
 }
 
 .gallery-single-page .flex-prev,
@@ -1613,17 +1646,52 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	-o-transition: background .3s linear;
 	transition: background .3s linear;
 }
+
+.gallery-page .flex-prev,
+.gallery-page .flex-next {
+	background: #fff url(framework/images/sprite.png) no-repeat -10px -9px;
+	height: 40px;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 100%;
+	top: 0;
+	white-space: nowrap;
+	width: 40px;
+	-webkit-transition: background .3s linear;
+	-moz-transition: background .3s linear;
+	-ms-transition: background .3s linear;
+	-o-transition: background .3s linear;
+	transition: background .3s linear;
+}
+
 .gallery-single-page .flex-prev {
 	right: 40px;	
 }
+
+.gallery-page .flex-prev {
+	right: 40px;	
+}
+
 .gallery-single-page .flex-next {
 	background-position: -69px -68px;
 	right: 0;
 }
+
+.gallery-page .flex-next {
+	background-position: -69px -68px;
+	right: 0;
+}
+
 .gallery-single-page .flex-prev:hover,
 .gallery-single-page .flex-next:hover {
-	background-color: #ff4301;	
+	background-color: #a188bc !important;	
 }
+
+.gallery-page .flex-prev:hover,
+.gallery-page .flex-next:hover {
+	background-color: #a188bc !important;	
+}
+
 /* related gallery */
 
 .related-gallery {
@@ -2573,19 +2641,14 @@ span.wpcf7-not-valid-tip {
 	-webkit-border-radius: 0 !important;
 	-o-border-radius: 0 !important;
 	-moz-border-radius: 0 !important;
-	-webkit-transition: Linear 0.5s ease-out;
-		-moz-transition: Linear 0.5s ease-out;
-			-ms-transition: Linear 0.5s ease-out;
-				-o-transition: Linear 0.5s ease-out;
-					transition: Linear 0.5s ease-out;
+	-webkit-transition: background .3s linear;
+	-moz-transition: background .3s linear;
+	-ms-transition: background .3s linear;
+	-o-transition: background .3s linear;
+	transition: background .3s linear;
 }
 .wpcf7-form input[type="submit"]:hover{
-	background: url(images/bg-readmore.png) no-repeat bottom !important;
-	-webkit-transition: Linear 0.5s ease-in;
-		-moz-transition: Linear 0.5s ease-in;
-			-ms-transition: Linear 0.5s ease-in;
-				-o-transition: Linear 0.5s ease-in;
-					transition: Linear 0.5s ease-in;
+	background: url(images/bg-readmore_hover.png) no-repeat !important;
 }
 
 
@@ -2632,3 +2695,4 @@ span.wpcf7-not-valid-tip {
 	-o-transition: opacity .3s ease-in-out;
 	transition: opacity .3s ease-in-out;
 }
+

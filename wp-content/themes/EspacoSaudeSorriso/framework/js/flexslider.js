@@ -39,16 +39,27 @@
  
 
 jQuery(window).load(function() {
-			jQuery(".gallery-single-page .flexslider").flexslider({
-			animation: "fade",
-			slideshow: true,
-			directionNav: true,
-			controlNav: false,
-			pausePlay: false,
-			pauseOnAction: true,
-			pauseOnHover: true
-			});
-		});
+	jQuery(".gallery-single-page .flexslider").flexslider({
+	animation: "fade",
+	slideshow: true,
+	directionNav: true,
+	controlNav: false,
+	pausePlay: false,
+	pauseOnAction: true,
+	pauseOnHover: true
+	});
+});
+jQuery(window).load(function() {
+	jQuery(".gallery-page .flexslider").flexslider({
+	animation: "fade",
+	slideshow: true,
+	directionNav: true,
+	controlNav: false,
+	pausePlay: false,
+	pauseOnAction: true,
+	pauseOnHover: true
+	});
+});
 
 /* ------------------------------------------------------------------------ */
 /* EOF

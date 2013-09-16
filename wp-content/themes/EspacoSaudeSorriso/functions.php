@@ -123,6 +123,8 @@
 		add_image_size( 'recent-blog', 244, 173, true ); // recent blog thumbs
 		add_image_size( 'gallery-columns', 250, 190, true ); // gallery thumbs
 		add_image_size( 'gallery-single', 570, 320, true ); // gallery slider
+		add_image_size( 'gallery-clinica', 1170, 450, true ); // gallery slider
+		add_image_size( 'nossa-equipe', 90, 60, true ); // gallery slider
 	}
 	
 	// Preloaded image path variable

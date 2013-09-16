@@ -206,6 +206,9 @@ h2 {
 .gallery-single-page .flexslider {
 	max-width: 100%;	
 }
+.gallery-page .flexslider {
+	max-width: 100%;	
+}
 .wpcf7-form input[type="text"],
 .wpcf7-form input[type="email"],
 .wpcf7-form textarea {

@@ -15,6 +15,7 @@ function sd_jquery_scripts() {
 	wp_register_script('hoverdir', get_template_directory_uri() . '/framework/js/hoverdir.js', false, '', true);
 	wp_register_script('post-rating', get_template_directory_uri() . '/framework/js/post-rating.js', false, '', true);
 	wp_register_script('mobile-menu', get_template_directory_uri() . '/framework/js/mobile-menu.js', false, '', true);
+	wp_register_script('jquery.selectbox', get_template_directory_uri() . '/framework/js/jquery.selectbox-0.2.js', false, '', true);
 	wp_register_script('custom', get_template_directory_uri() . '/framework/js/custom.js', false, '', true);
 	wp_register_script('gmap', ('http://maps.google.com/maps/api/js?sensor=false'), false, '', false );
 	
@@ -37,6 +38,7 @@ function sd_jquery_scripts() {
 	'nonce' => wp_create_nonce('ajax-nonce')
 ));
 	wp_enqueue_script('mobile-menu');
+	wp_enqueue_script('jquery.selectbox');
 	wp_enqueue_script('custom');
 }
 
@@ -54,6 +56,7 @@ function sd_css_styles() {
 	wp_register_style('flexslider', get_template_directory_uri() . '/framework/css/flexslider.css', 'style');
 	wp_register_style('prettyphoto', get_template_directory_uri() . '/framework/css/prettyPhoto.css', 'style');
 	wp_register_style('custom-styles', get_stylesheet_directory_uri() . '/framework/css/custom-styles.css', 'style');
+	wp_register_style('jquery.selectbox', get_stylesheet_directory_uri() . '/framework/css/jquery.selectbox.css', 'style');
 	wp_register_style('responsive', get_template_directory_uri() . '/framework/css/responsive.css', 'style');
 
 	
@@ -66,6 +69,7 @@ function sd_css_styles() {
 	wp_enqueue_style( 'flexslider');
 	wp_enqueue_style( 'prettyphoto');
 	wp_enqueue_style( 'custom-styles');
+	wp_enqueue_style( 'jquery.selectbox');
 	wp_enqueue_style( 'responsive');
 }
 add_action( 'wp_enqueue_scripts', 'sd_css_styles', 1 ); 

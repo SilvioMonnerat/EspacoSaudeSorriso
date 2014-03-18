@@ -169,7 +169,35 @@
  
 	function sd_custom_login_logo() {
     	echo '<style type="text/css">
-        h1 a { background-image:url('.get_bloginfo('template_directory').'/framework/images/admin_logo.png) !important; background-size: auto!important; }
+        #login{
+        	padding: 0 !important;
+        	font-family: "Maven Pro", sans-serif !important;
+    	}
+        #login h1 a { 
+        	background-image:url('.get_bloginfo('template_directory').'/images/logo.png) !important; 
+        	background-size: auto!important;
+        	height: 197px !important;
+        }
+        #login #loginform p.submit input[type="submit"] {
+        	background-image: url('.get_bloginfo('template_directory').'/images/bg-readmore.png) !important;
+        	background-size: auto!important;
+        	height: 30px !important;
+			border: 0 !important;
+			width: 89px !important;
+			margin: 0 !important;
+			color:#FFFFFF !important;
+			background-color: transparent !important;			
+			-webkit-box-shadow: none !important;
+			border-color: transparent !important;
+			-webkit-transition: background .3s linear !important;
+			-moz-transition: background .3s linear !important;
+			-ms-transition: background .3s linear !important;
+			-o-transition: background .3s linear !important;
+			transition: background .3s linear !important;
+    	}
+    	#login #loginform p.submit input[type="submit"]:hover{
+    		background-image: url('.get_bloginfo('template_directory').'/images/bg-readmore_hover.png) !important;
+   		}
     	</style>';
 	}
  

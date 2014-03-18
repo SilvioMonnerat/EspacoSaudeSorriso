@@ -15,20 +15,43 @@
 /* Width of 768px */
 /* ----------------------------------------------------- */
 
-    /* Note: Design for a width of 768px */
-
+    
+@media only screen and (min-width: 1200px) {
+	.sbHolder{
+		display: none;
+	}
+}
+@media only screen and (min-width: 981px) and (max-width: 1199px) {
+	.main-menu {
+		margin-top: 22px !important;
+		margin-right: 10px !important;
+		position: relative !important;
+		z-index: 9999 !important;
+		margin-left: -50px !important;
+	}
+	.tel-email ul{
+		width: 275px;
+	}
+	.sbHolder{
+		display: none;
+	}
+}
+/* Note: Design for a width of 768px */
 @media only screen and (min-width: 768px) and (max-width: 980px) {
 
 .tel-email {
 	display: none;	
 }
 .main-menu {
-	margin-top: 22px;
 	margin-top: 15px !important;
-	position: relative;
+	position: absolute;
 	z-index: 9999;
-	margin-left: -9px;
+	margin-left: -20px;
+	width: 595px;
 }
+.sbHolder{
+		display: none;
+	}
 #header .span5 {
 	width: 518px;
 }
@@ -75,9 +98,13 @@ h2 {
 #header {
 	height: auto;	
 }
+#rev_slider_1_1_wrapper{
+	margin-top: 50px !important;
+}
 #menu-nav {
 	display: none;
 }
+
 .main-menu {
 	float: none;
 	margin-left: 0;

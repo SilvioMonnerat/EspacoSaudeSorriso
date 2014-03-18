@@ -1,4 +1,9 @@
 (function ($) {
+    
+    jQuery(function (){
+        jQuery(".mnav").selectbox();
+    });
+    
 	"use strict";
     //superfish menu
     $(function () {

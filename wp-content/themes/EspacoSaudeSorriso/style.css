@@ -670,14 +670,14 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 }
 .news-item {
 	background-color: #fff;
-	height: 305px;
+	/*height: 305px;*/
 	margin-bottom: 30px;
 	overflow: hidden;
 	padding: 13px;
 }
 .news-item img {
 	margin-bottom: 10px;
-	max-height: 173px;
+	/*max-height: 173px;*/
 	max-width: 100%;
 }
 .news-item h3 {
@@ -2672,6 +2672,31 @@ span.wpcf7-not-valid-tip {
 }
 .meta-textarea {
 	
+}
+
+/* Painel administrativo  */
+/*#wpadminbar, #wpadminbar *{
+	color: #FFF !important;
+	font: normal 13px/22px 'Maven Pro', sans-serif !important;
+	background: #997cb8 !important;
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0,#62bd9a),color-stop(18%,#997cb8 !important));
+	background-image: -webkit-linear-gradient(bottom,#62bd9a 0,#997cb8 !important 5px);
+	background-image: -moz-linear-gradient(bottom,#62bd9a 0,#997cb8 !important 5px);
+	background-image: -o-linear-gradient(bottom,#62bd9a 0,#997cb8 !important 5px);
+	background-image: linear-gradient(to top,#62bd9a 0,#997cb8 !important 5px);
+}
+#wpadminbar .ab-top-secondary {
+	float: right;
+	background: #997cb8 !important;
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0,#62bd9a),color-stop(18%,#997cb8 !important));
+	background-image: -webkit-linear-gradient(bottom,#62bd9a 0,#997cb8 !important 5px);
+	background-image: -moz-linear-gradient(bottom,#62bd9a 0,#997cb8 !important 5px);
+	background-image: -o-linear-gradient(bottom,#62bd9a 0,#997cb8 !important 5px);
+	background-image: linear-gradient(to top,#62bd9a 0,#997cb8 !important 5px);
+}*/
+#wp-admin-bar-wp-logo>.ab-item .ab-icon {
+	background-image: url(images/logo-admin.png) !important;
+	background-position:0 !important;
 }
 #wpbody	 #wpbody-content li{
 	list-style: none;

@@ -2,15 +2,13 @@
 
 $timebeforerevote = 1000;
 
-function sd_post_like()
-{
+function sd_post_like(){
 	$nonce = $_POST['nonce'];
  
     if ( ! wp_verify_nonce( $nonce, 'ajax-nonce' ) )
         die ( 'Busted!');
 		
-	if(isset($_POST['post_like']))
-	{
+	if(isset($_POST['post_like'])){
 		$ip = $_SERVER['REMOTE_ADDR'];
 		$post_id = $_POST['post_id'];
 		
@@ -22,23 +20,20 @@ function sd_post_like()
 		
 		$meta_count = get_post_meta($post_id, "votes_count", true);
 
-		if(!sd_already_voted($post_id))
-		{
+		if(!sd_already_voted($post_id))	{
 			$voted_IP[$ip] = time();
 
 			update_post_meta($post_id, "voted_IP", $voted_IP);
 			update_post_meta($post_id, "votes_count", ++$meta_count);
 			
 			echo $meta_count;
-		}
-		else
+		}else
 			echo "already";
 	}
 	exit;
 }
 
-function sd_already_voted($post_id)
-{
+function sd_already_voted($post_id){
 	global $timebeforerevote;
 
 	$meta_IP = get_post_meta($post_id, "voted_IP");
@@ -48,8 +43,7 @@ function sd_already_voted($post_id)
 		$voted_IP = array();
 	$ip = $_SERVER['REMOTE_ADDR'];
 	
-	if(in_array($ip, array_keys($voted_IP)))
-	{
+	if(in_array($ip, array_keys($voted_IP))){
 		$time = $voted_IP[$ip];
 		$now = time();
 		
@@ -62,8 +56,7 @@ function sd_already_voted($post_id)
 	return false;
 }
 
-function sd_post_like_link($post_id)
-{
+function sd_post_like_link($post_id){
 	$first_vote_count = get_post_meta($post_id, "votes_count", true);
 	
 	$vote_count = ( ($first_vote_count != 0) ? get_post_meta($post_id, "votes_count", true) : 0);

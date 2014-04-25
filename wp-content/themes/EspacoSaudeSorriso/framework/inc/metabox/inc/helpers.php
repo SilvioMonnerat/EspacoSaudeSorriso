@@ -115,8 +115,7 @@ function rwmb_meta_shortcode( $atts )
  *
  * @return mixed
  */
-function rwmb_meta( $key, $args = array(), $post_id = null )
-{
+function rwmb_meta( $key, $args = array(), $post_id = null ){
 	$post_id = empty( $post_id ) ? get_the_ID() : $post_id;
 
 	$args = wp_parse_args( $args, array(

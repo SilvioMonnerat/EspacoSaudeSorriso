@@ -8,7 +8,7 @@
 	<div class="flexslider">
 		<ul class="slides">
 			<?php
-		    $slides = rwmb_meta( 'sd_portfolio-slider', 'type=image&size=gallery-single' );
+		    $slides = rwmb_meta( 'sd_portfolio-slider', 'type=image&size=team-single' );
 		    if ( !empty( $slides ) ) {
 		    	foreach ( $slides as $slide ) {
 		    		echo "<li><a href='". $slide['full_url'] . "' rel='prettyPhoto[slides]' class='prettyPhoto'><figure><img src='". $slide['url'] . "' /></figure></a></li>";
@@ -24,6 +24,6 @@
 		?>
 		<div class="team-title"> <?php echo $meta['name'] ?> </div>
 		<?php the_content(); ?>
-		<div class="team-email"><address> <a href="mailto:<?php echo $meta['email'] ?>" target="_blank">Enviar um email</a> </address></div>
+		<div class="team-email"><address> <a href="mailto:<?php echo $meta['email'] ?>" target="_blank"><?php _e( 'Enviar um email', 'framework' ) ?></a> </address></div>
 	</div>
 </div>

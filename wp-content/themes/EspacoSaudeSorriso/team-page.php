@@ -39,7 +39,9 @@ get_header();
 				'posts_per_page' 	=> $team_items,
 				'post_status' 		=> 'publish',
 				'orderby' 			=> 'date',
-				'paged' 			=> $paged
+				'paged' 			=> $paged,
+				'posts_per_page'    => 10,
+				'showposts'         => 10,
 			);
 			
 	// Only pull from selected taxonomy

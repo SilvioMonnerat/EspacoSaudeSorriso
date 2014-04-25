@@ -26,7 +26,7 @@ global $sd_data
 </div>
 <?php endif; else : ?>
 <div class="bottom-custom-content clearfix">
-	<div class="container"> <?php echo do_shortcode($sd_data['bottom_custom']); ?> </div>
+	<?php get_template_part( 'framework/inc/post_testimonial' ); ?>
 </div>
 <?php endif; ?>
 <?php endif; ?>
@@ -62,7 +62,7 @@ global $sd_data
 	<div class="container">
 		<div class="row">
 			<div class="span4">
-				<p><a href=""><div class="logo_footer">espaço saúde sorriso</div></a></p>
+				<p><a href=""><div class="logo_footer"><?php _e( 'espaço saúde sorriso', 'framework' ) ?></div></a></p>
 				<?php /* Replace default text if option is set */
 				//if( $sd_data['copyright'] != '') : ?>
 					<!-- <p><?php //echo stripslashes($sd_data['copyright']); ?></p> -->

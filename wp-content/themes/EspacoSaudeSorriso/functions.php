@@ -13,8 +13,10 @@
 	include_once('framework/inc/enqueue.php'); // Enqueue JavaScripts & CSS
 	include_once('framework/inc/shortcodes.php'); // Load Shortcodes
 	include_once('framework/inc/post-types/portfolio.php'); // Load Portfolio Post Type
-	include_once('framework/inc/post-types/team.php'); // Load Team Post Type
+	include_once('framework/inc/post-types/team.php'); // Load Team Post Type	
+	include_once('framework/inc/post-types/testimonial.php'); // Load testimonial Post Type
 	include_once('framework/inc/sidebar-generator.php'); // Load Unlimited Sidebars
+	include_once('framework/inc/post-rating.php'); // Load Post Rating
 	include_once('framework/inc/post-rating.php'); // Load Post Rating
 	
 	/* Include TinyMce Shortcode Buttons */
@@ -32,6 +34,7 @@
     define( 'RWMB_DIR', trailingslashit( get_template_directory() . '/framework/inc/metabox' ) );
     // Include the meta box script
     require_once RWMB_DIR . 'meta-box.php';
+
     // Include the meta box definition (the file where you define meta boxes, see `demo/demo.php`)
     include 'framework/inc/metabox/the-meta-boxes.php';
 	
@@ -123,9 +126,34 @@
 		add_image_size( 'recent-blog', 244, 173, true ); // recent blog thumbs
 		add_image_size( 'gallery-columns', 250, 190, true ); // gallery thumbs
 		add_image_size( 'gallery-single', 570, 320, true ); // gallery slider
+		add_image_size( 'team-single', 320, 570, true ); // gallery slider team
 		add_image_size( 'gallery-clinica', 1170, 450, true ); // gallery slider
 		add_image_size( 'nossa-equipe', 90, 60, true ); // gallery slider
 	}
+
+	function content($limit) {
+		$content = explode(' ', get_the_content(), $limit);
+		if (count($content)>=$limit) {
+				array_pop($content);
+		$content = implode(" ",$content).'...';
+		} else {
+			$content = implode(" ",$content);
+		}	
+		$content = preg_replace('/\[.+\]/','', $content);
+		$content = apply_filters('the_content', $content); 
+		$content = str_replace(']]>', ']]&gt;', $content);
+		return $content;
+	}
+
+	function title_limite($maximo) {
+		$title = get_the_title();
+		if ( strlen($title) > $maximo ) {
+		$continua = '...';
+		}
+		$title = mb_substr( $title, 0, $maximo, 'UTF-8' );
+		echo $title.$continua;
+	}
+
 	
 	// Preloaded image path variable
 	function sd_loader_var() {

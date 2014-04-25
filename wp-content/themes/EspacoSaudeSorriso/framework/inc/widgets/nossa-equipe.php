@@ -48,7 +48,7 @@ class sd_nossa_equipe_widget extends WP_Widget {
 					<?php endif; ?>
 					<div class="member-details">
 						<a href="<?php the_permalink() ?>">
-							<h3><?php the_title() ?></h3>						
+							<h3><?php title_limite(20)?></h3>						
 						</a>						
 					</div>
 				</div>

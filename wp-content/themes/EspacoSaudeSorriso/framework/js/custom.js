@@ -3,6 +3,27 @@
     jQuery(function (){
         jQuery(".mnav").selectbox();
     });
+
+    $(function() {
+        $(".scrollable").scrollable({
+            circular: true,            
+            onSeek: function() {
+                // console.info(this.getIndex());
+            }
+            
+        }).autoscroll({autoplay: true, interval: 15000});    
+        
+        window.api = $(".scrollable").data("scrollable");
+    });
+
+
+    $(function(){
+        $("#carrossel").jCarouselLite({
+           /* auto    : 10000,
+            speed   : 2000,*/
+            visible : 2
+        })
+     })
     
 	"use strict";
     //superfish menu

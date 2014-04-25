@@ -2721,3 +2721,24 @@ span.wpcf7-not-valid-tip {
 	transition: opacity .3s ease-in-out;
 }
 
+.scrollable {	
+	/* required settings for the root element */
+	position:relative;
+	overflow:hidden;
+	height:auto;
+}
+
+.scrollable .items { 	
+	position:relative;
+	width:20000em;	
+}
+
+.scrollable .items div {
+}
+.scrollable .items .photo-testimonial {
+	width: 530px;
+	overflow: hidden;
+	float: left;
+	padding-right: 55px;
+}
+

@@ -22,8 +22,8 @@ global $sd_data;
 						)
 					),
 					'post__not_in'          => array( $post->ID ),
-					'posts_per_page'        => 4,
-					'ignore_sticky_posts'   => 1
+					'posts_per_page'        => 10,
+					'showposts'             => 10,
 					);
          
 		$my_query = new wp_query( $args );

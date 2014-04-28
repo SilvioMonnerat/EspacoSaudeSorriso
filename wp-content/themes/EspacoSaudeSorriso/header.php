@@ -17,7 +17,6 @@ global $sd_data;
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="<?php echo get_bloginfo('name'); ?>" />
 <title>
 <?php if (is_front_page()) {
 	echo get_bloginfo('name').' - '. get_bloginfo( 'description' );

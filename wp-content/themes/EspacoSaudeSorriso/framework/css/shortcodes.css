@@ -1402,6 +1402,19 @@ span.table-price span.dollar-sign {
 	margin: 0 0 15px;
 	max-width: 100%;
 	width: 100%;
+	cursor: pointer;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -khtml-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+}
+.member-box img:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    filter: alpha(opacity=75);
+    -khtml-opacity: 0.75;
+    -moz-opacity: 0.75;
+    opacity: 0.75;
 }
 .member-details h3 {
 	color: #5a5a62;

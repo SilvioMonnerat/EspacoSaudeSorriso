@@ -11,11 +11,11 @@
 			<div id="left-col" class="span9" <?php if ($sd_data['blog_sidebar'] == 'left') echo 'style="float: right;"';?>>
 				<?php 
 					global $wp_query;
-					$paged = get_query_var('paged') ? get_query_var('paged') : 1;
 					$args  = array(
-						'post_type'   => 'testimonial',
-						'order'       => 'DESC',
-						'paged'       => $paged
+						'post_type' => 'testimonial',
+						'order'     => 'DESC', 
+						'showposts' => '10', 
+						'order'     => 'DESC'
 						);
 					
 					$wp_query = new WP_Query($args);
@@ -28,35 +28,19 @@
 
 						<?php get_template_part( 'framework/inc/post-meta'); ?>
 
-						<h3><?php the_title() ?></h3>
+						<div class="page-testimonial">
+							<div class="testimonial-photo">
+								<?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : ?>
+								<?php $img = get_post_image_src($post->ID); ?>
+									<figure> <?php the_crop_image($img, '&amp;w=100&amp;h=170&amp;zc=1'); ?> </figure>
+								<?php endif; ?>
+							</div>
 
-						<!-- post thumbnail -->
-						<?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : ?>
-						<div class="entry-thumb">
-							<figure>
-								<?php 
-				                    $img = get_post_image_src($post->ID);
-								?>
-								<?php 
-									if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), 'mobile') || strstr(strtolower($_SERVER['HTTP_USER_AGENT']), 'android')) { 
-										//the_post_thumbnail('responsive-blog'); 
-										the_crop_image($img, '&amp;w=458&amp;h=254&amp;zc=1');
-									} else { 
-										//the_post_thumbnail('blog-thumbs');
-										the_crop_image($img, '&amp;w=870&amp;h=290&amp;zc=1');
-									} 
-								?>
-							</figure>
+							<div class="photo-testimonial-content">
+								<h3><?php the_title() ?></h3>
+								<p><?php the_content() ?></p>
+							</div>
 						</div>
-						<?php endif; ?>
-						<!-- post thumbnail end-->
-
-
-						<div class="entry-excerpt">
-							<p><?php echo substr(get_the_excerpt(), 0, 150); ?>...</p>
-						</div>
-
-						<a class="read-more" rel="nofollow" href="<?php the_permalink() ?>#more-<?php the_ID(); ?>"><?php _e('Read More', 'framework') ?></a>
 
 					</div>
 					<!-- entry content end-->

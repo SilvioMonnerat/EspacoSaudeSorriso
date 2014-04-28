@@ -452,6 +452,22 @@
 	overflow: hidden;
 	padding: 10px 10px 2px;
 }
+
+.page-testimonial{
+	width: 100%;
+}
+.page-testimonial .testimonial-photo{
+	padding: 20px;
+	width: auto;
+}
+.page-testimonial .testimonial-photo img{
+	height: auto;
+}
+.photo-testimonial-content h3{
+	margin: 0px;
+}
+
+
 /* ------------------------------------------------------------------------ */
 /* Toggle
 /* ------------------------------------------------------------------------ */

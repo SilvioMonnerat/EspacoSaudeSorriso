@@ -16,7 +16,6 @@
         window.api = $(".scrollable").data("scrollable");
     });
 
-
     $(function(){
         $("#carrossel").jCarouselLite({
            /* auto    : 10000,
@@ -108,9 +107,41 @@
             }]
         }); // show option
     });
+
+    /*$(window).resize(function(){
+        $(".fb-comments").attr("data-width", $("#FatPandaFacebookComments").width());
+        FB.XFBML.parse($("#FatPandaFacebookComments")[0]);
+    });*/
     //end
 })(jQuery);
 
 /* ------------------------------------------------------------------------ */
 /* EOF
 /* ------------------------------------------------------------------------ */
+
+    var $comments = null;
+    var $fbComments = null;
+    var resizeTimeout = null;
+
+    function resizeComments() {
+        if (resizeTimeout) clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(function() {
+        resizeTimeout = null;
+            if (typeof FB === 'undefined') return;
+            // The class of the wrapper element above is 'comments'
+            $comments = $comments || jQuery('#FatPandaFacebookComments');
+            $fbComments = $fbComments || jQuery(".fb-comments");
+            if ($comments.width() !== parseInt($fbComments.attr("data-width"), 10)) {
+                $fbComments.attr("data-width", $comments.width());
+                FB.XFBML.parse($comments[0]);
+            }
+        }, 100);
+    }
+
+    jQuery(document).ready(function() {
+      resizeComments();
+
+      jQuery(window).resize(function() {
+        resizeComments();
+      });  
+    });

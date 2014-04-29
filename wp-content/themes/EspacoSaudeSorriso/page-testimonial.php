@@ -26,7 +26,7 @@
 					<!-- entry content -->
 					<div class="entry-content">
 
-						<?php get_template_part( 'framework/inc/post-meta'); ?>
+						<?php get_template_part( 'framework/inc/post-meta-testimonial'); ?>
 
 						<div class="page-testimonial">
 							<div class="testimonial-photo">
@@ -37,7 +37,6 @@
 							</div>
 
 							<div class="photo-testimonial-content">
-								<h3><?php the_title() ?></h3>
 								<p><?php the_content() ?></p>
 							</div>
 						</div>

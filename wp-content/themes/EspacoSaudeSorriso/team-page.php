@@ -14,7 +14,7 @@ get_header();
 			?>
 			<ul>
 				<li><a href="#" data-filter="*" class="active">
-					<?php _e('All', 'framework'); ?>
+					<?php _e('Todos', 'framework'); ?>
 					<span></span> </a></li>
 				<?php foreach($team_filters as $portfolio_filter): ?>
 				<?php if(rwmb_meta('sd_team-taxonomies', 'type=checkbox_list')  && !in_array('0', rwmb_meta('sd_team-taxonomies', 'type=checkbox_list'))): ?>
@@ -83,35 +83,43 @@ get_header();
 				$thumb = $thumbnail["thumb"];
 			?>
 			<div class="<?php if($taxonomies) : foreach ($taxonomies as $taxonomy) { echo $taxonomy->slug. ' '; } endif; ?> gallery-item span3">
-				<div class="gallery-item-content">
-					<figure>
+
+				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+					
+					<div class="gallery-item-content">
 						<?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : ?>
-						<?php 
-							//the_post_thumbnail('gallery-columns'); 
-							the_crop_image($img, "&amp;w=$width&amp;h=$height&amp;zc=1");
-						?>
-						<div class="thumb-overlay-team">
-							<div class="thumb-overlay-content"> <span class="link-icon"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-								<?php _e('view', 'framework'); ?>
-								</a></span>
-								<?php 
-									$image_id       = get_post_thumbnail_id();  
-									$full_image_url = wp_get_attachment_image_src($image_id,'full');  
-									$full_image_url = $full_image_url[0];
-								?>
-								<span class="image-icon"><a rel="lightbox" title="<?php the_title(); ?>" href="<?php echo $full_image_url; ?> ">
-								<?php _e('view photo', 'framework'); ?>
-								</a></span> </div>
+						<figure>
+							<?php the_crop_image($img, "&amp;w=$width&amp;h=$height&amp;zc=1");	?>
+								<div class="thumb-overlay-team">
+									<div class="thumb-overlay-content"> 
+										<!--<span class="link-icon">
+											<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+												<?php _e('view', 'framework'); ?>
+											</a>
+										</span>
+										<?php 
+											$image_id       = get_post_thumbnail_id();  
+											$full_image_url = wp_get_attachment_image_src($image_id,'full');  
+											$full_image_url = $full_image_url[0];
+										?>
+										 <span class="image-icon">
+											<a rel="lightbox" title="<?php the_title(); ?>" href="<?php echo $full_image_url; ?> ">
+												<?php _e('view photo', 'framework'); ?>
+											</a>
+										</span> -->
+									</div>
+								</div>
+						</figure>
+						<?php endif; ?>
+						<div class="gallery-details">
+							<h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?>	</a></h3>
+							<p class="cro"><span>CRO: </span><?php echo $meta['cro'] ?></p>
+							<span class="desc"><?php echo get_custom_length($meta['descricao'], 160) ?></span>
+							<p class="term-filter"> <?php echo get_the_term_list( get_the_ID(), 'team_filter', '', '<br> ' ); ?> </p>
 						</div>
-					</figure>
-					<?php endif; ?>
-					<div class="gallery-details">
-						<h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?>	</a></h3>
-						<p class="cro"><span>CRO: </span><?php echo $meta['cro'] ?></p>
-						<span class="desc"><?php echo get_custom_length($meta['descricao'], 160) ?></span>
-						<p class="term-filter"> <?php echo get_the_term_list( get_the_ID(), 'team_filter', '', '<br> ' ); ?> </p>
 					</div>
-				</div>
+
+				</a>
 			</div>
 			<?php endwhile; ?>
 			

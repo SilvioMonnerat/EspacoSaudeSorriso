@@ -428,7 +428,7 @@
 	margin-right: 15px;
 	padding: 10px 10px 5px;
 	text-align: center;
-	width: 90px;
+	/*width: 90px;*/
 }
 .testimonial-photo img {
 	margin-bottom: 0;
@@ -1399,7 +1399,7 @@ span.table-price span.dollar-sign {
 .member-box img {
 	display: block;
 	height: auto;
-	margin: 0 0 15px;
+	margin: 0 0 5px;
 	max-width: 100%;
 	width: 100%;
 	cursor: pointer;
@@ -1420,6 +1420,7 @@ span.table-price span.dollar-sign {
 	color: #5a5a62;
 	font-size: 11px;
 	padding: 0;
+	line-height: 15px;
 }
 .member-details h5 {
 	color: #909096;

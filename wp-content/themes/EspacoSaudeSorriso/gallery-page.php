@@ -13,7 +13,7 @@ get_header();
 		if($portfolio_filters): ?>
 			<ul>
 				<li><a href="#" data-filter="*" class="active">
-					<?php _e('All', 'framework'); ?>
+					<?php _e('Todos', 'framework'); ?>
 					<span></span> </a></li>
 				<?php foreach($portfolio_filters as $portfolio_filter): ?>
 				<?php if(rwmb_meta('sd_portfolio-taxonomies', 'type=checkbox_list')  && !in_array('0', rwmb_meta('sd_portfolio-taxonomies', 'type=checkbox_list'))): ?>
@@ -62,24 +62,28 @@ get_header();
 			<?php $taxonomies = get_the_terms( get_the_ID(), 'portfolio_filter' ); ?>
 			<div class="<?php if($taxonomies) : foreach ($taxonomies as $taxonomy) { echo $taxonomy->slug. ' '; } endif; ?> gallery-item span3">
 				<div class="gallery-item-content">
+					<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 					<figure>
 						<?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : ?>
 						<?php the_post_thumbnail('gallery-columns'); ?>
-						<div class="thumb-overlay">
-							<div class="thumb-overlay-content"> <span class="link-icon"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-								<?php _e('view', 'framework'); ?>
-								</a></span>
-								<?php 
-									$image_id = get_post_thumbnail_id();  
-									$full_image_url = wp_get_attachment_image_src($image_id,'full');  
-									$full_image_url = $full_image_url[0];
-								?>
-								<span class="image-icon"><a rel="lightbox" title="<?php the_title(); ?>" href="<?php echo $full_image_url; ?> ">
-								<?php _e('view photo', 'framework'); ?>
-								</a></span> </div>
-						</div>
+							<div class="thumb-overlay">
+								<div class="thumb-overlay-content"> 
+									<!-- <span class="link-icon"><?php _e('view', 'framework'); ?></span>
+									<?php 
+										$image_id = get_post_thumbnail_id();  
+										$full_image_url = wp_get_attachment_image_src($image_id,'full');  
+										$full_image_url = $full_image_url[0];
+									?>
+									<span class="image-icon">
+										<a rel="lightbox" title="<?php the_title(); ?>" href="<?php echo $full_image_url; ?> ">
+											<?php _e('view photo', 'framework'); ?>
+										</a>
+									</span> --> 
+								</div>
+							</div>
+						<?php endif; ?>					
 					</figure>
-					<?php endif; ?>
+					</a>
 					<div class="gallery-details">
 						<h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"> <?php the_title(); ?></a></h3>
 						<!-- <p><?php //echo get_the_term_list( get_the_ID(), 'portfolio_filter', '', ', ' ); ?></p> -->

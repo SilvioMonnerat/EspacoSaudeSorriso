@@ -566,6 +566,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	font-size: 33px;
 	line-height: 33px;
 	padding: 0;
+	margin-bottom: 4px;
 }
 /* home banner */
 .home-banner {
@@ -884,6 +885,10 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	background-position: -781px -64px;
 	margin-left: 10px;
 	padding-left: 25px;
+}
+.entry-meta ul li.titleTeam h3{
+	margin-top: 12px;
+	margin-bottom: -5px;
 }
 .entry-meta ul li.meta-date {
 	background-position: -671px -178px;
@@ -1554,7 +1559,8 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	opacity: 1;	
 }
 .thumb-overlay-content {
-	background-color: #ff4301;
+	/*background-color: #ff4301;*/
+	background-color: transparent !important;
 	border-radius: 30px;
 	left: 50%;
 	margin: -14px 0 0 -29px;

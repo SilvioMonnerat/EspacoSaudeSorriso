@@ -21,8 +21,8 @@ get_header();
 		<?php _e('Sorry, no posts matched your criteria', 'framework') ?>
 		.</p>
 	<?php endif; ?>
-	<?php if ( $sd_data['related_gallery'] == 1 ) : ?>
-	<?php get_template_part( 'framework/inc/gallery/related-gallery' ); ?>
-	<?php endif; ?>
+	<?php //if ( $sd_data['related_gallery'] == 1 ) : ?>
+	<?php //get_template_part( 'framework/inc/gallery/related-gallery' ); ?>
+	<?php //endif; ?>
 </div>
 <?php get_footer(); ?>

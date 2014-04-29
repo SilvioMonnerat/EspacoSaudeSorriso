@@ -100,10 +100,10 @@ global $sd_data;
 			<div class="span3 tel-email">
 			<ul>
 			<?php if ( !empty($sd_data['top_phone']) ) : ?>
-			<li><?php _e('Tel:', 'framework'); ?> <?php echo $sd_data['top_phone']; ?></li>
+			<li><?php// _e('Tel:', 'framework'); ?> <?php echo $sd_data['top_phone']; ?></li>
 			<?php endif; ?>
 			<?php if ( !empty($sd_data['top_email']) ) : ?>
-			<li><?php _e('Email:', 'framework'); ?> <?php echo $sd_data['top_email']; ?></li>
+			<li><?php //_e('Email:', 'framework'); ?> <?php echo $sd_data['top_email']; ?></li>
 			<?php endif; ?>
 			</ul>
 			</div>

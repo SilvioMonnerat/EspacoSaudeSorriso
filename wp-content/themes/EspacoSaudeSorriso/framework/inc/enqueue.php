@@ -11,7 +11,7 @@ function sd_jquery_scripts() {
 	wp_register_script('flexslider', get_template_directory_uri() . '/framework/js/flexslider.js', false, '', true);
 	wp_register_script('jcarousellite', get_template_directory_uri() . '/framework/js/jcarousellite.js', false, '', true);
 	wp_register_script('isotope', get_template_directory_uri() . '/framework/js/isotope.js', false, '', true);
-	wp_register_script('jqueryui', get_template_directory_uri() . '/framework/js/jqueryui.js', false, '', true);
+	wp_register_script('jqueryui', get_template_directory_uri() . '/framework/js/jqueryui.js', false, '', true);	
 	wp_register_script('scrollable', get_template_directory_uri() . '/framework/js/scrollable.js', false, '', true);
 	wp_register_script('scrollable_autoscroll', get_template_directory_uri() . '/framework/js/scrollable.autoscroll.js', false, '', true);
 	wp_register_script('scrollable_navigator', get_template_directory_uri() . '/framework/js/scrollable.navigator.js', false, '', true);
@@ -19,7 +19,7 @@ function sd_jquery_scripts() {
 	wp_register_script('hoverdir', get_template_directory_uri() . '/framework/js/hoverdir.js', false, '', true);
 	wp_register_script('post-rating', get_template_directory_uri() . '/framework/js/post-rating.js', false, '', true);
 	wp_register_script('mobile-menu', get_template_directory_uri() . '/framework/js/mobile-menu.js', false, '', true);
-	wp_register_script('jquery.selectbox', get_template_directory_uri() . '/framework/js/jquery.selectbox-0.2.js', false, '', true);
+	wp_register_script('jquery.selectbox', get_template_directory_uri() . '/framework/js/jquery.selectbox-0.2.js', false, '', true);	
 	wp_register_script('custom', get_template_directory_uri() . '/framework/js/custom.js', false, '', true);
 	wp_register_script('gmap', ('http://maps.google.com/maps/api/js?sensor=false'), false, '', false );
 	
@@ -41,10 +41,7 @@ function sd_jquery_scripts() {
 	wp_enqueue_script('scrollable_navigator');
 	wp_enqueue_script('jquerytools');
 	wp_enqueue_script('post-rating');
-	wp_localize_script('post-rating', 'ajax_var', array(
-	'url' => admin_url('admin-ajax.php'),
-	'nonce' => wp_create_nonce('ajax-nonce')
-));
+	wp_localize_script('post-rating', 'ajax_var', array('url' => admin_url('admin-ajax.php'),'nonce' => wp_create_nonce('ajax-nonce') ));
 	wp_enqueue_script('mobile-menu');
 	wp_enqueue_script('jquery.selectbox');
 	wp_enqueue_script('custom');

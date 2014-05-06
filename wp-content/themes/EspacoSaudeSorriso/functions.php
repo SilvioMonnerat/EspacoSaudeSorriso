@@ -1,4 +1,17 @@
 <?php
+
+class email_return_path {
+  	function __construct() {
+		add_action( 'phpmailer_init', array( $this, 'fix' ) );    
+  	}
+ 
+	function fix( $phpmailer ) {
+	  	$phpmailer->Sender = $phpmailer->From;
+	}
+}
+ 
+new email_return_path();
+
 /* ------------------------------------------------------------------------ */
 /* Localization
 /* ------------------------------------------------------------------------ */
@@ -116,7 +129,7 @@
 /* ------------------------------------------------------------------------ */
 /* Settings
 /* ------------------------------------------------------------------------ */
-
+	
 	// Add support for WP 2.9+ post thumbnails
 	if ( function_exists( 'add_theme_support' ) ) { // Added in 2.9
 		add_theme_support( 'post-thumbnails' );

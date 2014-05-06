@@ -2427,6 +2427,24 @@ input#submit:hover {
 /* 30. Contact Form 7
 /* ------------------------------------------------------------------------ */
 
+#contactform p.success{
+	background: #8cc7ae;
+	margin: 0;
+	padding: 15px;
+	color: #FFF;
+	font-weight: bold;
+}
+#contactform p.fail{
+	background-color: #a188bc;
+	color: #FFF;
+	padding: 15px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.wpcf7-form ul li{
+	list-style: none;
+}
 .wpcf7-form input[type="text"],
 .wpcf7-form input[type="email"] {
 	width: 300px;
@@ -2435,8 +2453,8 @@ input#submit:hover {
 	line-height: 40px;
 	padding: 0 10px;
 	color: #5a5a62;
-	margin: 5px 0 0;
 	max-width: 100%;
+	margin-bottom: 10px;
 }
 .wpcf7-form input[type="text"]:focus, .wpcf7-form textarea:focus {
 	border: 1px solid #e6e6e6;
@@ -2446,6 +2464,7 @@ input#submit:hover {
 	border: 1px solid #e6e6e6;
 	width: 500px;
 	max-width: 100%;
+	margin-bottom: 10px;
 }
 .wpcf7-form input[type="submit"], .wpcf7-form input[type="submit"]:active, .wpcf7-form input[type="reset"]:active, .wpcf7-form input[type="button"]:active {
 	background-color: #68be47;
@@ -2456,6 +2475,7 @@ input#submit:hover {
 	height: 30px;
 	line-height: 30px;
 	padding: 0 20px;
+	margin-bottom: 0;
 	-webkit-transition: opacity .3s ease-in-out;
 	-moz-transition: opacity .3s ease-in-out;
 	-ms-transition: opacity .3s ease-in-out;
@@ -2465,6 +2485,16 @@ input#submit:hover {
 .wpcf7-form input[type="submit"]:hover {
 	opacity: .8;
 }
+.wpcf7-form input:focus, .wpcf7-form textarea:focus { 
+	border: 1px solid #888;
+}
+.wpcf7-form .error {
+	font-size: 11px;
+	color: #ff0000; 
+	display:none;
+	margin-bottom: 10px;
+}
+
 div.wpcf7-validation-errors {
 	display: none !important;
 }
@@ -2613,9 +2643,28 @@ span.wpcf7-not-valid-tip {
 	background-color: #a188bc !important;
 }
 
+.wpcf7-form button[type="submit"] {
+	background-color: #a188bc !important;
+}
+
 /* ------------------------------------------------------------------------ */
 /* 11. Contact form 7
 /* ------------------------------------------------------------------------ */
+
+#successmessage { 
+	display:none; 
+	width:80%;
+	color:#000;
+	padding: 30px 25px 45px 25px;
+	margin: 40px 0 40px 0;
+	background: #dcf4e6;
+	border:1px solid #eee;
+}
+
+#successmessage h2 {
+	margin: 10px 0 20px 0;
+}
+
 .wpcf7 .wpcf7-form p{
 	font-size: 14px;
 	font-style: normal;
@@ -2661,6 +2710,34 @@ span.wpcf7-not-valid-tip {
 	transition: background .3s linear;
 }
 .wpcf7-form input[type="submit"]:hover{
+	background: url(images/bg-readmore_hover.png) no-repeat !important;
+}
+
+.wpcf7-form button[type="submit"]{
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color:#FFF;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+.wpcf7-form button[type="submit"]{
+	background: url(images/bg-readmore.png) no-repeat !important;
+	height: 30px;
+	width: 90px;
+	display: inline-block;
+	border-radius: 0 !important;
+	-ms-border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	-o-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-webkit-transition: background .3s linear;
+	-moz-transition: background .3s linear;
+	-ms-transition: background .3s linear;
+	-o-transition: background .3s linear;
+	transition: background .3s linear;
+}
+.wpcf7-form button[type="submit"]:hover{
 	background: url(images/bg-readmore_hover.png) no-repeat !important;
 }
 
@@ -2754,4 +2831,3 @@ span.wpcf7-not-valid-tip {
 	float: left;
 	padding-right: 105px;
 }
-

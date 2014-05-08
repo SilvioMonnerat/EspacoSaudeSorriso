@@ -37,8 +37,8 @@ jQuery(document).ready(function(){
 			jQuery("textarea#msg").focus();
 			return false;
 		}
-/*
-		var dataString = 'name='+ name + '&email=' + email + '&subject=' + subject + '&msg=' + msg;
+
+		/*var dataString = 'name='+ name + '&email=' + email + '&subject=' + subject + '&msg=' + msg;
 
 		jQuery.ajax({
 			type: "POST",

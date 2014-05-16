@@ -22,7 +22,7 @@
 			$mb_team->the_meta($p->ID);
 			$meta = $mb_team->meta;
 		?>
-		<div class="team-title"> <?php echo $meta['name'] ?> </div>
+		<div class="team-title"> <?php the_title(); ?> </div>
 		<?php the_content(); ?>
 		<div class="team-email"><address> <a href="mailto:<?php echo $meta['email'] ?>" target="_blank"><?php _e( 'Enviar um email', 'framework' ) ?></a> </address></div>
 	</div>

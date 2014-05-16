@@ -15,11 +15,13 @@ get_header();
 					<div class="flexslider">
 						<ul class="slides">
 							<?php
-						    $slides = rwmb_meta( 'sd_portfolio-slider', 'type=image&size=gallery-clinica' );
+						     $slides = rwmb_meta( 'sd_portfolio-slider', 'type=image&size=gallery-clinica' );
 						    if ( !empty( $slides ) ) {
-						    	foreach ( $slides as $slide ) {
-						    		echo "<li><a href='". $slide['full_url'] . "' rel='prettyPhoto[slides]' class='prettyPhoto'><figure><img src='". $slide['url'] . "' /></figure></a></li>";
-						    	}
+						    	foreach ( $slides as $slide ) { ?>
+						    		
+						    		<li><a href='<?php echo  $slide['full_url'] ?>' rel='prettyPhoto[slides]' class='prettyPhoto'><figure><?php the_crop_image($slide['url'], '&amp;w=1170&amp;h=550&amp;zc=1');  ?></figure></a></li>
+
+						    	<?php }
 						    } ?>
 						</ul>
 					</div>

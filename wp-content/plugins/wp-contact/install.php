@@ -27,6 +27,12 @@
  *      MA 02110-1301, USA.
  */
 
+if ( ! defined( 'PLUGIN_BASE_DIR' ) )    
+    define( 'PLUGIN_BASE_DIR', dirname( RC_TC_BASE_FILE ) );
+
+if ( ! defined( 'PLUGIN_URL' ) )
+    define( 'PLUGIN_URL', plugin_dir_url( __FILE__ ) );
+
 $language = dirname(__FILE__) . '/languages';
 load_theme_textdomain('wp_contact', $language);
 
@@ -55,7 +61,7 @@ function plugin_create_table() {
 }
 // this hook will cause our creation function to run when the plugin is activated
 register_activation_hook( __FILE__, 'plugin_create_table' );
- 
-require_once( dirname(__FILE__) . '/admin/admin_setup.php');
-require_once( dirname(__FILE__) . '/functions.php');
-require_once( dirname(__FILE__) . '/shortcode.php');
+
+require_once( dirname(__FILE__).'/admin/admin_setup.php');    
+require_once( dirname(__FILE__).'/functions.php');
+require_once( dirname(__FILE__).'/shortcode.php');

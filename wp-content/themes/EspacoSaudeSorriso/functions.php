@@ -141,8 +141,10 @@ new email_return_path();
 		add_image_size( 'gallery-columns', 250, 190, true ); // gallery thumbs
 		add_image_size( 'gallery-single', 570, 320, true ); // gallery slider
 		add_image_size( 'team-single', 320, 570, true ); // gallery slider team
-		add_image_size( 'gallery-clinica', 1170, 450, true ); // gallery slider
+		add_image_size( 'gallery-clinica', 1170, 550, true ); // gallery slider
 		add_image_size( 'nossa-equipe', 90, 60, true ); // gallery slider
+		
+		add_image_size( 'slider-clinica', 1170, 550, true  ); // gallery slider
 	}
 
 	function content($limit) {

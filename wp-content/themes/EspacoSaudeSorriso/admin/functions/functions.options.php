@@ -366,12 +366,21 @@ $of_options[] = array( "name" => __('Enable Right Top Phone &amp; Email', 'frame
 					"off" => __('Hide', 'framework'),
 					"type" => "switch");
 					
-					$of_options[] = array( "name" => __('Header Telephone Number', 'framework'),
-                    				"desc" => __('Enter the telephone number content (leave blank if disabled).', 'framework'),
-					                "id" => "top_phone",
-                    				"std" => "",
-									"fold" => "top_phone_email_bar",
-					                "type" => "text");
+					$of_options[] = array( 
+						"name" => __('Header Telephone Number', 'framework'),
+        				"desc" => __('Enter the telephone number content (leave blank if disabled).', 'framework'),
+		                "id" => "top_phone",
+        				"std" => "",
+						"fold" => "top_phone_email_bar",
+		                "type" => "text");
+
+					$of_options[] = array( 
+						"name" => __('Header Telephone Number', 'framework'),
+        				"desc" => __('Enter the telephone number content (leave blank if disabled).', 'framework'),
+		                "id" => "top_phone2",
+        				"std" => "",
+						"fold" => "top_phone_email_bar",
+		                "type" => "text");
 					
 					$of_options[] = array( "name" => __('Header Email Address', 'framework'),
                     				"desc" => __('Enter the email address (leave blank if disabled).', 'framework'),

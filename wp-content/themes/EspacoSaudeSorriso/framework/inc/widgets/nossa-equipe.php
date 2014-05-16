@@ -38,6 +38,11 @@ class sd_nossa_equipe_widget extends WP_Widget {
 			$equipe = new WP_Query( array( 'post_type' => 'team', 'showposts' => $instance['postcount'] ));
 		?>
 		<?php while ($equipe->have_posts()) : $equipe->the_post(); ?>
+		<?php 
+			global $mb_team;
+			$mb_team->the_meta($p->ID);
+			$meta = $mb_team->meta;
+		?>
 			<div id="equipe" class="one-half last">
 				<div class="member-box">
 					<?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) : ?>
@@ -48,7 +53,7 @@ class sd_nossa_equipe_widget extends WP_Widget {
 					<?php endif; ?>
 					<div class="member-details">
 						<a href="<?php the_permalink() ?>">
-							<h3><?php title_limite(20)?></h3>						
+							<h3><?php echo $meta['name']  ?></h3>						
 						</a>						
 					</div>
 				</div>

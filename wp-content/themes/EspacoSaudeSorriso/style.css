@@ -1201,7 +1201,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	padding: 0;	
 }
 .opening-hours li {
-	background:	url(framework/images/sprite.png) no-repeat -743px -32px !important;
+	background:	url('../images/sprite.png') no-repeat -743px -32px !important;
 	color: #727272;
 	padding: 0 0 20px 26px !important;
 	font-size: 13px;

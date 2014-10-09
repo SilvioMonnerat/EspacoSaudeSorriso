@@ -33,6 +33,14 @@ global $sd_data;
 		<!-- entry excerpt -->
 		<div class="entry-excerpt">
 			<?php the_content(); ?>
+			<div class="tags">
+				<?php			
+				$post_tags = the_tags('<span class="meta-tag">', ' , ', '</span>');
+					if ($post_tags) {
+						echo '$post_tags';
+					}
+				?>
+			</div>			
 			<?php wp_link_pages('before=<strong class="page-navigation clearfix">&after=</strong>'); ?>
 		</div>
 		<!-- entry excerpt end --> 

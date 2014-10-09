@@ -167,7 +167,7 @@
 			<div class="entry-content">
 				<div class="container">
 
-					<div class="one-sixth">
+					<div class="one-fourth">
 						<div class="center">
 							<p>
 								<a href="mailto:contato@espacosaudesorriso.com" target="_blank">
@@ -178,35 +178,24 @@
 						</div>
 					</div>
 
-					<div class="one-sixth">
+					<div class="one-fourth">
 						<div class="center">
 							<p><img title="" alt="" src="http://espacosaudesorriso.com/wp-content/uploads/2013/09/phone-icon.png"></p>
 							<h3><?php _e( 'Telefone', 'framework' ) ?></h3><p><?php _e( '+ 55 21 3062-2007 ', 'framework' ) ?><br /><?php _e( '+ 55 21 2611-3138 ', 'framework' ) ?></p>
 						</div>
 					</div>
 
-					<div class="one-sixth">
+					<div class="one-fourth">
 						<div class="center">
 							<p><img title="" alt="" src="http://espacosaudesorriso.com/wp-content/uploads/2013/09/address-icon.png"></p>
-							<h3><?php _e( 'Endereço', 'framework' ) ?></h3><p><?php _e( 'Rua Otávio Carneiro nº 100 – sala 807 – Icaraí – Niterói – Rj', 'framework' ) ?></p>
+							<h3><?php _e( 'Endereço', 'framework' ) ?></h3><p><?php _e( 'Rua Gavião Peixoto, 124 - salas 1101 e 1102 - Icaraí - Niterói - Rj', 'framework' ) ?></p>
 						</div>
 					</div>
 
-					<div class="one-sixth">
+					<div class="one-fourth last">
 						<div class="center">
 							<p>
-								<a href="http://espacosaudesorriso.com">
-									<img title="" alt="" src="http://espacosaudesorriso.com/wp-content/uploads/2013/09/website-icon.png" rel="PrettyPhoto[18]">
-								</a>
-							</p>
-							<h3><?php _e( 'Website', 'framework' ) ?></h3><p><?php _e( 'http://espacosaudesorriso.com', 'framework' ) ?></p>
-						</div>
-					</div>
-
-					<div class="one-sixth">
-						<div class="center">
-							<p>
-								<a href="http://www.facebook.com" target="_blank">
+								<a href="https://www.facebook.com/espacosaudeesorriso" target="_blank">
 									<img title="" alt="" src="http://espacosaudesorriso.com/wp-content/uploads/2013/09/fb-icon.png" rel="PrettyPhoto[18]">
 								</a>
 							</p>

@@ -16,12 +16,7 @@
 		<li class="meta-category">
 			<?php //the_category(', '); ?>
 		</li>
-			<?php
-				$post_tags = the_tags('<li class="meta-tag">', ' , ', '</li>');
-					if ($post_tags) {
-						echo '$post_tags';
-					}
-			?>
+			
 		<li class="meta-comments">
 			<?php //comments_popup_link( '0 comments', '1 Comment', ' % comments', 'comments-link', 'comments closed'); ?>
 			<a href="<?php the_permalink() ?>" class="twitter-share-button" width="" data-lang="pt" data-dnt="true">Tweetar</a>

@@ -219,8 +219,9 @@ new email_return_path();
     	}
         #login h1 a { 
         	background-image:url('.get_bloginfo('template_directory').'/images/logo.png) !important; 
-        	background-size: auto!important;
+        	background-size: cover !important;
         	height: 197px !important;
+        	width: 70%;
         }
         #login #loginform p.submit input[type="submit"] {
         	background-image: url('.get_bloginfo('template_directory').'/images/bg-readmore.png) !important;

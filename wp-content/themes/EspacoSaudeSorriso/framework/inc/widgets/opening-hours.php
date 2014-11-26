@@ -34,7 +34,7 @@ class sd_opening_hours_widget extends WP_Widget {
 		
 		<ul class="opening-hours">
 			<?php if (!empty($instance['monday'])) : ?>
-			<li><?php _e('Monday', 'framework'); ?><span class="opening-hour"><?php echo $instance['monday']; ?></span></li>
+			<li><?php _e('Segunda-Feira', 'framework'); ?><span class="opening-hour"><?php echo $instance['monday']; ?></span></li>
 			<?php endif; ?>
 			<?php if (!empty($instance['tuesday'])) : ?>
 			<li><?php _e('Tuesday', 'framework'); ?><span class="opening-hour"><?php echo $instance['tuesday']; ?></span></li>

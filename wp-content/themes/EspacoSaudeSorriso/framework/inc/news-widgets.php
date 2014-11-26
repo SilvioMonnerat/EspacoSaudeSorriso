@@ -58,7 +58,7 @@ global $sd_data;
 						<h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 							<?php the_title(); ?>
 							</a></h3>
-						<p><?php echo substr(get_the_excerpt(), 0, 50); ?>...</p>
+						<p><?php echo the_content_limit(15) ?></p>
 						<div class="news-meta clearfix"> 
 							<span class="news-date"> <?php the_time(get_option('date_format')); ?></span>
 							<!-- <span class="news-comments"><?php //comments_popup_link( '0', '1', '%', 'comments-link', 'c'); ?></span> -->

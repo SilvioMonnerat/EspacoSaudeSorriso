@@ -605,4 +605,51 @@ EOF;
 ?>
 <li id="comment-<?php comment_ID(); ?>">
 	<?php comment_author_link(); ?>
-	<?php } ?>
+	<?php } 
+
+	 /*---------------------------------------------------------------------------------*/
+    /* =  ADICIONAR LIMITE DE CARACTERES AO EXCERPT
+    /*---------------------------------------------------------------------------------*/
+    function theme_short_excerpt($limit) {
+        $excerpt = explode(' ', get_the_excerpt(), $limit);
+        if (count($excerpt) >= $limit) {
+            array_pop($excerpt);
+            $excerpt = implode(" ",$excerpt).'...';
+        } else {
+            $excerpt = implode(" ",$excerpt);
+        } 
+        $excerpt = preg_replace('`\[[^\]]*\]`','',$excerpt);
+        return $excerpt;
+    }
+
+    /*----------------------------------------------------------------------------------*/
+    /* =  ADICIONAR LIMITE DE CARACTERES AO CONTEÚDO DO SITE
+    /*----------------------------------------------------------------------------------*/
+    function the_content_limit($num) {
+        $theContent = get_the_content();
+        $output     = preg_replace('/<img[^>]+./','', $theContent);
+        $output     = preg_replace( '/<blockquote>.*<\/blockquote>/', '', $output );
+        $output     = preg_replace( '|\[(.+?)\](.+?\[/\\1\])?|s', '', $output );
+        $limit      = $num+1;
+        $content    = explode(' ', $output, $limit);
+        array_pop($content);
+        $content    = implode(" ",$content)."...";
+        echo $content;
+    }
+
+    /*----------------------------------------------------------------------------------*/
+    /* =  ADICIONAR LIMITE DE CARACTERES DO TÍTULO DO SITE
+    /*----------------------------------------------------------------------------------*/
+    function theme_title_limit($num) { 
+        $limit  = $num + 1;         
+        $title  = str_split(get_the_title());         
+        $length = count($title);         
+        if ($length >= $num) {         
+            $title = array_slice( $title, 0, $num);      
+            $title = implode("",$title)."...";       
+            echo $title;         
+        } else {         
+            the_title();         
+        }
+         
+    }
